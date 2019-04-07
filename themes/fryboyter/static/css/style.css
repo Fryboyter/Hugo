@@ -1,0 +1,509 @@
+/* Webfont: LatoLatin-Bold */@font-face {
+    font-family: 'LatoLatinWeb';
+    src: url('../fonts/lato/LatoLatin-Bold.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/lato/LatoLatin-Bold.woff') format('woff'); /* Modern Browsers */
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* Webfont: LatoLatin-Italic */@font-face {
+    font-family: 'LatoLatinWeb';
+    src: url('../fonts/lato/LatoLatin-Italic.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/lato/LatoLatin-Italic.woff') format('woff'); /* Modern Browsers */
+    font-style: italic;
+    font-weight: normal;
+}
+
+/* Webfont: LatoLatin-Medium */@font-face {
+    font-family: 'LatoLatinWebMedium';
+    src: url('../fonts/lato/LatoLatin-Medium.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/lato/LatoLatin-Medium.woff') format('woff'); /* Modern Browsers */
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Webfont: LatoLatin-Regular */@font-face {
+    font-family: 'LatoLatinWeb';
+    src: url('../fonts/lato/LatoLatin-Regular.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/lato/LatoLatin-Regular.woff') format('woff'); /* Modern Browsers */
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    font-family:LatoLatinWeb,'Times New Roman',serif;
+    font-size:20px;
+    background-color: #f0f0f0;
+}
+
+.header {
+    clear: left;    
+    width: 100%;
+    text-align: right;
+    font-size: 2em;
+    border-bottom: 2px solid;
+    margin: 10px 0 20px 0;
+}
+
+div.header a {text-decoration:none;}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} 
+    
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+p {
+    line-height: 1.5;
+    margin: 30px 0;
+}
+
+.footer {
+    clear: left;
+    width: 100%;
+    border-top: 2px solid;
+    font-size: 0.75em;
+    padding: 10px 0;
+}
+
+.footer p {
+    line-height: 1;
+    margin: 5px 50px 5px 50px;
+}
+
+.links {
+    width:33%;
+    float:left;
+    text-align:left;
+}
+
+.mitte {
+    width:33%; 
+    float:left;
+    text-align:center;
+}
+
+.rechts {
+    width:33%; 
+    float:left;
+    text-align:right;
+}
+
+.article-info {
+    font-size: 0.75em;
+    letter-spacing: -0.5px;
+    padding: 5px 0 0 0;
+}
+
+h1 {
+    color: #000;
+    font-size: 1em;
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'LatoLatinWeb';
+    color: #0C2136;
+    font-size: 1.5em;
+    letter-spacing: -1px;
+    font-weight: bold;
+    padding: 0 0 5px;
+    margin: 0;
+}
+
+h2 a {
+    text-decoration: none;
+    color: #00e;
+}
+
+h3 {
+    color: #FA8B37;
+    font-size: 1.9em;
+    font-weight: normal;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+h4 {
+    color: #2E6290;
+    font-size: 1.2em;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h5 {
+    padding-bottom: 10px;
+    font-size: 1.1em;
+    color: #999;
+}
+
+.pagination {
+}
+
+.pagination ul {
+    float: left;
+    clear: both;
+    display: block;
+    margin: 8px 0;
+    padding: 0;
+    border: 1px solid #DDD;
+}
+
+.pagination ul li {
+    float: left;
+    list-style-type: none;
+    border-right: 1px solid #DDD;
+    padding: 4px 6px;
+}
+
+.pagination ul li:last-child {
+    border-right: none;
+}
+
+.pagination ul li.active {
+    font-weight: bold;
+    background-color: #CCF;
+}
+
+.pagination ul li a {
+    text-decoration: none;
+}
+
+blockquote {
+    display: block;
+    overflow: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/*code {
+    background-color: #222;
+    color:#ccc;
+    overflow: auto;
+} */
+blockquote {
+    border-left: 5px solid #222;
+}
+
+blockquote p {
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 0;
+    color: #333;
+    height: 1%;
+}
+
+a[href^="http://"]:not([href*="fryboyter.de"]):after,
+a[href^="https://"]:not([href*="fryboyter.de"]):after {
+content: "" url('../images/extern.png');
+padding-left:5px;
+}
+
+.bildcontainer {
+    position: relative;
+}
+    
+.bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px
+    }
+    .col-md-10 {
+        float: left
+    }
+    .col-md-offset-1 {
+        margin-left: 8.33333333%
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px
+    }
+    .col-lg-8 {
+        float: left
+    }
+   
+    .col-lg-8 {
+        width: 66.66666667%
+    }
+    
+    .col-lg-offset-2 {
+        margin-left: 16.66666667%
+    }
+}
+
+#isso-thread * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#isso-thread .isso-comment-header a {
+    text-decoration: none;
+}
+
+#isso-thread {
+    padding: 0;
+    margin: 0;
+}
+#isso-thread > h4 {
+    color: #555;
+    font-weight: bold;
+    display: none;
+}
+#isso-thread > .isso-feedlink {
+    float: right;
+    padding-left: 1em;
+}
+#isso-thread > .isso-feedlink > a {
+    font-size: 0.8em;
+    vertical-align: bottom;
+}
+#isso-thread .textarea {
+    min-height: 58px;
+    outline: 0;
+}
+#isso-thread .textarea.placeholder {
+    color: #757575;
+}
+
+#isso-root .isso-comment {
+    max-width: 68em;
+    padding-top: 0.95em;
+    margin: 0.95em auto;
+}
+#isso-root .preview .isso-comment {
+    padding-top: 0;
+    margin: 0;
+}
+#isso-root .isso-comment:not(:first-of-type),
+.isso-follow-up .isso-comment {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.isso-comment > div.avatar {
+    display: block;
+    float: left;
+    width: 7%;
+    margin: 3px 15px 0 0;
+}
+.isso-comment > div.avatar > svg {
+    max-width: 48px;
+    max-height: 48px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.isso-comment > div.text-wrapper {
+    display: block;
+}
+.isso-comment .isso-follow-up {
+    padding-left: calc(7% + 20px);
+}
+.isso-comment > div.text-wrapper > .isso-comment-header, .isso-comment > div.text-wrapper > .isso-comment-footer {
+    font-size: 0.95em;
+}
+.isso-comment > div.text-wrapper > .isso-comment-header {
+    font-size: 0.85em;
+}
+.isso-comment > div.text-wrapper > .isso-comment-header .spacer {
+    padding: 0 6px;
+}
+.isso-comment > div.text-wrapper > .isso-comment-header .spacer,
+.isso-comment > div.text-wrapper > .isso-comment-header a.permalink,
+.isso-comment > div.text-wrapper > .isso-comment-header .note,
+.isso-comment > div.text-wrapper > .isso-comment-header a.parent {
+    color: gray !important;
+    font-weight: normal;
+    text-shadow: none !important;
+}
+.isso-comment > div.text-wrapper > .isso-comment-header .spacer:hover,
+.isso-comment > div.text-wrapper > .isso-comment-header a.permalink:hover,
+.isso-comment > div.text-wrapper > .isso-comment-header .note:hover,
+.isso-comment > div.text-wrapper > .isso-comment-header a.parent:hover {
+    color: #606060 !important;
+}
+.isso-comment > div.text-wrapper > .isso-comment-header .note {
+    float: right;
+}
+.isso-comment > div.text-wrapper > .isso-comment-header .author {
+    font-weight: bold;
+    color: #555;
+}
+.isso-comment > div.text-wrapper > .textarea-wrapper .textarea,
+.isso-comment > div.text-wrapper > .textarea-wrapper .preview {
+    margin-top: 0.2em;
+}
+.isso-comment > div.text-wrapper > div.text p {
+    margin-top: 0.2em;
+}
+.isso-comment > div.text-wrapper > div.text p:last-child {
+    margin-bottom: 0.2em;
+}
+.isso-comment > div.text-wrapper > div.text h1,
+.isso-comment > div.text-wrapper > div.text h2,
+.isso-comment > div.text-wrapper > div.text h3,
+.isso-comment > div.text-wrapper > div.text h4,
+.isso-comment > div.text-wrapper > div.text h5,
+.isso-comment > div.text-wrapper > div.text h6 {
+    font-size: 130%;
+    font-weight: bold;
+}
+.isso-comment > div.text-wrapper > div.textarea-wrapper .textarea,
+.isso-comment > div.text-wrapper > div.textarea-wrapper .preview {
+    width: 100%;
+    border: 1px solid #f0f0f0;
+    border-radius: 2px;
+    box-shadow: 0 0 2px #888;
+}
+.isso-comment > div.text-wrapper > .isso-comment-footer {
+    font-size: 0.80em;
+    color: gray !important;
+    clear: left;
+}
+.isso-feedlink,
+.isso-comment > div.text-wrapper > .isso-comment-footer a {
+    font-weight: bold;
+    text-decoration: none;
+}
+.isso-feedlink:hover,
+.isso-comment > div.text-wrapper > .isso-comment-footer a:hover {
+    color: #111111 !important;
+    text-shadow: #aaaaaa 0 0 1px !important;
+}
+.isso-comment > div.text-wrapper > .isso-comment-footer > a {
+    position: relative;
+    top: .2em;
+}
+.isso-comment > div.text-wrapper > .isso-comment-footer > a + a {
+    padding-left: 1em;
+}
+.isso-comment > div.text-wrapper > .isso-comment-footer .votes {
+    color: gray;
+}
+.isso-comment > div.text-wrapper > .isso-comment-footer .upvote svg,
+.isso-comment > div.text-wrapper > .isso-comment-footer .downvote svg {
+    position: relative;
+    top: .2em;
+}
+.isso-comment .isso-postbox {
+    margin-top: 0.8em;
+}
+.isso-comment.isso-no-votes span.votes {
+    display: none;
+}
+
+.isso-postbox {
+    max-width: 68em;
+    margin: 0 auto 2em;
+    clear: right;
+}
+.isso-postbox > .form-wrapper {
+    display: block;
+    padding: 0;
+}
+.isso-postbox > .form-wrapper > .auth-section,
+.isso-postbox > .form-wrapper > .auth-section .post-action {
+    display: block;
+}
+.isso-postbox > .form-wrapper .textarea,
+.isso-postbox > .form-wrapper .preview {
+    margin: 0 0 .3em;
+    padding: .4em .8em;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+#isso-thread .textarea:focus,
+#isso-thread input:focus {
+    border-color: rgba(0, 0, 0, 0.8);
+}
+.isso-postbox > .form-wrapper > .auth-section .input-wrapper {
+    display: inline-block;
+    position: relative;
+    max-width: 25%;
+    margin: 0;
+}
+.isso-postbox > .form-wrapper > .auth-section .input-wrapper input {
+    padding: .3em 10px;
+    max-width: 100%;
+    border-radius: 3px;
+    background-color: #fff;
+    line-height: 1.4em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.isso-postbox > .form-wrapper > .auth-section .post-action {
+    display: inline-block;
+    float: right;
+    margin: 0 0 0 5px;
+}
+.isso-postbox > .form-wrapper > .auth-section .post-action > input {
+    padding: calc(.3em - 1px);
+    border-radius: 2px;
+    border: 1px solid #CCC;
+    background-color: #DDD;
+    cursor: pointer;
+    outline: 0;
+    line-height: 1.4em;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.isso-postbox > .form-wrapper > .auth-section .post-action > input:hover {
+    background-color: #CCC;
+}
+.isso-postbox > .form-wrapper > .auth-section .post-action > input:active {
+    background-color: #BBB;
+}
+.isso-postbox > .form-wrapper .preview,
+.isso-postbox > .form-wrapper input[name="edit"],
+.isso-postbox.preview-mode > .form-wrapper input[name="preview"],
+.isso-postbox.preview-mode > .form-wrapper .textarea {
+    display: none;
+}
+.isso-postbox.preview-mode > .form-wrapper .preview {
+    display: block;
+}
+.isso-postbox.preview-mode > .form-wrapper input[name="edit"] {
+    display: inline;
+}
+.isso-postbox > .form-wrapper .preview {
+    background-color: #f8f8f8;
+    background: repeating-linear-gradient(
+        -45deg,
+        #f8f8f8,
+        #f8f8f8 10px,
+        #fff 10px,
+        #fff 20px
+    )
+}
+.isso-postbox > .form-wrapper > .notification-section {
+    font-size: 14px;
+    padding-top: .3em;
+    font-weight: bold;
+}
+@media screen and (max-width:600px) {
+    .isso-postbox > .form-wrapper > .auth-section .input-wrapper {
+        display: block;
+        max-width: 100%;
+        margin: 0 0 .3em;
+    }
+    .isso-postbox > .form-wrapper > .auth-section .input-wrapper input {
+        width: 100%;
+    }
+}

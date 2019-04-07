@@ -1,0 +1,8 @@
+baseURL = "https://fryboyter.de/"
+languageCode = "de-de"
+title = "fryboyter.de"
+theme="fryboyter"
+rssLimit = 20
+
+[permalinks]
+  posts = ":slug"

@@ -1,0 +1,222 @@
+#AuthUserFile /var/www/virtual/mathmos/.htuser
+#AuthName "Private access"
+#AuthType Basic
+#Require valid-user
+
+# Prevent directory listing
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+
+  #RewriteCond %{HTTP_HOST} ^www.fryboyter.de [NC]
+  #RewriteRule ^(.*)$ https://fryboyter.de/$1 [L,R=301]
+
+RewriteRule ^entrie/(.+)$ https://fryboyter.de/$1 [R=301,L]
+
+RewriteRule cache/ - [F]
+
+  # Some servers require the RewriteBase to be set. If so, set to the correct folder.
+  RewriteBase /
+
+# set the correct mime type for woff2 font type and rss
+
+<IfModule mod_mime.c>
+AddType application/font-woff2    woff2
+AddType application/rss+xml rss
+</IfModule>
+
+# Block access to all hidden files and directories. These types of files
+# usually contain user preferences and can include private information like,
+# for example, the `.git` or `.svn` directories.
+<IfModule mod_rewrite.c>
+   RewriteEngine On
+   RewriteCond %{REQUEST_URI} "!(^|/)\.well-known/([^./]+./?)+$" [NC]
+   RewriteCond %{SCRIPT_FILENAME} -d [OR]
+   RewriteCond %{SCRIPT_FILENAME} -f
+   RewriteRule "(^|/)\." - [F]
+</IfModule>
+
+# Deflate Compression by FileType
+<IfModule mod_deflate.c>
+ AddOutputFilterByType DEFLATE text/plain
+ AddOutputFilterByType DEFLATE text/html
+ AddOutputFilterByType DEFLATE text/xml
+ AddOutputFilterByType DEFLATE text/css
+ AddOutputFilterByType DEFLATE text/javascript
+ AddOutputFilterByType DEFLATE application/xml
+ AddOutputFilterByType DEFLATE application/xhtml+xml
+ AddOutputFilterByType DEFLATE application/rss+xml
+ AddOutputFilterByType DEFLATE application/atom_xml
+ AddOutPutFilterByType DEFLATE application/js
+ AddOutputFilterByType DEFLATE application/javascript
+ AddOutputFilterByType DEFLATE application/x-javascript
+ AddOutputFilterByType DEFLATE application/x-shockwave-flash
+</IfModule>
+
+<IfModule mod_expires.c>
+
+# Enable expirations
+ExpiresActive On
+
+# Default directive
+ExpiresDefault "access plus 1 month"
+
+# My favicon
+ExpiresByType image/x-icon "access plus 1 year”
+
+# Images
+ExpiresByType image/gif "access plus 1 month"
+ExpiresByType image/png "access plus 1 month"
+ExpiresByType image/jpg "access plus 1 month"
+ExpiresByType image/jpeg "access plus 1 month"
+
+# CSS
+ExpiresByType text/css "access 1 month”
+
+# Javascript
+ExpiresByType application/javascript "access plus 1 year"
+
+</IfModule>
+
+#Diverse Redirects
+Redirect 301 /category/osbn/feed https://fryboyter.de/categories/osbn/index.xml
+Redirect 301 /files/feed.xml https://fryboyter.de/categories/osbn/index.xml
+Redirect 301 /feed https://fryboyter.de/index.xml
+Redirect 301 /rss/feed.xml https://fryboyter.de/index.xml
+Redirect 301 /favicon.ico  https://fryboyter.de/theme/fryboyter/favicon.ico
+Redirect 301 /apple-touch-icon.png https://fryboyter.de/theme/fryboyter/apple-touch-icon.png 
+Redirect 301 /kriss-feed-meine-alternative-tiny-tiny-rss https://fryboyter.de/kriss-feed-meine-alternative-zu-tiny-tiny-rss
+Redirect 301 kriss-feed-m-eine-alternative-zu-tiny-tiny-rss https://fryboyter.de/kriss-feed-meine-alternative-zu-tiny-tiny-rss
+Redirect 301 /keepass-autotype-lxde https://fryboyter.de//keepass-autotype-unter-lxde
+Redirect 301 /fenstertitel-von-terminator-verbindung-mit-der-zsh  https://fryboyter.de/fenstertitel-von-terminator-in-verbindung-mit-der-zsh
+Redirect 301 /endlich-mehr-bandbreite-welche-hardware https://fryboyter.de/endlich-mehr-bandbreite-aber-welche-hardware
+Redirect 301 /double-commander-nun-hoffentlich-komplett-deutscher-sprache https://fryboyter.de/double-commander-nun-hoffentlich-komplett-in-deutscher-sprache
+Redirect 301 /subreddit-rgerlinux https://fryboyter.de/subreddit-r-gerlinux
+Redirect 301 /rescue-mode-arch-linux-mit-syslinux https://fryboyter.de/mit-syslinux-in-den-rescue-mode-booten
+Redirect 301 /bestimmten-eintrag-des-bootloaders-ausfuehren https://fryboyter.de/bestimmten-eintrag-des-bootloaders-automatisch-ausfuehren
+Redirect 301 /nutzungsvereinbarung-von-let-s-encrypt-aendert-sich-zum-01-08-2016 https://fryboyter.de/nutzungsvereinbarung-von-lets-encrypt-aendert-sich-zum-01-08-2016
+Redirect 301 /offizielles-vorgehen-bei-uberspace-mit-let-s-encrypt https://fryboyter.de/offizielles-vorgehen-bei-uberspace-mit-lets-encrypt
+Redirect 301 /slug-7bfd4ca6e25ee3724c764313a2fd2d24 https://fryboyter.de/arena-chess-gui-fuer-linux-veroeffentlicht
+Redirect 301 /wird-ueber-ein-systemd-target-gestartet  https://fryboyter.de/was-wird-ueber-ein-systemd-target-gestartet
+Redirect 301 /externes-speichermedien-mit-udisks2-unter-media-mounten https://fryboyter.de/externe-speichermedien-mit-udisks2-unter-media-mounten
+Redirect 301 /the-person-youve-called-is-temporarily-not-available https://fryboyter.de/the-person-you-ve-called-is-temporarily-not-available
+Redirect 301 /das-wordpress-plugin-social-media-widget-verteilte-spam https://fryboyter.de/das-wordpress-plugin-social-media-widget-verteilt-e-spam
+Redirect 301 /anubis-unbekannte-ausfuhrbare-daten-analysieren https://fryboyter.de/anubis-unbekannte-ausfuehrbare-daten-analysieren
+Redirect 301 /der-kaperbrief-fur-den-fryboyter https://fryboyter.de/der-kaperbrief-fuer-den-fryboyter
+Redirect 301 /automatisches-aufraeumen-von-temporaeren-dateien-unter-s https://fryboyter.de/automatisches-aufraeumen-von-temporaeren-dateien-unter-systemd-steuern
+Redirect 301 /category/linux-2 /categories/gnu-linux
+Redirect 301 /XSubst-Verzeichnisse-uber-einen-Laufwerksbuchstaben-aufrufen /xsubst-verzeichnisse-ueber-einen-laufwerksbuchstaben-aufrufen
+Redirect 301 /Anubis-unbekannte-ausfuhrbare-Daten-analysieren /anubis-unbekannte-ausfuehrbare-daten-analysieren
+Redirect 301 /ich-mag-regex /ich-mag-regex-noch-immer-nicht-aber
+Redirect 301 /tastaturbeleuchtung //tastaturbeleuchtung-eines-thinkpads-automatisch-aktivieren
+Redirect 301 /kriss-feed-m-eine-alternative-zu-tiny-tiny-rss /kriss-feed-meine-alternative-zu-tiny-tiny-rss
+Redirect 301 /files/otter1.png%22 /files/otter1.png
+Redirect 301 /wp-content/uploads/2012/06/WoWEmuHack.exe1_.pdf /files/WoWEmuHack.exe1_.pdf
+Redirect 301 /files/Vivaldi_Mausgesten.png%22 /files/Vivaldi_Mausgesten.png
+Redirect 301 /darum-soll /darum-sollte-man-pkgbuild-dateien-im-aur-immer-pruefen
+Redirect 301 https://fryboyter.de//keepass-autotype-unter-lxde/ https://fryboyter.de/keepass-autotype-unter-lxde
+Redirect 403 /wp-login.php
+Redirect 403 /up.php
+Redirect 404 /test-wegen-problemen-mit-rss-feed
+Redirect 404 /sitemap_index.xml
+Redirect 404 /impressum
+Redirect 404 /author/anaximander
+Redirect 404 /2010/01
+Redirect 404 /tag/inwx
+Redirect 404 /datenschutz
+Redirect 404 /2012/12/page/2/
+Redirect 410 /gespraechigkeit-eines-systemd-service-einstellen/feed/
+Redirect 410 /der-erklaerbaer-fuer-shellbefehle/feed/
+Redirect 410 /comments/feed/
+Redirect 410 /wp-content/plugins/syntaxhighlighter/syntaxhighlighter2/styles/shCore.css?ver=2.1.364
+Redirect 410 /Titel-des-Artikels
+Redirect 410 /warum-man-einen-androiden-mit-einer-alten-version-von-twrp-nicht-flashen-sollte/feed/
+Redirect 410 /2010/05/
+Redirect 410 /wp-content/plugins/syntaxhighlighter/syntaxhighlighter2/scripts/clipboard.swf
+Redirect 410 /der-xmpp-server-des-fryboyters/feed/
+Redirect 410 /vivaldi-opera-12-ist-wieder-da-vielleicht/feed/
+Redirect 410 /qupzilla-aktiven-tab-hervorheben/feed/
+Redirect 410 /entwicklerversion-von-opera-24-fuer-linux-veroeffentlicht/feed/
+Redirect 410 /wp-content/plugins/syntaxhighlighter/syntaxhighlighter2/styles/shThemeDefault.css?ver=2.1.364
+Redirect 410 /openwrt-barrier-breaker-rc1-veroeffentlicht/feed/
+Redirect 410 /2012/09/
+Redirect 410 /kurztest-usb-stick-transcend-jetflash-710s/feed/
+Redirect 410 /datenbank-sichern-und-verschluesselt-in-die-dropbox-hochladen/feed/
+Redirect 410 /adminer-das-bessere-phpmyadmin/feed/
+Redirect 410 /werde-ich-ein-ubernaut/feed/
+Redirect 410 /meine-eigene-installation-von-etherpad-lite/feed/
+Redirect 410 /onlinebanking-unter-linux-und-es-geht-doch/feed/
+Redirect 410 /terminator-0-98-veroeffentlicht/feed/
+Redirect 410 /entferntes-verzeichnis-ueber-ssh-lokal-mounten/feed/
+Redirect 410 /killen-mit-der-zsh/feed/
+Redirect 410 /category/allgemein/page/2/
+Redirect 410 /test-wegen-problemen-mit-rss-feed/
+Redirect 410 /paketverwaltung-von-arch-linux-auf-dem-raspberry-pi-beschleunigen/feed/
+Redirect 410 /pacman-xfercommand/feed/
+Redirect 410 /knecht-rootrecht/feed/
+Redirect 410 /bin-ich-sozial/feed/
+Redirect 410 /arch-pkgbuild-fuer-dbeaver-2-0-4/feed/
+Redirect 410 /qupzilla-noch-eine-alternative-zu-opera-12-16/feed/
+Redirect 410 /author/anaximander/
+Redirect 410 /tag/uberspace
+Redirect 410 /entry/Titel-des-Artikels
+Redirect 410 /2010/04/page/2/
+Redirect 410 /tag/umbau
+Redirect 410 /noli-timere-messorem/feed/
+Redirect 410 /entries/Titel-des-Artikels
+Redirect 410 /tag/inwx/
+Redirect 410 /augenschonende-alternative-zu-windirstat/feed/
+Redirect 410 /alte-und-neue-konfigurationsdateien-unter-arch-mit-pacmarge-abgleichen/feed/
+Redirect 410 /tag/androidpit
+Redirect 410 /tag/differenzialgetriebe
+Redirect 410 /muss-dieser-mist-sein/feed/
+Redirect 410 /anzeigeprobleme-von-golem-de-unter-qupzilla-beheben/feed/
+Redirect 410 /slug-cb0b11916bd64d87ab4cb3eb394fa2a0
+Redirect 410 /encfs-1-8-rc1-veroeffentlicht/feed/
+Redirect 410 /author/Anaximander
+Redirect 410 /ncdu-du-disk-usage-mit-ncurses/feed/
+Redirect 410 /howl-editor/feed/
+Redirect 410 /ersatz-fuer-die-krueckenkapseln-von-ortopedia/feed/
+Redirect 410 /spam-mal-anders/feed/
+Redirect 410 /ich-mag-regex-weiterhin-nicht-aber/feed/
+Redirect 410 /nutzungsvereinbarung-von-lets-encrypt-aendert-sich-zum-01-08-2016/feed/
+Redirect 410 /page/30
+Redirect 410 /2013/02/
+Redirect 410 /workshop-zum-erstellen-von-pkgbuild-dateien-unter-arch/feed/
+Redirect 410 /category/allgemein/feed/
+Redirect 410 /page/9?feed-stats-url=aHR0cDovL2Jsb2cuZGF2aWRlZG11bmRzb24uY28udWsvYmxvZy94ZW1iZWRfYmFjaw%3D%3D&feed-stats-url-post-id=3038
+Redirect 410 /page/21?feed-stats-url=aHR0cDovL3d3dy5zeXNsaW51eC5vcmc%3D&feed-stats-url-post-id=2813
+Redirect 410 /page/21?feed-stats-url=aHR0cDovL3d3dy5tdXN0Z2V0aXQuY29tLw%3D%3D&feed-stats-url-post-id=1500
+Redirect 410 /was-passiert-wenn-man-mal-eben-etwas-auf-die-schnelle-macht/feed/
+Redirect 410 /page/47?feed-stats-url=aHR0cDovL2RldmVsb3Blci5hbmRyb2lkLmNvbS9zZGsvaW5kZXguaHRtbD9obD1zaw%3D%3D&feed-stats-url-post-id=1639
+Redirect 410 /es-ist-aus-und-vorbei-zwei-mal/feed/
+Redirect 410 /tag/linux
+Redirect 410 /2013/03/
+Redirect 410 /page/48?feed-stats-url=aHR0cDovL2xpbG8uYWxpb3RoLmRlYmlhbi5vcmcv&feed-stats-url-post-id=2813
+Redirect 410 /page/25?feed-stats-url=aHR0cHM6Ly9ibG9nLnViZXJzcGFjZS5kZS9sZXRzLWVuY3J5cHQtcm9sbHQtYW4%3D&feed-stats-url-post-id=3191
+Redirect 410 /page/23?feed-stats-url=aHR0cDovL3d3dy5tdXN0Z2V0aXQuY29tLw%3D%3D&feed-stats-url-post-id=1500
+Redirect 410 /page/8?feed-stats-url=aHR0cDovL2F1cjQuYXJjaGxpbnV4Lm9yZw%3D%3D&feed-stats-url-post-id=2633
+Redirect 410 /page/23?feed-stats-url=aHR0cDovL3d3dy5zeXNsaW51eC5vcmc%3D&feed-stats-url-post-id=2813
+Redirect 410 /page/8?feed-stats-url=aHR0cDovL2Jsb2cuZGF2aWRlZG11bmRzb24uY28udWsvYmxvZy94ZW1iZWRfYmFjaw%3D%3D&feed-stats-url-post-id=3038
+Redirect 410 /page/7?feed-stats-url=aHR0cDovL2Jsb2cuZGF2aWRlZG11bmRzb24uY28udWsvYmxvZy94ZW1iZWRfYmFjaw%3D%3D&feed-stats-url-post-id=3038
+Redirect 410 /page/2/?pg=2
+Redirect 410 /pakete-unter-arch-im-ram-erstellen/feed/
+Redirect 410 /ausfall-der-webseite-und-die-entdeckung-von-pydio/feed/
+Redirect 410 /ich-habe-diese-woche-doch-noch-gar-keinen-ans-bein-gepinkelt/feed/
+Redirect 410 /ausnahme-fuer-openvpn-verbindung-erstellen/feed/
+Redirect 410 /vivaldi-auf-dem-weg-zur-nutzbarkeit/feed/
+Redirect 410 /keine-maus-und-tastatur-unter-windows-wenn-vorher-linux-gestartet-wurde/feed/
+Redirect 410 /prosody-bei-uberspace-de-installieren/feed/
+Redirect 410 /handbike-testfahrt/feed/
+Redirect 410 /mobile/qupzilla-noch-eine-alternative-zu-opera-12-16/
+Redirect 410 /inner-sanctum-hamburg/feed/
+Redirect 410 /abmelden-und-co-unter-kde-plasma-nicht-bestaetigen/feed/
+Redirect 410 /m/qupzilla-noch-eine-alternative-zu-opera-12-16/
+Redirect 410 /htaccess-rewritecond-und-rewriterule-oder-wie-treibt-man-mich-in-den-wahnsinn/feed/
+Redirect 410 /externe-links-kennzeichnen/feed/
+Redirect 410 /category/handbike-2
+Redirect 410 /page/8?feed-stats-url=aHR0cHM6Ly9saXN0cy5hcmNobGludXgub3JnL3BpcGVybWFpbC9hdXItZ2VuZXJhbC8yMDE1LUp1bmUvMDMwNzI0Lmh0bWw%3D&feed-stats-url-post-id=2633
+Redirect 410 /arch-linux-security-tracker-veroeffentlicht/feed/
+Redirect 410 /mohrenbraeu-bayreuth/feed/
+Redirect 410 /impressum

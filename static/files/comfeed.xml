@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<rss version="2.0"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+    <atom:link href="http://fryboyter.de/files/comfeed.xml" rel="self" type="application/rss+xml" />
+    <title>Fryboyter</title>
+    <link>https://fryboyter.de</link>
+    <description></description>
+    <language>de-DE</language>
+
+	<item>
+		<title>https://fryboyter.de/bitte-um-hilfe-hugo-und-prism-js</title>
+	    <link>https://fryboyter.de/bitte-um-hilfe-hugo-und-prism-js#632</link>
+	   	<dc:creator><![CDATA[ Robert ]]></dc:creator>
+	   	<guid isPermaLink="false">https://fryboyter.de/bitte-um-hilfe-hugo-und-prism-js#632</guid>
+	    <pubDate>Sat, 23 Mar 2019 16:40:25 +0100</pubDate>
+	    <description><![CDATA[ Kommt vor :) jap, dachte da ist es für andere dann auch leichter aufzufinden. ]]></description>
+	</item>
+	<item>
+		<title>https://fryboyter.de/bitte-um-hilfe-hugo-und-prism-js</title>
+	    <link>https://fryboyter.de/bitte-um-hilfe-hugo-und-prism-js#631</link>
+	   	<dc:creator><![CDATA[ Fryboyter ]]></dc:creator>
+	   	<guid isPermaLink="false">https://fryboyter.de/bitte-um-hilfe-hugo-und-prism-js#631</guid>
+	    <pubDate>Sat, 23 Mar 2019 13:56:26 +0100</pubDate>
+	    <description><![CDATA[ Das nennt man den Wald vor lauter Bäumen nicht sehen. Oder so ähnlich. Da Bolt und vorher Wordpress das automatisch gemacht haben, wäre das so ziemlich das letzte gewesen an das ich gedacht hätte. Danke für den Hinweis (ich gehe mal davon aus, dass du mir auch im Support-Thread geantwortet hast). :-) ]]></description>
+	</item>
+	<item>
+		<title>https://fryboyter.de/bitte-um-hilfe-hugo-und-prism-js</title>
+	    <link>https://fryboyter.de/bitte-um-hilfe-hugo-und-prism-js#630</link>
+	   	<dc:creator><![CDATA[ Fryboyter ]]></dc:creator>
+	   	<guid isPermaLink="false">https://fryboyter.de/bitte-um-hilfe-hugo-und-prism-js#630</guid>
+	    <pubDate>Sat, 23 Mar 2019 13:51:31 +0100</pubDate>
+	    <description><![CDATA[ Die Seite ist nicht das Problem. Die läuft aktuell mit Bolt CMS. Da passt alles. Ich probiere nur gerade Hugo lokal aus. Um nicht x Artikel mit Lorem ipsum dolor zu erstellen, habe ich für Hugo einfach die bisher veröffentlichten Artikel von fryboyter.de verwendet. Und bei dem verlinkten Artikel gab es eben Probleme. Wie sich nun herausgestellt hat, war die Ursache mal wieder auf Layer 8 zu suchen. Ich hätte den Code einfach "escapen" müssen. Da bin ich aber nicht darauf gekommen, weil Bolt und vorher Wordpress das automatisch gemacht haben. Manchmal ist man einfach betriebsblind. ]]></description>
+	</item>
+	<item>
+		<title>https://fryboyter.de/bitte-um-hilfe-hugo-und-prism-js</title>
+	    <link>https://fryboyter.de/bitte-um-hilfe-hugo-und-prism-js#629</link>
+	   	<dc:creator><![CDATA[ Robert ]]></dc:creator>
+	   	<guid isPermaLink="false">https://fryboyter.de/bitte-um-hilfe-hugo-und-prism-js#629</guid>
+	    <pubDate>Fri, 22 Mar 2019 21:35:33 +0100</pubDate>
+	    <description><![CDATA[ Hi, das hat überhaupt nichts mit hugo oder sonstwas zutun. Das ist stink normales HTML. Kurz gesagt das geht nicht ohne weiteres: https://stackoverflow.com/questions/32203601/display-raw-html-code-in-code-tags
+
+Ich verstehe es aber auch nicht ganz, in dem einen Artikel wo es geht hast du es doch richtig gemacht, du hast < und > encoded und im zweiten wo es nicht geht wunderst du dich dann wenn es als HTML interpretiert wird wenn du es nicht encodest? ]]></description>
+	</item>
+	<item>
+		<title>https://fryboyter.de/bitte-um-hilfe-hugo-und-prism-js</title>
+	    <link>https://fryboyter.de/bitte-um-hilfe-hugo-und-prism-js#628</link>
+	   	<dc:creator><![CDATA[ chris_blues ]]></dc:creator>
+	   	<guid isPermaLink="false">https://fryboyter.de/bitte-um-hilfe-hugo-und-prism-js#628</guid>
+	    <pubDate>Fri, 22 Mar 2019 19:29:52 +0100</pubDate>
+	    <description><![CDATA[ Hier wird die Seite ( https://fryboyter.de/index-twig-des-fryboyter-themes ) scheinbar korrekt und schön bunt dargestellt...
+
+Hast du mal verschiedene Browser probiert?
+
+Jruß
+chris ]]></description>
+	</item>
+	<item>
+		<title>https://fryboyter.de/versionsverwaltung-mit-fossil</title>
+	    <link>https://fryboyter.de/versionsverwaltung-mit-fossil#627</link>
+	   	<dc:creator><![CDATA[ Fryboyter ]]></dc:creator>
+	   	<guid isPermaLink="false">https://fryboyter.de/versionsverwaltung-mit-fossil#627</guid>
+	    <pubDate>Fri, 08 Mar 2019 14:24:47 +0100</pubDate>
+	    <description><![CDATA[ Der Teil den ich von Fossil nicht nutze ist aber bedeutend kleiner (ich habe vor ein paar Wochen ein paar Git-Bücher gelesen. Unglaublich was man damit prinzipiell machen kann). Und das finde ich für meinen Einsatzzweck eben besser. Es ist somit kein Argument gegen Git sondern ein Argument für Fossil.
+
+Ich nutze Fossil aber aktuell trotzdem nicht. Was an zwei Gründen liegt. Zum einen möchte ich codeberg.org (deutsche non profit Alternative zu Seiten wie Github) unterstützen. Und zum anderen habe ich zwischenzeitlich das Tool [SmartGit](https://www.syntevo.com/smartgit/) gefunden und mich halbwegs damit angefreundet. ]]></description>
+	</item>
+	<item>
+		<title>https://fryboyter.de/versionsverwaltung-mit-fossil</title>
+	    <link>https://fryboyter.de/versionsverwaltung-mit-fossil#625</link>
+	   	<dc:creator><![CDATA[  ]]></dc:creator>
+	   	<guid isPermaLink="false">https://fryboyter.de/versionsverwaltung-mit-fossil#625</guid>
+	    <pubDate>Wed, 06 Mar 2019 20:58:05 +0100</pubDate>
+	    <description><![CDATA[ ich denke, von Fossil wirst du auch nur einen Bruchteil des Funktionsumfangs nutzen. ich schreibe das, weil du das ja als Argument gegen Git nutzt. ]]></description>
+	</item>
+	<item>
+		<title>https://fryboyter.de/focusrite-scarlett-solo-und-linux</title>
+	    <link>https://fryboyter.de/focusrite-scarlett-solo-und-linux#624</link>
+	   	<dc:creator><![CDATA[ ohli ]]></dc:creator>
+	   	<guid isPermaLink="false">https://fryboyter.de/focusrite-scarlett-solo-und-linux#624</guid>
+	    <pubDate>Sun, 06 Jan 2019 19:23:16 +0100</pubDate>
+	    <description><![CDATA[ Moin!
+klingt nach einem vernünftigem Setup! Grundsätzlich sind die meisten Geräte mit "USB Class Compliant" (auch Plug'n'Play) bzw. MAC-Kompatibilität auch unter Linux zu gebrauchen. 
+Sonst hilft auch folgende Seite weiter: http://www.alsa-project.org/main/index.php/Matrix:Main
+..also falls du dem Tho-Mann mal ein paar Quellen an die Hand geben magst ;-) ]]></description>
+	</item>
+	<item>
+		<title>https://fryboyter.de/fritz-wlan-stick-ac-860-funktioniert-nach-standby-modus-nicht-mehr</title>
+	    <link>https://fryboyter.de/fritz-wlan-stick-ac-860-funktioniert-nach-standby-modus-nicht-mehr#623</link>
+	   	<dc:creator><![CDATA[ Fryboyter ]]></dc:creator>
+	   	<guid isPermaLink="false">https://fryboyter.de/fritz-wlan-stick-ac-860-funktioniert-nach-standby-modus-nicht-mehr#623</guid>
+	    <pubDate>Wed, 26 Dec 2018 11:17:37 +0100</pubDate>
+	    <description><![CDATA[ In diesem Fall muss man aber auch sagen, dass es den Treiber erst seit Kernel 4.19 gibt und dieser nicht von AVM direkt kommt. Ich bin kein Programmierer und habe daher keinen Ahnung aber ich vermute, dass sich solch ein Problem nicht außerhalb der jeweiligen Treiber allgemein gültig lösen lässt. Leider. Gerade bei Broadcom ließe sich sonst einiges verbessern. Vorsichtig ausgedrückt. ;-) ]]></description>
+	</item>
+	<item>
+		<title>https://fryboyter.de/fritz-wlan-stick-ac-860-funktioniert-nach-standby-modus-nicht-mehr</title>
+	    <link>https://fryboyter.de/fritz-wlan-stick-ac-860-funktioniert-nach-standby-modus-nicht-mehr#622</link>
+	   	<dc:creator><![CDATA[  ]]></dc:creator>
+	   	<guid isPermaLink="false">https://fryboyter.de/fritz-wlan-stick-ac-860-funktioniert-nach-standby-modus-nicht-mehr#622</guid>
+	    <pubDate>Tue, 25 Dec 2018 19:35:38 +0100</pubDate>
+	    <description><![CDATA[ Klar ist das gut, aber wäre schon schön das mal nachhaltig im Kernel zu lösen, ohne Frickelei mit Post Scripten nach Suspend. Und wenn der Workaround am Modul hängt(needs reload after suspend). Das ganze wird schon sehr stiefmütterlich behandelt. ]]></description>
+	</item>
+	<item>
+		<title>https://fryboyter.de/fritz-wlan-stick-ac-860-funktioniert-nach-standby-modus-nicht-mehr</title>
+	    <link>https://fryboyter.de/fritz-wlan-stick-ac-860-funktioniert-nach-standby-modus-nicht-mehr#621</link>
+	   	<dc:creator><![CDATA[ Fryboyter ]]></dc:creator>
+	   	<guid isPermaLink="false">https://fryboyter.de/fritz-wlan-stick-ac-860-funktioniert-nach-standby-modus-nicht-mehr#621</guid>
+	    <pubDate>Mon, 24 Dec 2018 11:43:02 +0100</pubDate>
+	    <description><![CDATA[ Naja immerhin gibt es überhaupt einen Workaround. Und mit etwas Glück braucht man diesen demnächst gar nicht mehr. In Kernel 4.21 wird es voraussichtlich schon einige Änderungen an mt76x2u geben. ]]></description>
+	</item>
+	<item>
+		<title>https://fryboyter.de/fritz-wlan-stick-ac-860-funktioniert-nach-standby-modus-nicht-mehr</title>
+	    <link>https://fryboyter.de/fritz-wlan-stick-ac-860-funktioniert-nach-standby-modus-nicht-mehr#620</link>
+	   	<dc:creator><![CDATA[ blubb ]]></dc:creator>
+	   	<guid isPermaLink="false">https://fryboyter.de/fritz-wlan-stick-ac-860-funktioniert-nach-standby-modus-nicht-mehr#620</guid>
+	    <pubDate>Sun, 23 Dec 2018 19:26:17 +0100</pubDate>
+	    <description><![CDATA[ Ich will ja nix sagen, aber den Sche... hatte man vor >5 Jahren genauso. Schon ein bisschen ätzend,dass man oft immernoch die gleichen Workarounds benötigt... ]]></description>
+	</item>
+	<item>
+		<title>https://fryboyter.de/wlan-stick-und-predictable-network-interface-names</title>
+	    <link>https://fryboyter.de/wlan-stick-und-predictable-network-interface-names#619</link>
+	   	<dc:creator><![CDATA[ Fryboyter ]]></dc:creator>
+	   	<guid isPermaLink="false">https://fryboyter.de/wlan-stick-und-predictable-network-interface-names#619</guid>
+	    <pubDate>Fri, 21 Dec 2018 09:15:13 +0100</pubDate>
+	    <description><![CDATA[ Um genau zu sein, muss man hierbei eine Link-Datei anlegen (zum Beispiel /etc/systemd/network/10-ethusb0.link). In diese trägt man dann zum Beispiel folgendes ein:
+
+<code>
+
+[Match]<br>
+MACAddress=12:34:56:78:90:ab
+
+[Link]<br>
+Description=AVM FRITZ!WLAN AC 860<br>
+Name=avmwlan</code>
+
+Da man trotz installiertem systemd nur einen Bruchteil der Bestandteile nutzen muss, finde ich meine Lösung aber trotzdem besser, da sie mit so ziemlichen allen Tools, mit denen man eine Netzwerkverbindung aufbaut, funktionieren sollte. ]]></description>
+	</item>
+	<item>
+		<title>https://fryboyter.de/wlan-stick-und-predictable-network-interface-names</title>
+	    <link>https://fryboyter.de/wlan-stick-und-predictable-network-interface-names#618</link>
+	   	<dc:creator><![CDATA[  ]]></dc:creator>
+	   	<guid isPermaLink="false">https://fryboyter.de/wlan-stick-und-predictable-network-interface-names#618</guid>
+	    <pubDate>Fri, 21 Dec 2018 00:49:23 +0100</pubDate>
+	    <description><![CDATA[ Mit systemd-networkd lässt sich soetwas auch realisieren, die Konfiguration ist dann in INI-Dateien, und die Poetteringware ist eh meist schon auf dem Rechner (zumindest bei Fedora, Arch und Debian im systemd Package dabei) ]]></description>
+	</item>
+	<item>
+		<title>https://fryboyter.de/dateisystem-btrfs-wird-demnaechst-swap-dateien-unterstuetzen</title>
+	    <link>https://fryboyter.de/dateisystem-btrfs-wird-demnaechst-swap-dateien-unterstuetzen#617</link>
+	   	<dc:creator><![CDATA[ Fryboyter ]]></dc:creator>
+	   	<guid isPermaLink="false">https://fryboyter.de/dateisystem-btrfs-wird-demnaechst-swap-dateien-unterstuetzen#617</guid>
+	    <pubDate>Fri, 14 Dec 2018 15:11:19 +0100</pubDate>
+	    <description><![CDATA[ Ich vermute mal, dass Swap-Partitionen deutlich weiter verbreitet sind, so dass von dem Problem nur ein paar wenige Nutzer betroffen sind. Wer mutig genug war, konnte auch eine Swapdatei über ein Loop-Device einbinden (das ist allerdings keine offizielle Lösung und ist auch nicht empfohlen). ]]></description>
+	</item>
+	<item>
+		<title>https://fryboyter.de/dateisystem-btrfs-wird-demnaechst-swap-dateien-unterstuetzen</title>
+	    <link>https://fryboyter.de/dateisystem-btrfs-wird-demnaechst-swap-dateien-unterstuetzen#616</link>
+	   	<dc:creator><![CDATA[ postlet ]]></dc:creator>
+	   	<guid isPermaLink="false">https://fryboyter.de/dateisystem-btrfs-wird-demnaechst-swap-dateien-unterstuetzen#616</guid>
+	    <pubDate>Fri, 14 Dec 2018 11:12:04 +0100</pubDate>
+	    <description><![CDATA[ Überfällig!! Also, zumindest meiner Meinung nach. Die Nachfrage für eine Swap-Datei auf btrfs muss andererseitzs aber auch so gering gewesen sein, dass es sich bislang nicht wirklich gelohnt hatte, die alte Probleme zu beheben oder eine neue Implementierung zu entwickeln. Von daher ist es verständlich, dass wir jetzt nochmal 10 Jahre warten musste :) ]]></description>
+	</item>
+	<item>
+		<title>https://fryboyter.de/lesezeichen-mit-nextcloud-synchronisieren</title>
+	    <link>https://fryboyter.de/lesezeichen-mit-nextcloud-synchronisieren#615</link>
+	   	<dc:creator><![CDATA[ kamuffel ]]></dc:creator>
+	   	<guid isPermaLink="false">https://fryboyter.de/lesezeichen-mit-nextcloud-synchronisieren#615</guid>
+	    <pubDate>Sat, 08 Dec 2018 09:12:11 +0100</pubDate>
+	    <description><![CDATA[ Leider scheint die Firefox-WebExtension-API dafür zu sorgen, dass floccus Probleme bekommt, wenn auch der Firefox-Sync aktiviert ist. Ärgerlich, weil Bookmarks in die eigene Cloud zu syncen zwar schonmal ein cooles Feature ist, aber Geräteübergreifend auch an offene Tabs & co zu kommen ist echt nett.
+Firefox Sync verschlüsselt übrigens End-to-End. Auch deine w4r3z-Bookmarks 😉 ]]></description>
+	</item>
+	<item>
+		<title>https://fryboyter.de/versionsverwaltung-mit-fossil</title>
+	    <link>https://fryboyter.de/versionsverwaltung-mit-fossil#614</link>
+	   	<dc:creator><![CDATA[ Fryboyter ]]></dc:creator>
+	   	<guid isPermaLink="false">https://fryboyter.de/versionsverwaltung-mit-fossil#614</guid>
+	    <pubDate>Fri, 07 Dec 2018 17:35:17 +0100</pubDate>
+	    <description><![CDATA[ Schlechter Ruf würde ich es nicht einmal nennen. Git wird meiner Meinung nach nur zu oft pauschal empfohlen (weil es eben der Platzhirsch ist). Unabhängig von dem was der Nutzer machen will.
+
+Für mich würde "Dateien hinzufügen", "Änderungen hinzufügen" und "Änderungen zurücknehmen" reichen. Vielleicht noch ab und zu eine Branch erstellen. Klar kann man das mit Git machen. Aber unter bestimmten Umständen sind dafür auch etwas exotischer Git-Befehle nötig. Vor allem wenn etwas schief gelaufen ist. Git ist für mich einfach zu sehr die eierlegende Wollmilchsau. Wohl gemerkt für mich.
+
+Lustig, dass du Sublime Merge ansprichst. Da ich Sublime Text gerne nutze habe ich mir die Tage auch Merge angesehen. So ganz stabil kam es mir allerdings nicht vor. Heute gab es allerdings ein Update des Pakets, so dass ich am Wochenende wohl noch etwas detaillierter testen werde. ]]></description>
+	</item>
+	<item>
+		<title>https://fryboyter.de/versionsverwaltung-mit-fossil</title>
+	    <link>https://fryboyter.de/versionsverwaltung-mit-fossil#613</link>
+	   	<dc:creator><![CDATA[ tux. ]]></dc:creator>
+	   	<guid isPermaLink="false">https://fryboyter.de/versionsverwaltung-mit-fossil#613</guid>
+	    <pubDate>Fri, 07 Dec 2018 14:58:22 +0100</pubDate>
+	    <description><![CDATA[ "Super schnell" (welches DVCS ist das nicht?) ist nicht das wichtigste Kriterium. ]]></description>
+	</item>
+	<item>
+		<title>https://fryboyter.de/versionsverwaltung-mit-fossil</title>
+	    <link>https://fryboyter.de/versionsverwaltung-mit-fossil#612</link>
+	   	<dc:creator><![CDATA[ Matthias ]]></dc:creator>
+	   	<guid isPermaLink="false">https://fryboyter.de/versionsverwaltung-mit-fossil#612</guid>
+	    <pubDate>Fri, 07 Dec 2018 09:24:02 +0100</pubDate>
+	    <description><![CDATA[ Spannend, dass git hier einen so schlechten Ruf hat. Ich bin vor Jahren von bzr auf git umgestiegen und fühle mich extrem wohl. Git ist super schnell. Das UI wurde in den letzten Jahren massiv verbessert. Für wen das trotzdem nix ist, der bekommt mit Sublime Merge eine 1a Oberfläche an die Hand. ]]></description>
+	</item>
+
+</channel>
+</rss>

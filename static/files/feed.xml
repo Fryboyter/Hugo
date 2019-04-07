@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<rss version="2.0"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+    <title>Fryboyter</title>
+    <link>https://fryboyter.de</link>
+    <description></description>
+    <language>de-DE</language>
+    
+ 
+	<item>
+		<title>Bitte um Hilfe - Hugo und Prism.js</title>
+	    <link>https://fryboyter.de/bitte-um-hilfe-hugo-und-prism-js</link>
+	   	<guid isPermaLink="false">https://fryboyter.de/bitte-um-hilfe-hugo-und-prism-js</guid>
+	    <pubDate>Fri, 22 Mar 2019 17:35:00 +0100</pubDate>
+	    <description><![CDATA[ <p>Um mal wieder über den Tellerrand zu schauen, bin ich gerade dabei mich in Hugo einzuarbeiten. Als Grundlage dient hierfür fryboyter.de und die dort veröffentlicheten Artikel.</p>
+
+<p>Da der Code-Highlighter von Hugo für mich einige Nachteile hat, wollte ich weiter Prism nutzen. Am Artikel <a href="https://fryboyter.de/index-twig-des-fryboyter-themes">https://fryboyter.de/index-twig-des-fryboyter-themes</a> beiße ich mir allerdings die Zähne aus. Obwohl der Code in &lt;pre&gt; und &lt;code&gt; Tags gepackt ist interpretiert Hugo scheinbar die &lt;div&gt; Tags. In Zeile 2 wird unter Hugo also nur "Fryboyter" angezeigt. Und nicht "&lt;div class="header"&gt;&lt;h1&gt;&lt;a href="{{ paths.hosturl }}"&gt;Fryboyter&lt;/a&gt;&lt;/h1&gt;&lt;/div&gt;". Bei Code-Beispielen ist das irgendwie blöd...</p>
+
+<p>Ausgehend davon, dass es ein Problem von Hugo in Kombination mit Prism ist, habe ich im Forum von Hugo eine <a href="https://discourse.gohugo.io/t/problems-with-hugo-and-prism-js/17357">Support-Anfrage</a> gestellt. Leider konnte mir bisher aber noch niemand helfen.</p>
+
+<p>Wegen der Support-Anfrage habe ich ich ein <a href="https://codeberg.org/Fryboyter/hugo">Repository</a> auf Codeberg veröffentlicht in dem zwei Artikel vorhanden sind. <a href="https://codeberg.org/Fryboyter/hugo/src/branch/master/content/posts/2017/nachbesserungen-an-bolt-cms.md">Einer</a> bei dem das Hervorheben des Codes klappt und <a href="https://codeberg.org/Fryboyter/hugo/src/branch/master/content/posts/2017/index-twig-des-fryboyter-themes.md">einer</a> bei dem es nicht klappt. Ruft man den "Problem-Artikel" direkt bei Codeberg auf, kommt es zu gleichen fehlerhaften Anzeige. Und das obwohl hier Prism gar nicht geladen werden sollte. Also ich vermutlich eher Hugo oder Markdown an sich das Problem.</p>
+
+<p>Daher möchte ich kurz in die Runde fragen, ob jemand eine Idee hat wie man das Problem lösen kann? Auf einen anderen Code-Highlighter möchte ich möglichst nicht umsteigen.</p>
+ ]]></description>
+	</item>
+ 
+	<item>
+		<title>Präsentation mit Hovercraft erstellen</title>
+	    <link>https://fryboyter.de/praesentation-mit-hovercraft-erstellen</link>
+	   	<guid isPermaLink="false">https://fryboyter.de/praesentation-mit-hovercraft-erstellen</guid>
+	    <pubDate>Sun, 13 Jan 2019 14:54:00 +0100</pubDate>
+	    <description><![CDATA[ <p>Ich habe mich leider mal wieder breitschlagen lassen eine Präsentation zu halten, obwohl ich es hasse. Um nicht schon bei der Erstellung der Präsentation als nervliches Wrack zu enden, nutze ich <a href="https://github.com/regebro/hovercraft">Hovercraft</a>.</p>
+
+<p>Hiermit erstellt man mittels reStructuredText Impress.js-Präsentationen. Somit kann eine Seite der Präsentation zum Beispiel wie folgt aussehen.</p>
+
+<pre>
+<code class="language-bash">The problem:
+============
+
+Making presentations is no *fun!*
+---------------------------------
+
+.. note::
+
+    Welcome to the presenter console!
+
+----</code></pre>
+
+<p>Das ganze ist also ziemlich idiotensicher. Bei Fragen lohnt sich ein Blick in die offizielle <a href="https://hovercraft.readthedocs.io/en/latest/index.html">Dokumentation</a>. Ist man mit seiner Präsentation fertig, erstellt man mittels "hovercraft Hovercraft-Datei Zielverzeichnis" einfach die Präsentation im HTML5-Format, welche im Grunde genommen mit jedem halbwegs aktuellen Browser anzeigbar ist.</p>
+
+<p>Damit man sich einen visuellen Überblick verschaffen kann, bieten die Entwickler von Hovercraft eine <a href="http://regebro.github.com/hovercraft/">Demo-Präsentation</a> an.</p>
+
+<p>Wer die Präsentation den Teilnehmern als PDF-Datei zur Verfügung stellen will, kann dies zum Beispiel mit <a href="https://github.com/rst2pdf/rst2pdf">rst2pdf</a> machen.</p>
+ ]]></description>
+	</item>
+ 
+	<item>
+		<title>Kollaborationsplattform Codeberg hat seine Pforten geöffnet</title>
+	    <link>https://fryboyter.de/kollaborationsplattform-codeberg-hat-seine-pforten-geoeffnet</link>
+	   	<guid isPermaLink="false">https://fryboyter.de/kollaborationsplattform-codeberg-hat-seine-pforten-geoeffnet</guid>
+	    <pubDate>Tue, 08 Jan 2019 20:33:00 +0100</pubDate>
+	    <description><![CDATA[ <p>Bei <a href="https://codeberg.org">Codeberg</a> handelt es sich um eine Alternative zu Github die auf <a href="https://gitea.io">Gitea</a> basiert. Der Betreiber von Codeberg ist die Non-Profit Organisation Codeberg e. V..</p>
+
+<p>Codeberg e. V. hat seinen Sitz in Deutschland. Genauer gesagt in Berlin. Dieser hat sich laut Satzung folgende Ziele gesetzt:</p>
+
+<blockquote>
+<p>Zweck des Vereins ist es, die Schaffung, Sammlung, Verbreitung und Bewahrung Freier Inhalte (Free Content, Open Content, Free Cultural Work) und Freier und Offener Software (Free and Open Source Software, FOSS), und deren Dokumentation in selbstloser Tätigkeit zu fördern, um damit die Chancengleichheit beim Zugang zu Wissen und Bildung zu ermöglichen. Dazu soll auch das Bewusstsein für die damit zusammenhängenden gesellschaftlichen und philosophischen Fragen geschärft werden.</p>
+</blockquote>
+
+<p>Anfang des Monats gab es nun eine <a href="https://blog.codeberg.org/codebergorg-launched.html">Ankündigung</a>, dass Codeberg für alle freigegeben wurde. Derzeit gibt es bereits das eine oder andere Projekt dort. Wenn ich ehrlich sein soll, kenn ich aber keines davon. Es bleibt daher abzuwarten, ob bzw. wie sich die Plattform entwickelt. Vorsichtshalber habe ich mir mal ein Konto angelegt.</p>
+ ]]></description>
+	</item>
+ 
+	<item>
+		<title>Focusrite Scarlett Solo und Linux</title>
+	    <link>https://fryboyter.de/focusrite-scarlett-solo-und-linux</link>
+	   	<guid isPermaLink="false">https://fryboyter.de/focusrite-scarlett-solo-und-linux</guid>
+	    <pubDate>Sun, 06 Jan 2019 15:55:00 +0100</pubDate>
+	    <description><![CDATA[ <p>Mein Weihnachtsgeld gebe ich erfahrungsgemäß immer für Sachen aus, die ich mir während des Jahres nicht kaufen würde. Zu Weihnachten habe ich mir dieses mal ein Rode NTG2 Mikrofon, einen K &amp; M Mikrofonständer sowie das Focusrite Scarlett Solo (zweite Generation) gegönnt.</p>
+
+<p>Der eine oder ander wird sich nun Fragen, was hat er mit einem Shotgun-Mikrofon vor? Wird es einen Fryboyter Youtube-Kanal oder Potcast geben? Weder noch. </p>
+
+<p>Bei Sprachchats habe ich zwei Probleme. Zum einen meine mechanische Tastatur. Diese verwendet die blauen Schalter von Cherry. Also die lauten. Leider sind hier einige meiner Mitspieler bei diversen Multiplayer-Spielen recht empfindlich obwohl ich nur "push to talk" nutze.</p>
+
+<p>Bei Headsets habe ich zudem das Problem, dass man entweder Atemgeräusche hört (was mich selber nervt) oder mich schlecht versteht, da das Mikrofon zu weit weg ist um Atemgeräusche zu vermeiden (was wiederum andere nervt).</p>
+
+<p>Also habe ich vor Weihnachten einen Mitarbeiter von Thomann um eine Lösung gebeten. Schlussendlich sind wir dann bei einem Shotgun-Mikrofon gelandet. Das Rode NTG2 hat allerdings einen XLR-Anschluss, so dass ich ein externes Audio-Interface mit Phantomspeißung gebraucht habe. Leider konnte bei Thomann keiner sagen, welches mit Linux kompatibel ist. Da Thomann aber kein Problem damit hat, dass man Sachen zum Testen bestellt, habe ich mir das Focusrite Scarlett Solo (2nd Gen) bestellt und nach Weihnachten getestet, da zumindest eine Kompatibilität mit Mac OS vorhanden ist. </p>
+
+<p>Verwendet man Pulseaudio funktioniert das Ding "out of the box". Einfach anschließen und fertig. In meinem Fall muss ich der / die / das Gain allerdings sehr weit aufdrehen. Was allerdings ein Balanceakt ist, da bei zu viel Gain das Klicken der Tastatur auch lauter wird.</p>
+
+<p>Kommt nur Alsa zum Einsatz, wird das Interface gar nicht erkannt. Zumindest nicht mit der Standardeinstellung die Arch Linux ausliefert.</p>
+
+<p>Alles in allem war der Spaß nicht ganz billig. Aber das Klicken ist nur noch ein relativ leises Hintergrundgeräusch und die Atemgeräusche sind komplett weg. Da Rode 10 Jahre Garantie gibt (nachdem man sich registriert hat), relativiert sich der Preis dann auch wieder.</p>
+ ]]></description>
+	</item>
+ 
+	<item>
+		<title>Defer und Prism</title>
+	    <link>https://fryboyter.de/defer-und-prism</link>
+	   	<guid isPermaLink="false">https://fryboyter.de/defer-und-prism</guid>
+	    <pubDate>Tue, 01 Jan 2019 11:59:00 +0100</pubDate>
+	    <description><![CDATA[ <p>Binde Javascript mit defer ein, haben sie gesagt. Für die Syntaxhervorhebung nutze ich Prism. Aufgrund des Ratschlags habe ich daher das Script per &lt;script defer src="<a href="https://fryboyter.de/theme/fryboyter/js/prism.js?d46722219d" target="_blank">/theme/fryboyter/js/prism.js?d46722219d</a>"&gt;&lt;/script&gt; eingebunden. Keine gute Idee wie ich festgestellt habe.</p>
+
+<p>In einigen Fällen habe ich zum Beispiel folgenden Code hervorgehoben:</p>
+
+<pre class="line-numbers language-bash" style="white-space:pre-wrap;">
+<code class="language-bash">$IP_DES_RASPBERRY:$PORT_VON_CADDY
+root /pfad/zum/Mirrorverzeichnis
+gzip
+browse</code></pre>
+
+<p>Beim ersten Aufruf des Artikels wurde allerdings folgendes angezeigt:</p>
+
+<pre class="line-numbers language-bash" style="white-space:pre-wrap;">
+<code class="language-bash">$IP_DES_RASPBERRY:$PORT_VON_CADDY
+root /pfad/zum/Mirrorverzeichnis
+gzip
+browse
+$IP_DES_RASPBERRY:$PORT_VON_CADDY</code></pre>
+
+<p>Kurz gesagt die erste Zeile wird am Ende des Blocks noch einmal angezeigt. Nicht gut. Aktualisiert man die Seite, wird es aber korrekt angezeigt. Beim jeweils ersten Aufruf ist mir dann aufgefallen, dass folgender Fehler in den Entwicklerwerkzeugen des Browsers angezeigt wird.</p>
+
+<pre class="line-numbers language-bash" style="white-space:pre-wrap;">
+<code class="language-javascript">Uncaught TypeError: Cannot read property 'children' of null
+    at prism.js?d46722219d:18
+    at Array.forEach (&lt;anonymous&gt;)
+    at n (prism.js?d46722219d:18)
+    at NodeList.forEach (&lt;anonymous&gt;)
+    at prism.js?d46722219d:18</code></pre>
+
+<p>Ok Zeile 18 der Datei prism.js ist wohl das Problem.</p>
+
+<pre class="line-numbers language-javascript" style="white-space:pre-wrap;">
+<code class="language-javascript">!function(){if("undefined"!=typeof self&amp;&amp;self.Prism&amp;&amp;self.document){var e="line-numbers",t=/\n(?!$)/g,n=function(e){var n=r(e),s=n["white-space"];if("pre-wrap"===s||"pre-line"===s){var l=e.querySelector("code"),i=e.querySelector(".line-numbers-rows"),a=e.querySelector(".line-numbers-sizer"),o=l.textContent.split(t);a||(a=document.createElement("span"),a.className="line-numbers-sizer",l.appendChild(a)),a.style.display="block",o.forEach(function(e,t){a.textContent=e||"\n";var n=a.getBoundingClientRect().height;i.children[t].style.height=n+"px"}),a.textContent="",a.style.display="none"}},r=function(e){return e?window.getComputedStyle?getComputedStyle(e):e.currentStyle||null:null};window.addEventListener("resize",function(){Array.prototype.forEach.call(document.querySelectorAll("pre."+e),n)}),Prism.hooks.add("complete",function(e){if(e.code){var r=e.element.parentNode,s=/\s*\bline-numbers\b\s*/;if(r&amp;&amp;/pre/i.test(r.nodeName)&amp;&amp;(s.test(r.className)||s.test(e.element.className))&amp;&amp;!e.element.querySelector(".line-numbers-rows")){s.test(e.element.className)&amp;&amp;(e.element.className=e.element.className.replace(s," ")),s.test(r.className)||(r.className+=" line-numbers");var l,i=e.code.match(t),a=i?i.length+1:1,o=new Array(a+1);o=o.join("&lt;span&gt;&lt;/span&gt;"),l=document.createElement("span"),l.setAttribute("aria-hidden","true"),l.className="line-numbers-rows",l.innerHTML=o,r.hasAttribute("data-start")&amp;&amp;(r.style.counterReset="linenumber "+(parseInt(r.getAttribute("data-start"),10)-1)),e.element.appendChild(l),n(r),Prism.hooks.run("line-numbers",e)}}}),Prism.hooks.add("line-numbers",function(e){e.plugins=e.plugins||{},e.plugins.lineNumbers=!0}),Prism.plugins.lineNumbers={getLine:function(t,n){if("PRE"===t.tagName&amp;&amp;t.classList.contains(e)){var r=t.querySelector(".line-numbers-rows"),s=parseInt(t.getAttribute("data-start"),10)||1,l=s+(r.children.length-1);s&gt;n&amp;&amp;(n=s),n&gt;l&amp;&amp;(n=l);var i=n-s;return r.children[i]}}}}}();
+</code></pre>
+
+<p>Ok, ich verstehe so ziemlich rein gar nichts. Es hilft mir also nicht weiter. Nachdem ich etwas im Bugtracker von Prism gesucht habe, habe ich dort ein bereits behobenen Problem mit bezüglich der Einbindung per defer gefunden. Dessen Symptome waren aber nicht mit meinem Problem vergleichbar. Trotzdem habe ich mal schaut was passiert, wenn ich Prism nicht mit defer einbinde. Und schon ist mein Problem verschwunden. Da es hinsichtlich der Ladezeit gefühlt keinen Unterschied gibt ob ich nun defer verwende oder nicht, habe ich defer einfach wieder entfernt. Und was lernen wir daraus? Nicht jeder Tipp zur Seitenoptimierung macht pauschal Sinn.</p>
+ ]]></description>
+	</item>
+ 
+	<item>
+		<title>Eigenen Mirror der Arch-Paketquellen erstellen</title>
+	    <link>https://fryboyter.de/eigenen-mirror-der-arch-paketquellen-erstellen</link>
+	   	<guid isPermaLink="false">https://fryboyter.de/eigenen-mirror-der-arch-paketquellen-erstellen</guid>
+	    <pubDate>Sun, 30 Dec 2018 12:46:00 +0100</pubDate>
+	    <description><![CDATA[ <p>Wie bereits angekündigt, will ich mittels Ansible die Installation und Konfiguration von Arch automatisieren. Um unabhängig von den offiziellen Mirrors zu sein, habe ich mir daher einfach einen eigenen erstellt. Somit kann ich so lange herumspielen wie ich will.</p>
+
+<p>Da das ganze nur intern für Tests gedacht ist, habe ich es relativ einfach gehalten.</p>
+
+<p>Als erstes habe ich mir auf einem Raspberry ein Verzeichnis erstellt in dem die ganzen Pakete landen sollen. Nennen wir es "archpakete".</p>
+
+<p>Als Webserver nehme ich <a href="https://fryboyter.de/caddy-webserver">Caddy</a> mit folgender Konfigurationsdatei.</p>
+
+<pre class="line-numbers language-bash" style="white-space:pre-wrap;">
+<code class="language-bash">$IP_DES_RASPBERRY:$PORT_VON_CADDY
+root /pfad/zum/Mirrorverzeichnis
+gzip
+browse
+</code></pre>
+
+<p>Gzip, also die komprimierte Datenübertragung und browse (das anzeigen von Verzeichnisinhalten) kann man sich im Grunde auch sparen. Es schadet allerdings auch nicht.</p>
+
+<p>Startet man nun Caddy sollte man nicht viel sehen, da das Verzeichnis "archpakete" noch leer ist. Zeit es zu befüllen. Hierfür habe ich mal wieder im Wiki von Arch gestöbert und folgendes Script gefunden, was ich allerdings etwas angepasst habe (Anzeige des Fortschritts (--progress und | tee) hinzugefügt und den Download auf die Paketquellen "core" "extra" "community" beschränkt.</p>
+
+<pre class="line-numbers language-bash" style="white-space:pre-wrap;">
+<code class="language-bash">#!/bin/bash
+#
+# The script to sync a local mirror of the Arch Linux repositories and ISOs
+#
+# Copyright (C) 2007 Woody Gilk &lt;woody@archlinux.org&gt;
+# Modifications by Dale Blount &lt;dale@archlinux.org&gt;
+# and Roman Kyrylych &lt;roman@archlinux.org&gt;
+# Comments translated to German by Dirk Sohler &lt;dirk@0x7be.de&gt;
+# Licensed under the GNU GPL (version 2)
+
+# Speicherorte für den Synchronisationsvorgang
+SYNC_HOME="/home/pi"
+SYNC_LOGS="$SYNC_HOME/archpakete/logs/"
+SYNC_FILES="$SYNC_HOME/archpakete"
+SYNC_LOCK="$SYNC_HOME/archpakete/mirrorsync.lck"
+
+# Auswahl der zu synchronisierenden Repositorys
+# Gültige Optionen sind: core, extra, testing, community, iso
+# Leer lassen, um den gesammten Mirror zu synchronisieren
+# SYNC_REPO=(core extra testing community iso)
+SYNC_REPO=(core extra community)
+
+# Server, von dem synchronisiert werden soll
+# Nur offizielle, öffentliche Mirrors dürfen rsync.archlinux.org verwenden
+# SYNC_SERVER=rsync.archlinux.org::ftp
+SYNC_SERVER=rsync.selfnet.de::archlinux
+# An dieser Stelle weicht die Lokalisierte Version des Scripts von der
+# Originalversion ab, da der Mirror in der Originalversion seit einigen
+# Tagen nicht mehr synchronisiert wurde, und daher nur alte Pakete
+# bereit stellte. Selfnet hat eine Quota von 50 GB fullspeed am Tag, und
+# wird danach auf 16 KByte/s runtergestuft.
+
+# Format des Logfile-Namens
+# Das beispiel gibt etwas wie „sync_20091019-3.log“ aus
+LOG_FILE="pkgsync_$(date +%Y%m%d-%H).log"
+
+# Logfile anlegen und Timestamp einfügen
+touch "$SYNC_LOGS/$LOG_FILE"
+echo "=============================================" &gt;&gt; "$SYNC_LOGS/$LOG_FILE"
+echo "&gt;&gt; Starting sync on $(date --rfc-3339=seconds)" &gt;&gt; "$SYNC_LOGS/$LOG_FILE"
+echo "&gt;&gt; ---" &gt;&gt; "$SYNC_LOGS/$LOG_FILE"
+
+if [ -z $SYNC_REPO ]; then
+  # Sync a complete mirror
+  rsync -rptlv \
+        --delete-after \
+        --safe-links \
+        --max-delete=1000 \
+        --copy-links \
+        --progress \
+        --delay-updates $SYNC_SERVER "$SYNC_FILES" \
+        | tee "$SYNC_LOGS/$LOG_FILE"
+else
+  # Alle Repositorys synchronisieren, die in $SYNC_REPO angegeben wurden
+  for repo in ${SYNC_REPO[@]}; do
+    repo=$(echo $repo | tr [:upper:] [:lower:])
+    echo "&gt;&gt; Syncing $repo to $SYNC_FILES/$repo" &gt;&gt; "$SYNC_LOGS/$LOG_FILE"
+
+    # Wenn man nur i686-Pakete synchronisieren will, kann man in dem
+    # rsync-Aufruf dies nach „--delete-after“ inzufügen:
+    # „ --exclude=os/x86_64“
+    # 
+    # Will man stattdessen nur die x86_64-Pakete synchronisieren, verwendet
+    # man stattdessen „--exclude=os/i686“
+    #
+    # Will man beide Architekturen auf dem eigenen Mirror anbieten, lässt
+    # den rsync-Aufruf einfach, wie er ist
+    #
+    rsync -rptlv \
+          --delete-after \
+          --safe-links \
+          --max-delete=1000 \
+          --copy-links \
+          --progress \
+          --delay-updates $SYNC_SERVER/$repo "$SYNC_FILES" \
+          | tee "$SYNC_LOGS/$LOG_FILE"
+
+    # Erstellt eine Datei „$repo.lastsync“, die den Timestamp der synchronisation
+    # beinhaltet (z. B. „2009-10-19 03:14:28+02:00“). Dies kann nützlich sein,
+    # um einen Hinweis darauf zu haben, wann der eigene Mirror zuletzt mit
+    # dem angegebenen Mirror abgeglichen wurde. Zum Verwenden einkommentieren.
+    # date --rfc-3339=seconds &gt; "$SYNC_FILES/$repo.lastsync"
+
+    # Nach jedem Repository fünf Sekunden warten, um zu viele gleichzeitige 
+    # Verbindungen zum rsync-Server zu verhindern, fall die Verbindung nach
+    # dem synchronisieren des vorherigen Repositorys vom Server nicht
+    # zeitig geschlossen wurde
+    sleep 5 
+  done
+fi
+
+# Weiteren Timestamp ins Logfile schreiben, und es schließen
+echo "&gt;&gt; ---" &gt;&gt; "$SYNC_LOGS/$LOG_FILE"
+echo "&gt;&gt; Finished sync on $(date --rfc-3339=seconds)" &gt;&gt; "$SYNC_LOGS/$LOG_FILE"
+echo "=============================================" &gt;&gt; "$SYNC_LOGS/$LOG_FILE"
+echo "" &gt;&gt; "$SYNC_LOGS/$LOG_FILE"
+
+# Die lock-Datei zum Sperren des Script-Durchlaufs löschen und das
+# Script beenden
+rm -f "$SYNC_LOCK"
+exit 0</code></pre>
+
+<p>Nun habe ich unter "archpakete" noch schnell ein Verzeichnis "logs" erstellt und obiges Script ausgeführt.</p>
+
+<p>Sobald das Script seine Arbeit getan hat, kann man nun auf seinem Ansible-Test-System in /etc/pacman.d/mirrorlist folgenden Eintrag am Anfang der Datei eintragen.</p>
+
+<pre class="line-numbers language-bash" style="white-space:pre-wrap;">
+<code>Server = http://$IP_DES_RASPBERRY:$PORT_VON_CADDY/$repo/os/$arch</code></pre>
+
+<p>Nun laufen alle Downloads der Pakete über den lokalen Mirror und nicht mehr über die offiziellen Spiegelserver.</p>
+ ]]></description>
+	</item>
+ 
+	<item>
+		<title>Fritz!WLAN Stick AC 860 funktioniert nach Standby-Modus nicht mehr</title>
+	    <link>https://fryboyter.de/fritz-wlan-stick-ac-860-funktioniert-nach-standby-modus-nicht-mehr</link>
+	   	<guid isPermaLink="false">https://fryboyter.de/fritz-wlan-stick-ac-860-funktioniert-nach-standby-modus-nicht-mehr</guid>
+	    <pubDate>Sat, 22 Dec 2018 11:55:00 +0100</pubDate>
+	    <description><![CDATA[ <p>Vor ein paar Tagen hatte ich einen Artikel über den Fritz!WLAN Stick AC 860 veröffentlicht. Zwischenzeitlich habe ich leider feststellen müssen, dass die WLAN-Verbindung nicht wieder aufgebaut wird, wenn der Rechner aus dem Standby-Modus geholt wird.</p>
+
+<p>Die Lösung oder besser gesagt der Workaround ist allerdings relativ simpel. Ich habe mir unter /etc/systemd/system einfach zwei neue Service-Dateien mit folgenden Inhalt erstellt und diese dann aktiviert.</p>
+
+<pre class="line-numbers language-bash" style="white-space:pre-wrap;">
+<code>[Unit]
+Description=WLAN vor Standby deakivieren
+Before=sleep.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/systemctl stop netctl@wlan.service ; /usr/bin/rmmod mt76x2u
+
+[Install]
+WantedBy=sleep.target</code></pre>
+
+<pre class="line-numbers language-bash" style="white-space:pre-wrap;">
+<code class="language-bash">[Unit]
+Description=WLAN nach Standby aktivieren
+After=suspend.target
+
+[Service]
+Type=oneshot
+ExecStart=/sbin/modprobe mt76x2u ; /usr/bin/systemctl start netctl@wlan.service
+
+[Install]
+WantedBy=suspend.target</code></pre>
+
+<p>Die erste Service-Datei deaktiviert die Netzwerkverbindung bevor der Rechner schlafen gelegt wird. Die zweit startet die Netzwerkverbindung wieder wenn der Rechner aus dem Standby-Modus geholt wurde.</p>
+ ]]></description>
+	</item>
+ 
+	<item>
+		<title>WLAN Stick und Predictable Network Interface Names</title>
+	    <link>https://fryboyter.de/wlan-stick-und-predictable-network-interface-names</link>
+	   	<guid isPermaLink="false">https://fryboyter.de/wlan-stick-und-predictable-network-interface-names</guid>
+	    <pubDate>Wed, 19 Dec 2018 23:28:00 +0100</pubDate>
+	    <description><![CDATA[ <p id="predictablenetworkinterfacenames"><a href="https://www.freedesktop.org/wiki/Software/systemd/PredictableNetworkInterfaceNames/">Predictable Network Interface Names</a> sind im Grunde eine gute Sache, da der zugeteilte Name des Interfaces immer gleich bleibt. Bei einem USB-WLAN-Stick kann es aber auch nerven.</p>
+
+<p>Wie heute schon geschrieben, habe ich mir den Fritz!WLAN Stick AC 860 zugelegt. Diesen habe ich bei ersten Tests in den USB-Port auf der rechten Seite des Notebooks gesteckt. Der Befehl "ip addr" hat dann zum Beispiel "wlp0s26u1u2" als Interface-Name ausgspuckt, welchen ich in die Konfigurationsdatei von netctl eingetragen habe. Nachdem alles funktioniert hat, habe ich noch etwas herumgespielt und hierbei den Stick auch in den USB-Port auf der linken Seite gesteckt. Und schon konnte ich die Netzwerkverbindung nicht aufbauen. Ein erneutes Ausführen von "ip addr" hat mir nun den Interface-Namen "wlp0s20u2" angezeigt.</p>
+
+<p>Im Grunde genommen ist das auch logisch, da es sich um einen anderen Steckplatz handelt und daher auch ein anderer Name fest zugeteilt wird. Aber in der Praxis ist das ungünstig, da in der Konfiguration von netctl der Interface-Name fix eingetragen wird. Muss ich also zukünftig darauf achten, den Stick immer in den gleichen Port zu stecken? Entweder das oder man erstellt sich eine udev-Regel.</p>
+
+<p>Hierzu schließt man erst einmal den Stick an und führt danach "lsusb" aus. Hiermit erhält man beispielsweise folgende Ausgabe.</p>
+
+<pre class="line-numbers language-bash" style="white-space:pre-wrap;">
+<code class="language-bash">Bus 001 Device 004: ID 057c:8503 AVM GmbH </code></pre>
+
+<p>Nun prüft man, wie udev den Stick sieht. Hierzu führt man folgenden Befehl aus.</p>
+
+<pre class="line-numbers language-bash" style="white-space:pre-wrap;">
+<code class="language-bash">udevadm info -a -p $(udevadm info -q path -n  /dev/bus/usb/001/004) | grep ATTR{configuration} </code></pre>
+
+<p>Hier muss man den Teil mit /dev/bus/usb entsprechend der Ausgabe von lsub anpassen. Im Falle des von mir verwendeten Sticks wird "ATTR{configuration}=="FRITZ!WLAN AC 860"" ausgegeben. </p>
+
+<p>Nun hat man alles, was man für eine udev-Regel braucht. Unter /etc/udev/rules.d/ erstellt man daher die Datei 10-network-devices.rules mit folgendem Inhalt und speichert diese ab. Nutzt man einen anderen Stick, muss man logischerweise bei ATTRS{product} etwas anderes eintragen. </p>
+
+<pre class="line-numbers language-bash" style="white-space:pre-wrap;">
+<code class="language-bash">SUBSYSTEM=="net", ACTION=="add", ATTRS{product}=="FRITZ!WLAN AC 860", NAME="wlan"</code></pre>
+
+<p>Schließt man zukünftig einen Netzwerkadapter über USB an, wird geprüft ob dieser das Produkt-Attribut "FRITZ!WLAN AC 860" hat. Wenn ja, wird diesem der Interface-Name "wlan" zugeteilt. Und zwar egal an welchem USB-Anschluss der Stick angeschlossen wurde.</p>
+
+<p>Vielleicht ist es dem einen oder anderen aufgefallen, dass bei dem Befehl mit udevadm ATTR{product} angezeigt wird, in der Regel aber ATTRS{product} steht. Das ist kein Fehler, sondern muss in diesem Fall so sein.</p>
+ ]]></description>
+	</item>
+ 
+	<item>
+		<title>Fritz!WLAN Stick AC 860 unter Linux</title>
+	    <link>https://fryboyter.de/fritz-wlan-stick-ac-860-unter-linux</link>
+	   	<guid isPermaLink="false">https://fryboyter.de/fritz-wlan-stick-ac-860-unter-linux</guid>
+	    <pubDate>Wed, 19 Dec 2018 19:38:00 +0100</pubDate>
+	    <description><![CDATA[ <p>In meinem Notebook ist eine Centrino Advanced-N 6205 WLAN-Karte verbaut. Diese verbindet, egal was ich mache, mit maximal 54 MB/s (genutzt wird noch weniger). Laut Google bin ich wohl nicht der einzige mit dem Problem. Also muss etwas her das mehr Bandbreite bietet.</p>
+
+<p>Normalerweise würde ich einfach die Karte wechseln. Was bei Geräten von Lenovo (zumindest bei älteren Modellen) nicht ganz so einfach ist. Denn im Bios / UEFI ist eine Whitelist vorhanden. Somit funktionieren nur bestimmte Karten. Eine offizielle Aufstellung funktionierender Karten gibt es natürlich nicht. Weihnachtsgeld sei dank habe ich mir spontan den WLAN-USB-Stick AC 860 von AVM gekauft.</p>
+
+<p>Im Lieferumfang findet man neben dem USB-Stick auch einen USB-Standfuß sowie eine Anleitung.</p>
+
+<p>Auf dem Notebook ist Arch (Kernel 4.19.9) installiert. Gleich nach dem anschließen des Sticks wird dieser erkannt und startet im sogenannten CD-ROM-Modus. Auf diesem "CD-ROM" sind die Treiber gespeichert. Natürlich für Windows. Das ist zum einen für Linux überflüssig und zum anderen bleibt der Stick in diesem Modus hängen. Super.</p>
+
+<p>Die Lösung ist allerdings ziemlich einfach. Man muss einfach usb_modeswitch installieren. Bei Arch liegt das Paket in den community Paketquellen. Stöpselt man dann den Stick an, startet er im richtigen Modus durch.</p>
+
+<p>Für die Netzwerkverbindungen auf meinem Notebook verwende ich netctl. Hier musste ich nur die Bezeichnung des alten Interface gegen die des neuen in der Konfigurationsdatei austauschen. Und schon steht die Verbindung. Theoretisch sind laut Router 866 / 866 Mbit/s möglich. In der Praxis ist der Stick mit 650 / 780 Mbit/s verbunden und läuft stabil. Mal schauen ob man hier noch etwas an der einen oder anderen Schraube drehen kann. Alles in allem bin ich zufrieden. Endlich kann ich die komplette Bandbreite meines Internetanschlusses auch mit dem Notebook ausreizen. Einen Datentransfer im LAN konnte ich noch nicht testen. Ich gehe aber davon aus, dass das auch keine Probleme macht.</p>
+
+<p>Noch ein Hinweis zum Schluss. Der Stick wird erst ab Kernel 4.19 unterstützt.</p>
+ ]]></description>
+	</item>
+ 
+	<item>
+		<title>Dateisystem Btrfs wird demnächst Swap-Dateien unterstützen</title>
+	    <link>https://fryboyter.de/dateisystem-btrfs-wird-demnaechst-swap-dateien-unterstuetzen</link>
+	   	<guid isPermaLink="false">https://fryboyter.de/dateisystem-btrfs-wird-demnaechst-swap-dateien-unterstuetzen</guid>
+	    <pubDate>Fri, 14 Dec 2018 10:46:00 +0100</pubDate>
+	    <description><![CDATA[ <p>Seit Jahren verwende ich auf meinen privaten Rechnern kein Swap. Für spezielle Fälle war es aber ganz nützlich mal eben eine Swap-Datei anzulegen. Seit ich Btrfs nutze, war dies leider keine Option mehr, da dieses Dateisytem keine Swap-Dateien unterstützt. Das wird sich demnächst voraussichtlich aber wieder ändern.</p>
+
+<p>Warum wieder? Im Jahre 2009 wurde die Unterstützung von Swap-Dateien <a href="https://git.sphere.ly/dtc/kernel_moto_falcon/commit/35054394c4b3cecd52577c2662c84da1f3e73525?w=1">entfernt</a>, da Swap-Dateien Probleme gemacht haben. Der Entwickler Omar Sandoval hat nun aber kürzlich einen <a href="https://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git/commit/?h=for-next&amp;id=fc2db0ecbdb9f6239688a381fe800cd0cf0a3e4a">Patch</a> eingereicht, der die sichere Nutzung von Swap-Files unter Btrfs ermöglicht. Wenn es keine Probleme damit gibt, könnte diese Änderung bereits in der übernächsten Version des Kernels (voraussichtlich März 2019) enthalten sein.</p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+ ]]></description>
+	</item>
+ 
+	<item>
+		<title>Lesezeichen mit Nextcloud synchronisieren</title>
+	    <link>https://fryboyter.de/lesezeichen-mit-nextcloud-synchronisieren</link>
+	   	<guid isPermaLink="false">https://fryboyter.de/lesezeichen-mit-nextcloud-synchronisieren</guid>
+	    <pubDate>Fri, 07 Dec 2018 18:18:00 +0100</pubDate>
+	    <description><![CDATA[ <p>Inzwischen bieten einige Browser an die Lesezeichen (auch Bookmarks genannt) zu synchronisieren. Dies erfolgt aber meist über Server über die man keine Kontrolle hat. Blöd wenn man Porno-, Islamisten- oder Warez-Seiten gebooktmarkt hat und sich der Anbieter für die Bookmarks interessiert.</p>
+
+<p>Heute bin ich zufällig auf <a href="https://github.com/marcelklehr/floccus">floccus</a> aufmerksam geworden. Hiermit lassen sich die Lesezeichen über die eigene Nextcloud-Instanz synchronisieren. Für Chrome / Chromium und Firefox gibt es entsprechende Erweiterungen.</p>
+
+<p>And Now for Something Completely Different™. Schlagt mich oder geht mit Tiernamen. Aber an der Stelle mache ich einfach mal schamlos Werbung für das Album "<a href="https://www.laut.de/The-Bevis-Frond/Alben/Were-Your-Friends,-Man-110941">We'Re Your Friends,Man</a>" von The Bevis Frond. Wer in den 90ern aufgewachsen ist und / oder mit Mukke wie Pearl Jam, RHCP, Stilskin, REM usw. etwas anfangen kann, sollte ich das neue Album anhören. Ist schon lange her, dass mich ein Album quasi zum Sofortkauf verleitet hat.</p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+ ]]></description>
+	</item>
+ 
+	<item>
+		<title>Versionsverwaltung mit Fossil</title>
+	    <link>https://fryboyter.de/versionsverwaltung-mit-fossil</link>
+	   	<guid isPermaLink="false">https://fryboyter.de/versionsverwaltung-mit-fossil</guid>
+	    <pubDate>Tue, 04 Dec 2018 20:42:43 +0100</pubDate>
+	    <description><![CDATA[ <p>Bisher habe für meine privaten Projekte immer vermieten eine Versionsverwaltung zu verwenden. Da ich Ende des Monats mein Ansible-Projekt umsetzen werde und ein weiteres größeres Projekt geplant ist ist es wohl Zeit für solch ein Tool.</p>
+
+<p>Die meisten werden vermutlich keinen Gedanken daran verschwenden und den Platzhirsch git nutzen. Ich kann mich mit git aber nicht anfreunden. Und vom Funktionsumfang werde ich vermutlich nur einen Bruchteil benötigen. Also mache ich, was ich ganz gut kann. Mir alternative Programme ansehen.</p>
+
+<p>Da ich in einer Kathedrale und nicht auf einem Basar entwicklen werde, habe ich mich spontan für Fossil entschieden. Dieses Tool wird zum Beispiel für die Entwicklung von SQLite verwendet. Zudem sind die Entwickler von SQLite zufällig auch die Entwickler von Fossil. Warum das so ist, kann man unter https://sqlite.org/whynotgit.html nachlesen.</p>
+
+<p>Auch wenn die Bedienung von Fossil Ähnlichkeiten mit der von git aufweist, finde ich Fossil angenehmer zu bedienen.</p>
+
+<pre>
+<code class="language-bash">fossil init ansible #Repository "ansible" erstellen
+fossil open ansible #Repository "ansible" öffnen
+fossil add install.yml #Datei "install.yml" zum Repository hinzufügen
+fossil commit #Änderung bestätigen
+fossil close ansible #Repository "ansible" schließen
+</code></pre>
+
+<p>Fossil bietet natürlich noch weitere Möglichkeiten. Genaueres kann man in der <a href="https://fossil-scm.org/index.html/doc/trunk/www/permutedindex.html">Dokumentation</a> nachlesen. Aber Moment... Warum wird bei obigen Beispiel das Repository geöffnet und geschlossen. An dem Punkt kommen wir zur Besonderheit von Fossil. Ein Repository wird hier in eine SQLite-Datenbank gepackt. Somit wird mit "open" die Verbindung aufgebaut und mit "close" geschlossen. Auf den ersten Blick mit sqlitebrowser macht der Datenbankaufbau keinen schlechten Eindruck.</p>
+
+<p>Abschließend möchte ich noch anmerken, dass Fossil auch über einen grafische Oberfläche verfügt, über die unter anderem eine Timeline der Änderungen, ein Forum und ein Wiki angeboten werden. Im Grunde wie bei Github. Wie das genau aussieht kann man sich auf der <a href="https://fossil-scm.org">offiziellen Seite</a> von Fossil ansehen. Diese läuft mit besagter Oberfläche. Lokal lässt sich diese mit "fossil ui ansible" starten, so dass man das ganze auch einzelner Entwickler intern nutzen kann.</p>
+ ]]></description>
+	</item>
+ 
+	<item>
+		<title>Caddy Webserver</title>
+	    <link>https://fryboyter.de/caddy-webserver</link>
+	   	<guid isPermaLink="false">https://fryboyter.de/caddy-webserver</guid>
+	    <pubDate>Wed, 28 Nov 2018 20:44:00 +0100</pubDate>
+	    <description><![CDATA[ <p>Heutzutage sind die Webserver Apache und nginx weit verbreitet. Selbst nutzt ich nginx um damit eine Paketquelle für selbst erstellte Arch-Pakete im LAN anzubieten. Was die Konfiguration betrifft, kann nginx allerdings etwas umständlich sein.</p>
+
+<p>Heute habe ich mir einmal den Webserver <a href="https://caddyserver.com/">Caddy</a> angesehen. Dieser ist mit Go erstellt und wird seit 2015 aktiv weiterentwickelt. Auf der Downloadseite kann man sich seine eigene Caddy-Datei erstellen in dem man die Plattform wie ARMv7 und eventuelle Plugins auswählt. Ist dies erledigt, wird auch ein Link angezeigt mit dem man sich die Datei mit den gewünschten Einstellungen automatisch herunterladen kann (z. B. https://caddyserver.com/download/linux/arm7?plugins=http.expires&amp;license=personal&amp;telemetry=off). Leider schlägt auch Caddy in die gleiche Kerbe wie Pi Hole und bietet eine alternative Installation in Form von beispielsweise curl https://getcaddy.com | bash -s http.expires an. Das geht eigentlich gar nicht.</p>
+
+<p>Was mir an Caddy besonders gefällt, ist die Konfiguration. So könnte diese zum Beispiel wie folgt aussehen:</p>
+
+<pre class="line-numbers language-bash" style="white-space:pre-wrap;">
+<code class="language-bash">
+192.168.1.2:8888
+root /verzeichnis/zum/Webroot
+gzip
+browse</code></pre>
+
+<p>Der Server ist also über die IP 192.168.1.2 auf Port 8888 erreichbar. Der Webroot ist /verzeichnis/zum/Webroot und gzip sowie Directory Listing sind aktiviert.</p>
+
+<p>Ein Reverse Proxy lässt sich ebenfalls in Sekunden erstellen.</p>
+
+<pre class="line-numbers language-bash" style="white-space:pre-wrap;">
+<code class="language-bash">abc.com {
+    proxy / localhost:8181
+}</code></pre>
+
+<p>Nett finde ich auch die Tatsache, dass Let's Encrypt von Haus aus genutzt wird, ohne etwas machen zu müssen (lässt sich bei Bedarf aber deaktivieren bzw. genauer einstellen). Auf der <a href="https://caddyserver.com/">Seite</a> von Caddy findet man eine leicht Verständliche Dokumentation für den gesamten Server sowie diverse Konfigurationsbeispiele.</p>
+
+<p>Der Sourcecode von Caddy wird unter der Apache Lizenz 2.0 veröffentlicht. Wer die fertigen Binär-Dateien nutzen will, kann dies für den privaten Einsatz kostenlos tun. Im Unternehmensbereich muss allerdings ein monatlicher Beitrag gezahlt werden. Ein Erstellen aus dem Sourcecode ist natürlich kostenlos möglich.</p>
+ ]]></description>
+	</item>
+ 
+	<item>
+		<title>Github - Benachrichtigungen bei neuen Veröffentlichungen</title>
+	    <link>https://fryboyter.de/github-benachrichtigungen-bei-neuen-veroeffentlichungen</link>
+	   	<guid isPermaLink="false">https://fryboyter.de/github-benachrichtigungen-bei-neuen-veroeffentlichungen</guid>
+	    <pubDate>Wed, 28 Nov 2018 12:45:00 +0100</pubDate>
+	    <description><![CDATA[ <p>Will man bei Github darüber informiert werden, sobald ein Projekt eine neue Version veröffentlicht hat, musste man kreativ werden. Wer einen RSS-Reader nutzt, hat es am leichtesten, da es es hier reicht den Link auf die Release-Seite um .atom zu erweitern (z. B. https://github.com/bolt/bolt/releases.atom).</p>
+
+<p>Wer allerdings eine Benachrichtigung per E-Mail bevorzugt (wie ich) der musste noch kreativer werden und beispielsweise gut abgehangene Tools wie <a href="https://github.com/wking/rss2email">rss2email</a> oder vergleichbare Dienste wie <a href="https://ifttt.com/applets/147561p-rss-feed-to-email">IFTTT</a> nutzen. <a href="https://github.com/isaacs/github/issues/410">Feature Requests</a>, die teilweise schon ein paar Jahre alt sind, zeigen aber, dass viele Nutzer es lieber hätten, wenn Github eine solche Benachrichtigung "out of the box" anbieten würde. Viele werden die Hoffnung schon aufgegeben haben. Aber manchmal dauert es "nur" etwas länger. Als ich mich eben bei Github angemeldet hatte, bekam ich einen Hinweis angezeigt, dass man sich nun auch über neue Veröffentlichungen informieren lassen kann. Zu finden ist das ganze unter der Schaltfläche "Watch".</p>
+
+<p><img alt="" src="/files/github-watch.png?c5bb6634b1" style="width: 297px; height: 291px;"></p>
+
+<p>Ich habe bei einigen Projekten die mich interessieren mal "Release only" ausgewählt. Mal schauen was passiert.</p>
+ ]]></description>
+	</item>
+ 
+	<item>
+		<title>Artikelserie oder ein langer Beitrag</title>
+	    <link>https://fryboyter.de/artikelserie-oder-ein-langer-beitrag</link>
+	   	<guid isPermaLink="false">https://fryboyter.de/artikelserie-oder-ein-langer-beitrag</guid>
+	    <pubDate>Sun, 25 Nov 2018 12:20:00 +0100</pubDate>
+	    <description><![CDATA[ <p>Vor einigen Wochen habe ich angefangen mich mit Ansible zu befassen. Der Grund ist, dass ich mehrere Rechner bzw. VM (zum testen bestimmte Sachen wie eben Ansible) verwende und inzwischen auch ziemlich viel alternative Tools nutze. Zum Beispiel ripgrep anstelle von grep, fd und fzf anstelle von find usw.</p>
+
+<p>Gerade bei den VM vergesse ich aber ganz gerne diese Tools zu installieren. Was mich nervt. Ursprünglich hatte ich vor, mittels Ansible nach der Grundinstallation von Arch diverse Sachen nachzuinstallieren. Um so mehr ich mich in Ansible eingearbeitet habe, um so komplexer ist das ganze geworden. Inzwischen bin ich soweit, dass der Plan ist, das Iso von Arch zu booten und ab dann Ansible alles andere übernimmt. Die Grundinstallation, das Installieren der zusätzlichen Programme und deren Konfiguration. Kurz gesagt alles.</p>
+
+<p>Weil das ganze für den einen oder anderen Leser nützliche sein kann (auch für Installationen abseits von Arch), wollte ich auf fryboyter.de einen Artikel darüber veröffentlichen. Da das Projekt jetzt allerdings deutlich umfangreicher geworden ist als ursprünglich geplant, wollte ich an dieser Stelle einmal nachfragen, was euch lieber ist. Ein Artikel in dem ich alle Punkte anspreche (was derdammt umfangreich werden wird, da meine Notizen in Cherrytree schon nicht gerade wenig sind). Oder mehrere Artikel in denen ich Schritt für Schritt vorgehe (was teilweise aber auch nicht mit zwei oder drei Sätzen erledigt ist). Was wäre euch lieber?</p>
+ ]]></description>
+	</item>
+ 
+	<item>
+		<title>Isso - Totgesagte leben länger</title>
+	    <link>https://fryboyter.de/isso-totgesagte-leben-laenger</link>
+	   	<guid isPermaLink="false">https://fryboyter.de/isso-totgesagte-leben-laenger</guid>
+	    <pubDate>Sun, 04 Nov 2018 09:59:00 +0100</pubDate>
+	    <description><![CDATA[ <p>Derzeit nutze ich hier für die Kommentarfunktion <a href="https://posativ.org/isso/">Isso</a>. Isso wurde auf Github, wenn auch langsam, stetig weiterentwickelt. Nur gab es seit September 2016 keine offizielle Veröffentlichung einer neuen Version. Das Warten hat nun aber ein Ende.</p>
+
+<p>Vor ein paar Wochen hat ein Nutzer mal wieder um Veröffentlichung einer neuen Version <a href="https://github.com/posativ/isso/issues/475">gebeten</a>. Im Zuge der Diskussion hat posativ (Gründer von Isso) zwei anderen Entwicklern die nötigen Rechte verpasst damit sie neue Versionen veröffentlichen können, da ihn wohl das echte Leben ziemlich auf Trab hält.</p>
+
+<p>Nach einigen Vorbereitungen ist es nun soweit. In den letzten 24 Stunden wurde Version 0.11.0 und 0.11.1 veröffentlicht und steht nun auch über pip bereit. Ein <a href="https://github.com/posativ/isso/blob/master/CHANGES.rst">Changelog</a> findet man bei Github.</p>
+
+<p>Update: Version 0.11.1 ist nun auf fryboyter.de installiert. Da diese Version nun einen Atom-Feed pro Artikel für die Kommentare anbietet, habe ich den Link auf den allgemeinen selbst erstellten Kommentar-Feed (https://fryboyter.de/feed-fuer-kommentarfunktion) entfernt. Wer trotzdem über Kommentare artikelübergreifend benachrichtigt werden will, kann weiterhin https://fryboyter.de/files/comfeed.xml nutzen, da ich den Cronjob bis auf weiteres laufen lasse.</p>
+
+<p></p>
+ ]]></description>
+	</item>
+ 
+	<item>
+		<title>Hinweis an alle Betreiber von DNS-Resolvern die DNSSEC verwenden</title>
+	    <link>https://fryboyter.de/hinweis-an-alle-betreiber-von-dns-resolvern-die-dnssec-verwenden</link>
+	   	<guid isPermaLink="false">https://fryboyter.de/hinweis-an-alle-betreiber-von-dns-resolvern-die-dnssec-verwenden</guid>
+	    <pubDate>Fri, 05 Oct 2018 15:32:00 +0200</pubDate>
+	    <description><![CDATA[ <p>Der eine oder andere wird sicherlich einen DNS-Resolver im eigenen Netzwerk einsetzen um damit beispielsweise die Anfragen zu beschleunigen oder um die Privatsphäre zu vergrößern. Wer hierbei DNSSEC einsetzt, sollte sich den 11.10.2018 im Kalender anstreichen.</p>
+
+<p>Denn an diesem Tag will ICANN den bisherigen Vertrauensanker (Trust Anchor) gegen einen neuen tauschen. Wer ab dann noch den alten Anker nutzt, wird hinsichtlich DNS ein Problem haben. </p>
+
+<p>Wer zum Beispiel DNSSEC auf seinem Pi Hole nutzt, kann wie folgt nachsehen.</p>
+
+<pre class="line-numbers language-bash">
+<code class="language-bash">cat /etc/dnsmasq.d/01-pihole.conf
+
+...
+
+trust-anchor=.,19036,8,2,49AAC11D7B6F6446702E54A1607371607A1A41855200FD2CE1CDDE32F24E8FB5
+trust-anchor=.,20326,8,2,E06D44B80B8F1D39A95C0B0D7C65D08458E880409BBC683457104237C7F8EC8D
+</code></pre>
+
+<p>Die erste Zeile entspricht hier dem bisherigen Anker und die zweite dem neuen Anker. Somit sollten Pi-Hole-Nutzer nichts von der Umstellung bemerken.</p>
+
+<p>Wer Unbound nutzt, kann mittels unbound-anchor -l nachsehen. Bei den von mir getesteten Versionen 1.6.0-3 (Raspbian) sowie 1.8.0-1 (Arch) ist ebenfalls alles im grünen Bereich. Nutzer anderer DNS-Resolver müssen leider selbst schauen wie sie an die nötigen Informationen kommen.</p>
+
+<p>Wer aber seinen DNS-Resolver händisch installiert hat bzw. diesen schon wirklich lange nicht mehr aktualisiert hat, sollte vorsichtshalber einmal nachsehen. ICANN geht selbst davon aus, dass nach der Umstellung nur eine überschaubare Anzahl an Nutzern betroffen sein werden.</p>
+
+<p></p>
+ ]]></description>
+	</item>
+ 
+	<item>
+		<title>Eigene Paketquelle  für Arch Linux im LAN</title>
+	    <link>https://fryboyter.de/eigene-paketquelle-fuer-arch-linux-im-lan</link>
+	   	<guid isPermaLink="false">https://fryboyter.de/eigene-paketquelle-fuer-arch-linux-im-lan</guid>
+	    <pubDate>Sat, 29 Sep 2018 18:41:00 +0200</pubDate>
+	    <description><![CDATA[ <p>Seit einigen Wochen nutze ich für die Zwischenablage das Tools CopyQ. Als ich heute die über AUR installierten Pakete aktualisiert habe, wurde mir angezeigt. dass CopyQ nun "orphaned" ist. Somit kümmert sich aktuell niemand um die Aktualisierung von CopyQ im AUR.</p>
+
+<p>Wie es der Zufall so will, wurde zwischenzeitlich auch Version 3.6.1 von CopyQ veröffentlicht. Also muss eine Lösung her. Am einfachsten wäre es wohl, die vorhandene PKGBUILD-Datei zu aktualisieren und mir damit Version 3.6.1 lokal zu installieren. Mit folgenden Schritten dauert das keine zwei Minuten.</p>
+
+<ul>
+<li>Mit "curl -o PKGBUILD https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=copyq" die PKGBUILD-Datei von Version 3.6.0 herunterladen</li>
+    <li>In der Datei dann die Version anpassen</li>
+    <li>Mit updpkgsums PKGBUILD die Prüfsumme automatisch anpassen</li>
+</ul>
+<p>Mit makepkg -si PKGBUILD -noconfirm kann man dann das Paket erstellen und installieren. An dieser Stelle ist es mir aber aufgefallen, dass ich CopyQ ja auf mehreren Rechnern / VM nutze. Gut, ich könnte mittels makepkg PKGBUILD einfach das Paket erstellen und dies auf den betreffenden Rechnern / VM installieren. Ich möchte aber möglichst die Rolle des Turnschuadmins vermeiden. Also wie löse ich das Problem?</p>
+
+<p>Der Raspberry Pi auf dem Pi Hole läuft, langweilt sich im Grunde genommen. Auf diesem könnte ich eigentlich eine eigenen Paketquelle für das LAN erstellen. Nur ist auf dem Raspberry Pi Debian installiert, so dass ich die Arch-Tools wie repo-add nicht direkt nutzen kann. Naja wieso einfach wenn es auch kompliziert geht?</p>
+
+<p>Als erstes habe ich auf dem Raspberry Pi ein Verzeichnis erstellt, dass als Paketquelle dienen soll. Dieses habe ich dann unter Arch mittels sshfs gemountet und mittels "repo-add /gemountetes_Verzeichnis/raspberry.db.tar" eine leere Paketquellendatenbank erzeugt. Mit der PKGBUILD-Datei von Version 3.6.0 und makepkg PKGBUILD habe ich dann unter Arch das Paket erstellt und dies in das gemountete Verzeichnis kopiert. Mittels repo-add /gemountetes_Verzeichnis/raspberry.db.tar copyq-3.6.0-1-x86.pkg.tar" habe ich dann die Datenbank aktualisiert. Da man angeblich mit sshfs gemountete Verzeichnisse direkt als Paketquellen nutzen kann, habe ich dann einfach folgenden Eintrag in der /etc/pacman.conf unter Arch erstellt.</p>
+
+<pre class="line-numbers language-bash" style="white-space:pre-wrap;">
+<code class="language-bash">[raspberry]
+SigLevel = Optional
+Server = file:///gemountetes_Verzeichnis</code></pre>
+
+<p>Der Versuch mittels "pacman -Syy" die Paketquellen zu aktualisieren ist aber immer bei der Paketquelle raspberry gescheitert, da die Datenbank nicht gefunden werden kann. Und das obwohl der Pfad stimmt und die Dateien vorhanden sind. Selbst mit etwas Google-Fu konnte ich das Problem nicht lösen.</p>
+
+<p>Da auf dem Raspberry Pi ja bereits lighthttpd für die grafische Oberfläche für Pi Hole läuft, ist mir die Idee gekommen, dass ich die Pakete über lighthttpd anbiete. Aber scheinbar sieht Pi Hole es nicht vor, dass man über lighthttpd noch weitere Dienste anbietet. Oder ich bin zu blöd dafür.</p>
+
+<p>Da sich der Raspberry Pi wirklich langweilt, kann man ja einfach Apache installieren. Nein besser nginx, da dieser weniger Resourcen verbraucht. Gesagt getan. In der Konfigurationsdatei /etc/nginx/sites-available/default habe ich dann bei den beiden Zeilen die mit listen beginnen den Port geändert, da ja bereits lighthttpd auf Port 80 läuft. Die Zeile die mit root beginnt, habe ich dann so geändert, dass hier auf das Verzeichnis verwiesen wird, das als Paketquelle dienen soll. Noch etwas weiter unten habe ich den Block location / um die zwei Zeilen allow 192.168.1.1/24; und deny all; erweitert. Somit kann nur noch jemand aus meinem LAN auf nginx zugreifen. Sicher ist sicher. Mit einem Neustart von nginx sorge ich dafür, dass die Änderungen berücksichtigt werden.</p>
+
+<p>Zurück auf dem Rechner mit Arch, auf dem ich die Paketquelle raspberry eingetragen habe, habe ich hier die dritte Zeile auf Server = IP_DES_RASPBERRY:PORT_VON_NGINX geändert. Mit "pacman -Syy" habe ich dann versucht die Paketquellen zu aktualisieren. Was scheinbar auch funktioniert hat, da ich keine Fehlermeldung erhalten habe. Da CopyQ über AUR installiert wurde, habe ich nun CopyQ deinstalliert und mittels pacman und der Paketquelle raspberry wieder installiert. Auch das hat funktioniert.</p>
+
+<p>Da ich ja Version 3.6.1 installieren möchte, habe ich dann wie oben beschrieben die PKBUILD-Datei angepasst und das aktuelle Paket erzeugt. Dies habe ich dann wieder in das gemountete Verzeichnis gepackt und mit "repo-add /gemountetes_Verzeichnis/raspberry.db.tar copyq-3.6.1-1-x86.pkg.tar" die Datenbank aktualisiert. Als ich dann mittels "pacman -Syu" auf Updates geprüft haben, wurde mir Version 3.6.1 von CopyQ angeboten, welche ich gleich installiert habe.</p>
+
+<p>Abschließend habe ich dann noch bei allen betreffenden Rechnern CopyQ deinstalliert, die neue Paketquelle hinterlegt und aktualisiert und CopyQ über diese neu installiert.</p>
+
+<p>Vermutlich wäre es einfacher gewesen, einfach die Betreuuung von CopyQ im AUR zu übernehmen. Aber das hätte weniger Spaß gemacht. Und wie schon weiter oben angegeben. Warum einfach, wenn es auch kompliziert geht? Zudem kann ich in meiner Paketquelle so viel Mist bauen wie ich willl ohne dafür einen verbalen Einlauf von Dritten zu erhalten. Und ich werde die Paketquelle wohl auch in mein Ansible-Projekt einbauen. Und da ich einige AUR-Pakete installiert habe, deren Betreuer sich oft ziemlich viel Zeit mit dem Aktualisieren lassen, wird es auch nicht bei einem Paket bleiben.</p>
+ ]]></description>
+	</item>
+ 
+	<item>
+		<title>Suche von fzf beschleunigen</title>
+	    <link>https://fryboyter.de/suche-mit-fzf-beschleunigen</link>
+	   	<guid isPermaLink="false">https://fryboyter.de/suche-mit-fzf-beschleunigen</guid>
+	    <pubDate>Tue, 25 Sep 2018 23:53:00 +0200</pubDate>
+	    <description><![CDATA[ <p>Vor einigen Wochen habe ich einen <a href="https://fryboyter.de/fuzzy-finder-fuer-die-zsh">Artikel</a> über fzf veröffentlicht. In diesem habe ich angemerkt, dass fzf zum suchen den Befehl find verwendet, was in bestimmten Fällen nicht gerade schnell ist. Was kann man also dagegen unternehmen?</p>
+
+<p>Die Lösung lautet FZF_DEFAULT_COMMAND und fd. Wie in einem anderen Artikel <a href="https://fryboyter.de/fd-finden-einmal-anders">angemerkt</a> handelt es sich bei fd um eine schnellere Alternative zu find. Damit fzf fd verwendet, trägt man folgendes unter die bereits vorhandenen Einträge für fzf in der .zshrc ein.</p>
+
+<pre class="line-numbers language-bash" style="white-space:pre-wrap;">
+<code class="language-bash">export FZF_DEFAULT_COMMAND='fd --type f'</code></pre>
+
+<p>Wenn man nun noch den Terminal Emulator neu startet bzw. die Konfiguration der zsh neu einliest, sollte fzf deutlich schneller Ergebnisse ausspucken. Anstelle von fd kann man auch <a href="https://fryboyter.de/ripgrep-grep-auf-steroide">ripgrep</a> nutzen. Hier würde der Eintrag zum Beispiel folgendermaßen aussehen.</p>
+
+<pre class="line-numbers language-bash" style="white-space:pre-wrap;">
+<code class="language-bash">export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow'</code></pre>
+
+<p>Das beide Einträge sollten auch unter anderen Shells wie der Bash funktionieren.</p> ]]></description>
+	</item>
+ 
+	<item>
+		<title>Deutschsprachiger Linux-Chat in der Matrix</title>
+	    <link>https://fryboyter.de/deutschsprachiger-linux-chat-in-der-matrix</link>
+	   	<guid isPermaLink="false">https://fryboyter.de/deutschsprachiger-linux-chat-in-der-matrix</guid>
+	    <pubDate>Thu, 20 Sep 2018 19:13:00 +0200</pubDate>
+	    <description><![CDATA[ <p>Wie schon das eine oder andere mal angemerkt, setze ich große Hoffnung auf das <a href="https://matrix.org/blog/home/">Matrix-Protokoll</a> wenn es um Chats geht. Daher rühre ich mal wieder die Werbetrommel und möchte auf den Raum #linuxdeutsch:matrix.org hinweisen.</p>
+
+<p>Im Grunde genommen handelt es sich hierbei nur um einen Raum, in dem es hauptsächlich um Linux geht und in dem deutsch gesprochen wird. Viele werden jetzt vermutlich denken, das das ja nichts besonderes ist. Und ihr habt recht.</p>
+
+<p>Aber... Aktuell sind dort 89 Konten eingeloggt und es wird sogar regelmäßig kommuniziert. Das ist schon mal mehr als es aktuell in vielen IRC-Kanälen und Jabber-Räumen der Fall ist. Zudem ist Matrix eben die Zukunft. Zugegeben die Aussage steht auf dünnem Eis und ist ziemlich subjektiv. Aber sie steht meiner Ansicht nach auf dickerem Eis als Aussagen, dass zum Beispiel Mastodon ein gleichwertiger Ersatz für Facebook ist. Oder das man problemlos anstelle von Twitter twtxt nutzen kann. Aber selbst wenn die Aussagen richtig sind, fehlen trotzdem die Nutzer (auf die Masse bezogen). Matrix kann dies, zumindest teilweise, mit Brücken (die Teil des Konzepts sind) in andere Netzwerke wie IRC oder Slack kompensieren. Somit spielt es im besten Fall keine Rolle was der Gesprächspartner nutzt. Und sind wir mal ehrlich. Jemanden von seinem Netzwerk zu überzeugen funktioniert doch zu 98 Prozent nicht. Lustigerweise kann ich aber, zumindest auf meinen Freundes- und Bekanntenkreis bezogen, die Aussage treffen, dass immer mehr Matrix nutzen.</p>
+ ]]></description>
+	</item>
+
+</channel>
+</rss>
