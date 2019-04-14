@@ -10,10 +10,10 @@ Options -Indexes
   RewriteEngine on
 
 RewriteCond %{HTTP_HOST} ^(www\.)*isso\.fryboyter\.de [NC]
-RewriteRule ^(.*) http://laythos.local.uberspace.de:61303/$1 [P,L]
+RewriteRule ^(.*) https://laythos.local.uberspace.de:61303/$1 [P,L]
 
-  #RewriteCond %{HTTP_HOST} ^www.fryboyter.de [NC]
-  #RewriteRule ^(.*)$ https://fryboyter.de/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^www.fryboyter.de [NC]
+RewriteRule ^(.*)$ https://fryboyter.de/$1 [L,R=301]
 
 RewriteRule ^entrie/(.+)$ https://fryboyter.de/$1 [R=301,L]
 
