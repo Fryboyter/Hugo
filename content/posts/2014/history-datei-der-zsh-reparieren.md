@@ -1,6 +1,6 @@
 ---
 title: History-Datei der ZSH reparieren
-date: 2014-07-12T11:34::00+0100
+date: 2014-07-12T11:34:00+0100
 categories:
 - Linux
 - OSBN
