@@ -101,6 +101,15 @@ p {
     padding: 5px 0 0 0;
 }
 
+.article-cat {
+    font-size: 0.75em;
+    letter-spacing: -0.5px;
+    padding: 5px 0 0 0;
+    background-repeat: no-repeat;
+    background-position: relative;
+    background-image: url('../images/cat.png')
+}
+
 h1 {
     color: #000;
     font-size: 1em;

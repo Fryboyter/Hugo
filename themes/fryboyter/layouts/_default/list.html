@@ -15,7 +15,7 @@
 		{{ range $index, $tag := .Params.tags }}{{ if gt $index 0 }} & {{ end }}<a href="{{ "tags/" | relLangURL }}{{ . | urlize | lower }}" rel="tag">#{{ . }}</a>{{ end }} | <a href="{{ .Permalink }}#isso-thread">Comments</a>
 	{{ end -}}</div>
 	        {{ .Content }}
-	        <div class="article-info">Kategorien: {{- if .Params.categories }}
+	        <div class="article-cat">Kategorien: {{- if .Params.categories }}
 		{{ range $index, $category := .Params.categories }}{{ if gt $index 0 }} & {{ end }}<a href="{{ "categories/" | relLangURL }}{{ . | urlize | lower }}" rel="category">{{ . }}</a>{{ end }}</div>
 	    {{ end }}        
 	        <hr />
