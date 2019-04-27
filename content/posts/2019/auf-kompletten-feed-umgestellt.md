@@ -43,4 +43,4 @@ Hierzu habe ich einfach im Theme-Verzeichnis von Hugo im Unterverzeichnis layout
 </code>
 </pre>
 
-Damit nun der komplette Artikel angezeigt wird, habe ich die Zeile <description>{{ .Summary | html }}</description> auf <description>{{ .Content | html }}</description> geändert. Das war es schon. Die Änderung gilt für die komplette Seite und nicht nur für die Kategorie OSBN.
+Damit nun der komplette Artikel angezeigt wird, habe ich die Zeile &lt;description&gt;{{ .Summary | html }}&lt;/description&gt; auf &lt;description&gt;{{ .Content | html }}&lt;/description&gt; geändert. Das war es schon. Die Änderung gilt für die komplette Seite und nicht nur für die Kategorie OSBN.
