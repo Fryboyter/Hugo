@@ -9,8 +9,9 @@ Options -Indexes
 <IfModule mod_rewrite.c>
   RewriteEngine on
 
-RewriteCond %{HTTP_HOST} ^(www\.)*isso\.fryboyter\.de [NC]
-RewriteRule ^(.*) https://laythos.local.uberspace.de:61303/$1 [P,L]
+# Deaktiviert. Auf Web Backend von uberspace umgestellt
+#RewriteCond %{HTTP_HOST} ^(www\.)*isso\.fryboyter\.de [NC]
+#RewriteRule ^(.*) https://laythos.local.uberspace.de:61303/$1 [P,L]
 
 RewriteCond %{HTTP_HOST} ^www.fryboyter.de [NC]
 RewriteRule ^(.*)$ https://fryboyter.de/$1 [L,R=301]
