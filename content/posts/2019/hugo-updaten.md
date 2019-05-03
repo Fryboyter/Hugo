@@ -1,6 +1,6 @@
 ---
 title: Hugo updaten
-date: 2019-05-03T20:40:35+0200S
+date: 2019-05-03T20:40:35+0200
 categories:
 - OSBN
 - Allgemein
