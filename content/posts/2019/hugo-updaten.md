@@ -14,7 +14,7 @@ Hugo ist auf meine Webspace nicht von Haus aus installiert. Daher muss ich neue 
 <pre class="line-numbers language-bash" style="white-space:pre-wrap;">
 <code class="language-bash">#!/bin/bash
 BIN_DIR=$HOME/bin
-CUR_VERSION="$($BIN_DIR/hugo version 2>/dev/null | cut -d'v' -f2 | cut -c 1-6)"
+CUR_VERSION="$("$BIN_DIR"/hugo version 2>/dev/null | cut -d'v' -f2 | cut -c 1-6)"
 NEW_VERSION=$(curl --silent "https://api.github.com/repos/gohugoio/hugo/tags" | jq -r '.[0].name' | tr -d v)
 
 echo "Hugo:  Aktuelle Version: $CUR_VERSION => Neue Version: $NEW_VERSION"
