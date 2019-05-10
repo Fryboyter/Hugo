@@ -9,7 +9,7 @@ tags:
 - Idioten
 slug: warum-verhalten-wir-uns-so
 ---
-Ich habe gerade ein paar Runden CS:GO Deathmatch hinter mir. In jeder Runde wurde gab es mindestens einen Mitspieler der der Meinung war jemanden heftig beleidigen zu müssen. Was soll der Scheiß?
+Ich habe gerade ein paar Runden CS:GO Deathmatch hinter mir. In jeder Runde gab es mindestens einen Mitspieler der der Meinung war jemanden heftig beleidigen zu müssen. Was soll der Scheiß?
 
 Heutzutage sehen es viele scheinbar für normal an, dass man sich in einem Multiplayer-Spiel Krebs wünscht, dass die eigenen Mutter von Mitspielern gefickt wird oder was auch immer. Es kotzt mich nur noch an. Spätestens jetzt kommt eigentlich immer jemand an, der mir erklärt, dass ich einfach eine dickere Haut brauche. Weil das ist doch normal. Nein, verdammt, das ist es nicht. Früher auf LAN-Partys und beispielsweise Q3A-Servern hat es auch ohne Beleidigungen funktioniert. 
 
