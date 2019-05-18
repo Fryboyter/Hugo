@@ -1,8 +1,17 @@
 baseURL = "https://fryboyter.de/"
+DefaultContentLanguage = "de"
 languageCode = "de-de"
 title = "fryboyter.de"
 theme="fryboyter"
 rssLimit = 20
+
+[languages]
+    [languages.de]
+        languageName = "Deutsche Version"
+        weight = 1
+    [languages.en]
+        languageName = "English version"
+        weight = 2
 
 [permalinks]
   posts = ":slug"
