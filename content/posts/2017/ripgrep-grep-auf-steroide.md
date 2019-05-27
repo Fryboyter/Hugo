@@ -5,6 +5,9 @@ categories:
 - Linux
 - OSBN
 tags:
+- Ripgrep
+- Grep
+- Alternative
 slug: ripgrep-grep-auf-steroide
 ---
 Grep ist wohl das Standardtool um den Inhalt von Dateien zu durchsuchen. Allerdings braucht man oft sehr viele Geduld. Für Ungeduldige gibt es ripgrep.
