@@ -2,8 +2,9 @@
 title: Einmal quer durchs Beet
 date: 2010-05-24T19:31:00+0100
 categories:
-  - Allgemein
+- Allgemein
 tags:
+- Allgemein
 slug: einmal-quer-durchs-beet
 ---
 So nun mal einen (sinnlosen) Sammelbeitrag. Man muss ja nicht für jeden Mist einen eigenen Beitrag schreiben.
