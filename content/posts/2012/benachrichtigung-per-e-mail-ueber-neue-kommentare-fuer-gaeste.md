@@ -2,8 +2,10 @@
 title: Benachrichtigung per E-Mail über neue Kommentare für Gäste
 date: 2012-08-14 12:08:00
 categories:
-  - Allgemein
+- Allgemein
 tags:
+- Benachrichtigung
+- Kommentare
 slug: benachrichtigung-per-e-mail-ueber-neue-kommentare-fuer-gaeste
 ---
 Seit ein paar Minuten haben Gäste, die hier einen Kommentar abgeben, die Möglichkeit sich per E-Mail über neue Kommentare informieren zu lassen. Hierzu bitte einfach den Haken bei "Benachrichtige mich über neue Kommentare zu diesem Artikel" setzen.
