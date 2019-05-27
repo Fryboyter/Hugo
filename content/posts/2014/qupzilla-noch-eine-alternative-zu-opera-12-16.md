@@ -5,6 +5,9 @@ categories:
 - OSBN
 - Allgemein
 tags:
+- QupZilla
+- Alternative
+- Opera
 slug: qupzilla-noch-eine-alternative-zu-opera-12-16
 ---
 Noch immer bin ich auf der Suche nach einem Nachfolger für Opera 12.16. Bisher lege ich immer noch große Hoffnung in den Otter-Browser. Dessen Entwicklung geht zwar stetig aber nicht von heute auf morgen von statten. Von daher habe ich mich mal wieder auf die Suche gemacht und habe [QupZilla](http://www.qupzilla.com "QupZilla") gefunden. Dieser Browser ist neben Linux auch für FreeBSD, Mac OS X, OS/2, Windows und Haiku zu haben.
