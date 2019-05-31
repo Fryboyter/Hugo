@@ -3,10 +3,10 @@ title: Convert Git to Mercurial
 date: 2019-05-04T01:45:03+0200
 categories:
 - OSBN
-- Allgemein
+- General
 tags:
 - Git
-- Konvertieren
+- Convert
 - Mercurial
 slug: convert-git-to-mercurial
 ---
