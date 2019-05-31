@@ -1,5 +1,5 @@
 ---
-title: Fryboyter wird nun mit Hugo erzeugt
+title: Fryboyter is now generated with Hugo
 date: 2019-04-07T20:44:00+0100
 categories:
 - OSBN
@@ -8,7 +8,7 @@ tags:
 - Fryboyter
 - Hugo
 - Git
-slug: fryboyter-wird-nun-mit-hugo-erzeugt
+slug: fryboyter-is-now-generated-with-hugo
 ---
 So far I have used the CMS [Bolt](https://bolt.cm/) for fryboyter.de. Basically I am satisfied with it. But somehow I have lately less and less desire to install the updates.
 
