@@ -184,13 +184,13 @@ h5 {
     display: block;
     margin: 8px 0;
     padding: 0;
-    border: 1px solid #DDD;
+/*    border: 1px solid #DDD; */
 }
 
 .pagination ul li {
     float: left;
     list-style-type: none;
-    border-right: 1px solid #DDD;
+/*    border-right: 1px solid #DDD; */
     padding: 4px 6px;
 }
 
