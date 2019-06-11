@@ -1,6 +1,6 @@
 ---
 title: Impressum
-date: 2019-06-11T18:57:46+0200
+date: 2019-06-11T19:12:45+0200
 sitemap_exclude: true
 slug: impressum
 ---

@@ -1,6 +1,6 @@
 ---
 title: Datenschutz
-date: 2019-06-11T18:57:58+0200
+date: 2019-06-11T19:12:09+0200
 sitemap_exclude: true
 slug: datenschutz
 ---
