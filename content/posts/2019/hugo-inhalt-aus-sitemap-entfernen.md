@@ -3,6 +3,7 @@ title: "Hugo - Inhalt aus Sitemap entfernen"
 date: 2019-06-11T20:00:54+0200
 categories:
 - Allgemein
+- OSBN
 tags:
 - Hugo
 - Sitemap
