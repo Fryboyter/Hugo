@@ -1,4 +1,3 @@
 User-agent: *
-Disallow: /pages/impressum
-Disallow: /pages/datenschutz
+Disallow:
 Sitemap: https://fryboyter.de/sitemap.xml
