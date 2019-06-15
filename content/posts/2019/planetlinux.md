@@ -1,6 +1,6 @@
 ---
 title: Planetlinux
-date: 2019-05-18T14:19:00+0200
+date: 2019-06-158T16:35:00+0200
 categories:
 - OSBN
 - Allgemein
