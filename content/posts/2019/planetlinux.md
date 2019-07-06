@@ -8,6 +8,7 @@ tags:
 - Planetlinux
 - Projekt
 - OSBN
+nocomments: true
 slug: planetlinux
 ---
 Vor einiger Zeit habe ich von einem OSBN-Mitglied die Domain planetlinux.de übernommen. Ideen waren damals genug vorhanden. Zum Beispiel eine Seite ähnlich Distrowatch auf der diverse Distributionen vorgestellt werden. Oder so etwas wie Linuxjourney. Nur eben in deutscher Sprache.
