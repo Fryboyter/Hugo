@@ -26,8 +26,8 @@ Damit wird die Eingabemaske aber immer angezeigt. Wie kann man also verhindern, 
 
 <pre class="line-numbers language-bash" style="white-space:pre-wrap;">
 <code class="language-bash">{{ if ne .Params.nocomments true }}
-    &lt;section id=&quot;isso-thread&quot; data-title=&quot;{{ .Title }}&quot;&gt;&lt;/section&gt;
-                        &lt;noscript&gt;&lt;p&gt;Die Kommentarfunktion kann nur mit aktiviertem Javascript genutzt werden&lt;/p&gt;&lt;/noscript&gt;
+&lt;section id=&quot;isso-thread&quot; data-title=&quot;{{ .Title }}&quot;&gt;&lt;/section&gt;
+&lt;noscript&gt;&lt;p&gt;Die Kommentarfunktion kann nur mit aktiviertem Javascript genutzt werden&lt;/p&gt;&lt;/noscript&gt;
 {{ else }}
 &lt;p&gt;Die Kommentarfunktion ist f&uuml;r diesen Artikel deaktiviert&lt;/p&gt;
 {{ end }}
