@@ -233,7 +233,7 @@ blockquote p {
 
 a[href^="http://"]:not([href*="fryboyter.de"]):after,
 a[href^="https://"]:not([href*="fryboyter.de"]):after {
-content: "" url('../images/extern.png');
+content: "" url('../images/extern.svg');
 padding-left:5px;
 }
 
