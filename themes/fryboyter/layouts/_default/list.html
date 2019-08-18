@@ -8,13 +8,7 @@
 	    <div class="row">
 	        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-     {{ $pages := .Pages }}
-    {{ if .IsHome }}
-    {{ $pages = .Site.RegularPages }}
-    {{ end }}
-    {{ $paginator := .Paginate $pages 5 }}
-
-	<!-- {{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") 5 }} -->
+    {{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") 5 }}
 	{{ range $paginator.Pages }}
 	        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
 	        <div class="article-info">Veröffentlicht am {{ .Date.Format "02.01.2006" }} | <a href="{{ .Permalink }}#isso-thread">Comments</a> {{ if .IsTranslated }} {{ range .Translations }} | <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a> {{ end}}{{ end }}</div>
