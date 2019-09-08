@@ -8,7 +8,7 @@
 	    <div class="row">
 	        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 	        <h2>{{ .Title }}</h2>
-	        <div class="article-info">Veröffentlicht am {{ .Date.Format "02.01.2006" }} | <a href="{{ .Permalink }}#isso-thread">Comments</a> {{ if .IsTranslated }} {{ range .Translations }} | <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a> {{ end}}{{ end }}</div>
+	        <div class="article-info">Veröffentlicht am {{ .Date.Format "02.01.2006" }} | <a href="{{ .Permalink }}#isso-thread">Comments</a> {{ if .IsTranslated }} {{ range .Translations }} | <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a> {{ end}}{{ end }} | <a href="{{.Site.Params.ghrepo}}edit/master/content/{{.File.Path}}" >Bei Github bearbeiten</a></div>
 	        {{ .Content }}
 	        <div class="article-cat">{{- if .Params.categories }}
 		    {{ range $index, $category := .Params.categories }}{{ if gt $index 0 }} | {{ end }}<a href="{{ "categories/" | relLangURL }}{{ . | urlize | lower }}" rel="category">{{ . }}</a>{{ end }}</div>
