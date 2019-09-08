@@ -7,7 +7,7 @@ rssLimit = 20
 
 [params]
   mainSections = ["posts"]
-
+  ghrepo = "https://github.com/Fryboyter/Hugo/"
 [languages]
     [languages.de]
         languageName = "Deutsche Version"
