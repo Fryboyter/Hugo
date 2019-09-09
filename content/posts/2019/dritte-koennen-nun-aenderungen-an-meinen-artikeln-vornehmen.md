@@ -26,7 +26,7 @@ ghrepo = "https://github.com/Fryboyter/Hugo/"
 Als nächstes habe ich das verwendete Theme (single.html und list.html) von fryboter.de wie folgt erweitert.
 
 <pre class="line-numbers language-bash" style="white-space:pre-wrap;">
-<code class="language-bash">| <a href="{{.Site.Params.ghrepo}}edit/master/content/{{.File.Path}}" >Bei Github bearbeiten</a>
+<code class="language-bash">| &lt;a href=&quot;{{.Site.Params.ghrepo}}edit/master/content/{{.File.Path}}&quot; &gt;Bei Github bearbeiten&lt;/a&gt;
 </code>
 </pre>
 
