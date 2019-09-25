@@ -7,7 +7,7 @@
     </li>
     {{- end -}}
     <li class="page-item{{ if not $pag.HasPrev }} disabled{{ end }}">
-    <a {{- if $pag.HasPrev -}}href="{{ $pag.Prev.URL }}"{{- end }} class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+    <a {{ if $pag.HasPrev -}}href="{{ $pag.Prev.URL }}"{{- end }} class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
     </li>
     {{- $ellipsed := false -}}
     {{- $shouldEllipse := false -}}
