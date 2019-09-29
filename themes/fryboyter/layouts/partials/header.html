@@ -36,12 +36,10 @@
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}"/>
     <link rel="stylesheet" href="{{ "css/prism.css" | relURL }}"/>
     <script src="{{ "js/prism.js" | relURL }}"></script> 
-    {{- if .IsPage }}
     {{- if eq .Site.Language.Lang "de" }}
     <script data-isso="https://isso.fryboyter.de/" data-isso-css="false" data-isso-lang="de" data-isso-max-comments-top="inf" data-isso-max-comments-nested="inf" data-isso-vote="false" data-isso-reply-notifications="true" src="https://isso.fryboyter.de/js/embed.min.js"></script>
     {{- else }}
     <script data-isso="https://isso.fryboyter.de/" data-isso-css="false" data-isso-lang="en" data-isso-max-comments-top="inf" data-isso-max-comments-nested="inf" data-isso-vote="false" data-isso-reply-notifications="true" src="https://isso.fryboyter.de/js/embed.min.js"></script>
-    {{ end -}}
     {{ end -}}
     <title> {{ if .IsHome }} {{ .Site.Title }} {{ else }} {{ .Title }} {{ end }} </title>
 </head>
