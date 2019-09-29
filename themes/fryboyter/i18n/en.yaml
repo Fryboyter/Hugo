@@ -1,0 +1,6 @@
+- id: postedOnDate
+  translation: "Published on"
+- id: github
+  translation: "Edit on Github"
+- id: related
+  translation: "These articles could also be interesting:"
