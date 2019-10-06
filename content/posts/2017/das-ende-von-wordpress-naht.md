@@ -14,7 +14,7 @@ Vor einigen Monaten hatte ich hier schon mal geschrieben, dass ich Wordpress den
 
 Seit heute bin ich quasi in der Beta-Phase angekommen. Was das Template betrifft, habe ich es bewusst schlicht gehalten. Und das nicht nur weil ich von Grafikbearbeitung keine Ahnung habe.
 
-<a href="/files/fryboyter_beta.png"><img alt="Fryboyter Beta" src="/files/fryboyter_beta-300x186.png" style="width: 300px; height: 186px;\"></a>
+<a href="/files/fryboyter_beta.png"><img alt="Fryboyter Beta" src="/files/fryboyter_beta-300x186.png" style="width: 300px; height: 186px;"></a>
 
 Das Template an sich ist aktuell gerade mal 18 KB groß und besteht aus 10 Dateien (inkl. Bilddateien, exklusive Webfonts). Allerdings blähen die eingebetten Webfonts (EOT, SVG, TTF, WOFF und WOFF2) das ganz auf 1,9 MB auf. Bezüglich der CSS-Datei lässt sich vermutlich noch das eine oder andere KB einsparen, da viele Einträge nicht genutzt werden.
 

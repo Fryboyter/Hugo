@@ -12,7 +12,7 @@ Etwas kann ich guten Gewissens zugeben. Meine Fähigkeiten bezüglich Grafikbear
 
 Von daher starte ich hiermit mal einen absolut eigennützigen Aufruf. Wer würde ich bereit erklären aus Totenkopf-Logo einen interessanten Header zu basteln?
 
-<img alt="" src="/files/skull_klein.png" style=\"width: 150px; height: 125px;\">
+<img alt="" src="/files/skull_klein.png" style="width: 150px; height: 125px;">
 
 Das Bild an sich kann frei verwendet werden (ich habe dies bereits mit dem Ersteller der Grafik abgeklärt).
 

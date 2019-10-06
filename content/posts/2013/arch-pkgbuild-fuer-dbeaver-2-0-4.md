@@ -16,18 +16,18 @@ Wie schon [hier](https://fryboyter.de/alternative-zu-mysql-workbench "Alternativ
 pkgname=dbeaver
 pkgver=2.0.4
 pkgrel=1
-pkgdesc="a free universal database tool for developers and database administrators"
-arch=('i686' 'x86_64')
-url="http://dbeaver.jkiss.org/"
-license=("Freeware")
-depends=('java-runtime>=1.6' 'gtk2')
-makedepends=('unzip')
-if [ "$CARCH" = "i686" ];
-then source=(http://dbeaver.jkiss.org/files/dbeaver-$pkgver-linux.gtk.x86.zip dbeaver.desktop) md5sums=('298d4ced68e90dce75f896802c01b0a0')
+pkgdesc=&quot;a free universal database tool for developers and database administrators&quot;
+arch=(&#039;i686&#039; &#039;x86_64&#039;)
+url=&quot;http://dbeaver.jkiss.org/&quot;
+license=(&quot;Freeware&quot;)
+depends=(&#039;java-runtime&gt;=1.6&#039; &#039;gtk2&#039;)
+makedepends=(&#039;unzip&#039;)
+if [ &quot;$CARCH&quot; = &quot;i686&quot; ];
+then source=(http://dbeaver.jkiss.org/files/dbeaver-$pkgver-linux.gtk.x86.zip dbeaver.desktop) md5sums=(&#039;298d4ced68e90dce75f896802c01b0a0&#039;)
 else
-source=(http://dbeaver.jkiss.org/files/dbeaver-$pkgver-linux.gtk.x86_64.zip dbeaver.desktop) md5sums=('02ba30d3e38e2700081d5bd88d47aed5')
+source=(http://dbeaver.jkiss.org/files/dbeaver-$pkgver-linux.gtk.x86_64.zip dbeaver.desktop) md5sums=(&#039;02ba30d3e38e2700081d5bd88d47aed5&#039;)
 fi
-md5sums+=('6944e8324464e5802ddf6292026593d6')
+md5sums+=(&#039;6944e8324464e5802ddf6292026593d6&#039;)
 
 build() {
 mkdir -p $pkgdir/opt/
@@ -41,4 +41,4 @@ install -m 644 $srcdir/dbeaver.desktop $pkgdir/usr/share/applications/
 </code>
 </pre>
 
-Die Installation funktioniert und das Programm an sich auch. Soviel kann ich also nicht versaut haben. Naja im Grunde genommen habe ich ja nur die MD5-Summen sowie die pkgver-Zeile angepasst. Die letzte Zeile bei dem MD5-Summen (die mit dem +) ist übrigens für die Datei dbeaver.desktop über die ein Eintrag im Startmenü erzeugt wird. Wer sich keine Arbeit machen will, findet die Dateien unter [https://spideroak.com/browse/share/datengrab/FryBoyter](https://spideroak.com/browse/share/datengrab/FryBoyter\). Nutzung, wie immer, auf eigene Gefahr und ohne Gewähr (und Gewehr).
+Die Installation funktioniert und das Programm an sich auch. Soviel kann ich also nicht versaut haben. Naja im Grunde genommen habe ich ja nur die MD5-Summen sowie die pkgver-Zeile angepasst. Die letzte Zeile bei dem MD5-Summen (die mit dem +) ist übrigens für die Datei dbeaver.desktop über die ein Eintrag im Startmenü erzeugt wird. Wer sich keine Arbeit machen will, findet die Dateien unter [https://spideroak.com/browse/share/datengrab/FryBoyter](https://spideroak.com/browse/share/datengrab/FryBoyter). Nutzung, wie immer, auf eigene Gefahr und ohne Gewähr (und Gewehr).

@@ -14,6 +14,6 @@ Wie viele andere Nutzer auch, setze ich zwei Monitore ein. Einmal den direkt vor
 
 Nachdem ich Google einige Zeit erfolglos gequält habe, habe ich die Lösung dann durch Versuch und Irrtum gefunden. Als erstes entsperrt man die Miniprogramme. Hierzu macht man einfach einen Rechtsklick auf den Desktop und wählt "Miniprogramme entsperren" aus. Danach sollten in der Kontrollleiste ganz rechts drei übereinander liegende Striche erscheinen. Wenn diese schon angezeigt werden, kann man sich diesen Schritt auch sparen. Als nächstes klickt man auf die drei Striche. Hier sollte man dann folgende Anzeige bekommen.
 
-<a href="/files/Plasma_verschieben.png"><img alt="Plasma_verschieben" src="/files/Plasma_verschieben.png" style="width: 300px; height: 31px;\"></a>
+<a href="/files/Plasma_verschieben.png"><img alt="Plasma_verschieben" src="/files/Plasma_verschieben.png" style="width: 300px; height: 31px;"></a>
 
 Entscheidend ist hier der Punkt "Bildschirmkante". Klickt man auf diesen, passiert erst mal gar nichts. OK... Man muss nämlich darauf Klicken und die Maustaste gedrückt halten. Dann kann man die Kontrollleiste mit der Maus an die gewünschte Bildschirmkante verschieben. So sehr wie ich KDE bevorzuge... Aber wirklich aussagekräftig ist "Bildschirmkante" nun wirklich nicht. Vor allem weil es im Kontrollzentrum auch den Punkt "Bildschirmränder" gibt. Dort kann man z. B. einstellen dass wenn man mit dem Mauszeiger in die linke obere Ecke des Desktop fährt der Desktop gesperrt wird. Ober dass ein Fenster maximiert wird, wenn man es an den oberen Rand zieht usw.

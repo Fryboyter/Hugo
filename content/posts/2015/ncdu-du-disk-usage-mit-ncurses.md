@@ -16,4 +16,4 @@ Der Befehl du ist vermutlich vielen Nutzern von Linux ein Begriff. Damit lässt 
 
 Alternativ dazu kann man auch ncdu nutzen. Hiermit werden nicht alle Unterverzeichnisse auf einen Schlag angezeigt sondern nur die oberste Ebene. Mittels den Pfeil- und noch ein paar anderen Tasten kann man dann in den Unterverzeichnissen "browsen".
 
-<a href="/files/ncdu2.png"><img alt="ncdu2" src="/files/ncdu2.png" style="width: 300px; height: 131px;">
+<a href="/files/ncdu2.png"><img alt="ncdu2" src="/files/ncdu2.png" style="width: 300px; height: 131px;"></a>

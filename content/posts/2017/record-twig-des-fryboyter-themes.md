@@ -10,7 +10,7 @@ slug: record-twig-des-fryboyter-themes
 ---
 In meinem letzten [Artikel](https://fryboyter.de/index-twig-des-fryboyter-themes) habe ich die Datei index.twig meines Twig-Themes erklärt. Jetzt ist die Datei record.twig an der Reihe. Diese ist teilweise identisch mit der index.twig.
 
-<pre class="line-numbers" style="white-space:pre-wrap;\">
+<pre class="line-numbers" style="white-space:pre-wrap;">
 <code class="language-twig">{% include '_header.twig' %}
 &lt;div class=&quot;header&quot;&gt;&lt;h1&gt;&lt;a href=&quot;{{ paths.hosturl }}&quot;&gt;Fryboyter&lt;/a&gt;&lt;/h1&gt;&lt;/div&gt;
     &lt;div class=&quot;container&quot;&gt;

@@ -35,7 +35,7 @@ Was aber, wenn nun jemand die deutschsprachige Version aufruft, aber kein Deutsc
 
 <pre class="line-numbers language-bash" style="white-space:pre-wrap;">
 <code class="language-bash">{{ if .IsTranslated }}
-	{{ range .Translations }} | <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a> {{ end}}
+	{{ range .Translations }} | &lt;a href=&quot;{{ .Permalink }}&quot;&gt;{{ .Language.LanguageName }}&lt;/a&gt; {{ end}}
 {{ end }}
 </code>
 </pre>

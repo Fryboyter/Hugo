@@ -17,7 +17,9 @@ Als Terminal-Emulator setze ich, wie in [einem anderen Artikel](https://fryboyte
 
 Um das zu ändern, muss man die Datei .zshrc anpassen, welche man im Home-Verzeichnis findet. In dieser fügt man folgendes ein.
 
-<pre><code class=\"language-bash\">case $TERM in xterm*) precmd () {print -Pn \"\\e]0;%~\\a\"} ;; esac</code></pre>
+<pre class="line-numbers" style="white-space:pre-wrap;">
+<code class="language-bash">case $TERM in xterm*) precmd () {print -Pn \&quot;\\e]0;%~\\a\&quot;} ;; esac</code>
+</pre>
 
 Speichert man die Date nun und öffnet eine neue Instanz von Terminator, erhält man folgenden Titel angezeigt.
 

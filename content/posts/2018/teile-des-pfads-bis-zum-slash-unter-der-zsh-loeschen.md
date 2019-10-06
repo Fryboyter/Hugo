@@ -12,7 +12,7 @@ Nehmen wir einmal an, dass in der Historie der ZSH der Befehl "cd /home/nutzer/D
 
 Eine Möglichkeit wäre, den Befehl aus der Historie aufzurufen und einfach Filme/Action zu löschen bevor man den Befehl ausführt. Oder man drückt einfach ALT + Backspace. Hier macht die ZSH allerdings Probleme. Anstelle bis beispielsweise rückwärts bis zum nächsten Slash zu löschen, wird bis zum nächsten Leerzeichen gelöscht. Somit wird aus "cd /home/nutzer/Downloads/Filme/Action" mit nur einem Shortcut "cd". Irgendwie blöd. Also muss mal wieder meine .zshrc erweitert werden. In diese habe ich folgende Funktion gepackt.
 
-<pre class="line-numbers" style="white-space:pre-wrap;\">
+<pre class="line-numbers" style="white-space:pre-wrap;">
 <code class="language-bash">function backward-kill-partial-word {
          local WORDCHARS="${WORDCHARS//[\/.]/}"
          zle backward-kill-word "$@"

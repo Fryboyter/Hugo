@@ -19,7 +19,7 @@ Im Grunde also ein Wert, bei dem zumindest ich nicht meckern kann. Dank meines S
 
 <pre class="line-numbers" style="white-space:pre-wrap;">
 <code class="language-bash">systemd-analyze blame
-2802ms systemd-readahead-collect.service<
+2802ms systemd-readahead-collect.service
 2756ms systemd-readahead-collect.service systemd-readahead-replay.service
 2727ms systemd-logind.service
 2669ms media-WindowsD.mount

@@ -38,4 +38,4 @@ Die derzeitige Optik ist ebenfalls ziemlich gewöhnungsbedürftig. Hier sollte e
 
 Kurz gesagt, wer Opera bis Version 12 genutzt hat, sollte sich einmal Vivaldi ansehen. Aber immer daran denken, dass es sich um eine Technical-Preview-Version handelt.
 
-Der Browser ist für Windows, Linux und Mac OS erhältlich und kann unter [https://vivaldi.com/]("https://vivaldi.com "https://vivaldi.com") heruntergeladen werden. Unter [https://vivaldi.net](https://vivaldi.net "https://vivaldi.net") findet man die Community-Seite. Dort kann ein eigenes Blog erstellen und später auch die Mailfunktion nutzen. Ein Forum findet man dort ebenfalls. Kommt ehemaligen Opera-Nutzern vermutlich irgendwie bekannt vor.
+Der Browser ist für Windows, Linux und Mac OS erhältlich und kann unter [https://vivaldi.com/](https://vivaldi.com "https://vivaldi.com") heruntergeladen werden. Unter [https://vivaldi.net](https://vivaldi.net "https://vivaldi.net") findet man die Community-Seite. Dort kann ein eigenes Blog erstellen und später auch die Mailfunktion nutzen. Ein Forum findet man dort ebenfalls. Kommt ehemaligen Opera-Nutzern vermutlich irgendwie bekannt vor.

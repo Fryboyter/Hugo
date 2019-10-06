@@ -24,4 +24,4 @@ Mausgesten sind ja ganz wichtig. Zumindest für mich. Hier gibt es allerdings di
 
 So zum Abschluss hier noch ein paar Screenshots des Browsers.
 
-<a href="/files/QupZilla1.png"><img alt="QupZilla1" src="/files/QupZilla1.png" style="width: 300px; height: 162px;"></a> <a href="/files/QupZilla2.png"><img alt="QupZilla2" src="/files/QupZilla2.png" style="width: 300px; height: 206px;"></a> <a href="/files/QupZilla3.png"><img alt="QupZilla3" src="/files/QupZilla3.png" style="width: 300px; height: 162px;">
+<a href="/files/QupZilla1.png"><img alt="QupZilla1" src="/files/QupZilla1.png" style="width: 300px; height: 162px;"></a> <a href="/files/QupZilla2.png"><img alt="QupZilla2" src="/files/QupZilla2.png" style="width: 300px; height: 206px;"></a> <a href="/files/QupZilla3.png"><img alt="QupZilla3" src="/files/QupZilla3.png" style="width: 300px; height: 162px;"></a>

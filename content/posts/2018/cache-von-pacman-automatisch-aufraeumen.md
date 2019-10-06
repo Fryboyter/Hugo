@@ -17,7 +17,7 @@ Leert man das Verzeichnis nicht regelmäßig kann es sein, dass irgendwann die F
 
 Um bei dem Beispiel mit Cache zu bleiben, erstellen wir erst einmal das Verzeichnis /etc/pacman.d/hooks sofern es nicht schon vorhanden ist. In diesem erstellen wir dann eine Datei an deren Ende .hook stehen muss. Also beispielsweise pacman-cache-aufraeumen.hook. In diese kommt dann folgender Inhalt:
 
-<pre class="line-numbers style="white-space:pre-wrap;">
+<pre class="line-numbers" style="white-space:pre-wrap;">
 <code class="language-bash">[Trigger]
 Operation = Remove
 Operation = Install

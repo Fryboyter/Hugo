@@ -21,7 +21,7 @@ Gestern bin ich auf ein interessantes Projekt gestoßen, mit dem man die Install
 # INSTRUCTIONS -----------------------------------------------------------
 # boot into Arch Install media and run (for this script only):
 #
-# curl https://raw.github.com/altercation/archblocks/master/sample_laptop.sh" > install.sh
+# curl https://raw.github.com/altercation/archblocks/master/sample_laptop.sh&quot; &gt; install.sh
 # (...manually review the code! look at the blocks in the repo, then...)
 # bash install.sh
 # RESPOSITORY ------------------------------------------------------------ REMOTE=https://raw.github.com/altercation/archblocks/master
@@ -34,13 +34,13 @@ FONT_MAP=8859-1_to_uni
 LANGUAGE=en_US.UTF-8
 KEYMAP=us
 TIMEZONE=US/Pacific
-MODULES="dm_mod dm_crypt aes_x86_64 ext2 ext4 vfat intel_agp drm i915"
-HOOKS="base udev autodetect pata scsi sata usb usbinput consolefont encrypt filesystems fsck" #KERNEL_PARAMS="quiet" # set/used in FILESYSTEM,INIT,BOOTLOADER blocks (this gets added to)
-INSTALL_DRIVE=query # "/dev/sda" "query" or blank (blank is the same as "query")
+MODULES=&quot;dm_mod dm_crypt aes_x86_64 ext2 ext4 vfat intel_agp drm i915&quot;
+HOOKS=&quot;base udev autodetect pata scsi sata usb usbinput consolefont encrypt filesystems fsck&quot; #KERNEL_PARAMS=&quot;quiet&quot; # set/used in FILESYSTEM,INIT,BOOTLOADER blocks (this gets added to)
+INSTALL_DRIVE=query # &quot;/dev/sda&quot; &quot;query&quot; or blank (blank is the same as &quot;query&quot;)
 
 # as git, hg, svn and execute shell scripts automatically.
 # list a url to use as a mr config file and archblocks core install will
-# su to the new user's (USERNAME above) home and bootstrap using it.
+# su to the new user&#039;s (USERNAME above) home and bootstrap using it.
 # mr will be installed if this variable is set. # MR_BOOTSTRAP=https://raw.github.com/altercation/es-etc/master/vcs/.mrconfig
 # BLOCKS -----------------------------------------------------------------
 TIME=common/time_ntp_utc
@@ -53,12 +53,12 @@ NETWORK=network/wired_wireless_default
 #VIDEO=xorg/video_mesa_default
 #DESKTOP=xorg/desktop_xmonad_minimal
 #HARDWARE=hardware/laptop/lenovo_thinkpad_x220
-#APPSETS="appsets/cli_hardcore appsets/vim_basics appsets/mutt_basics appsets/git_basics appsets/server_utils"
-# if you don't want to create a new block, you can specify extra packages from official repos or AUR here
-PACKAGES="urxvt"
-AURPACKAGES="urxvi urxvtcd urxvtcd"
+#APPSETS=&quot;appsets/cli_hardcore appsets/vim_basics appsets/mutt_basics appsets/git_basics appsets/server_utils&quot;
+# if you don&#039;t want to create a new block, you can specify extra packages from official repos or AUR here
+PACKAGES=&quot;urxvt&quot;
+AURPACKAGES=&quot;urxvi urxvtcd urxvtcd&quot;
 # EXECUTE ----------------------------------------------------------------
-. <(curl -fsL "${REMOTE}/blocks/_lib/helpers.sh"); _loadblock "_lib/core"</code>
+. &lt;(curl -fsL &quot;${REMOTE}/blocks/_lib/helpers.sh&quot;); _loadblock &quot;_lib/core&quot;</code>
 </pre>
 
 
@@ -81,7 +81,7 @@ _installpkg wpa_actiond # (optional) - for automatic wireless connections throug
 _daemon_remove network
 _daemon_add net-auto-wireless net-auto-wired ifplugd net-profiles
 mv /etc/wpa_supplicant/wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant.conf.orig
-echo -e "ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=network\nupdate_config=1" > /etc/wpa_supplicant/wpa_supplicant.conf</code>
+echo -e &quot;ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=network\nupdate_config=1&quot; &gt; /etc/wpa_supplicant/wpa_supplicant.conf</code>
 </pre>
 
 

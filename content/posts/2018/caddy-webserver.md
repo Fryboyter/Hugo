@@ -30,7 +30,7 @@ Ein Reverse Proxy lässt sich ebenfalls in Sekunden erstellen.
 <code class="language-bash">abc.com {
     proxy / localhost:8181
 }</code>
-</pre>\
+</pre>
 
 Nett finde ich auch die Tatsache, dass Let's Encrypt von Haus aus genutzt wird, ohne etwas machen zu müssen (lässt sich bei Bedarf aber deaktivieren bzw. genauer einstellen). Auf der [Seite](https://caddyserver.com) von Caddy findet man eine leicht Verständliche Dokumentation für den gesamten Server sowie diverse Konfigurationsbeispiele.
 
