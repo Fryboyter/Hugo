@@ -2,8 +2,9 @@
 <footer>
 	<div class="links"><a href="https://gohugo.io/" target="_blank" rel="noreferrer" title="Hugo is one of the most popular open-source static site generators">{{ i18n "hugoCreated" }}</a> | <a href="{{ "pages/impressum" | relURL }}"  target="_blank" title="{{ i18n "imprint" }}">{{ i18n "imprint" }}</a> | <a href="{{ "pages/datenschutz" | relURL }}" target="_blank" title="{{ i18n "privacypol" }}">{{ i18n "privacypol" }}</a>
         <form name="search" action="//duckduckgo.com/">
+	        <label class="sr-only" for="search">Search</label>
 	        <div>
-	            <input type="search" class="form-control" placeholder="DuckDuckGo" name="q">
+	            <input type="search" class="form-control" placeholder="DuckDuckGo" name="q" id="search">
 	            <input type="hidden" value="fryboyter.de" name="sites">
 	            <input type="hidden" value="1" name="kh">
 	            <input type="hidden" value="1" name="kn">
