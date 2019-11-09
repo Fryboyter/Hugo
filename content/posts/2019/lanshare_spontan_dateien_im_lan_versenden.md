@@ -12,7 +12,7 @@ slug: lanshare-spontan-dateien-im-lan-versenden
 ---
 Vor ein paar Tagen habe ich mir auf mein Notebook etwas heruntergeladen, dass ich schlussendlich auf einem anderen Rechner benötigt habe. Um nicht wieder den Turnschuhadmin spielen zu müssen, habe ich mich gefragt welche Möglichkeiten es gibt Dateien möglichst ohne größeren Aufwand von Rechner X auf Rechner Y zu kopieren.
 
-Der Bequemlichkeit halber bin ich bei LAN Share gelandet. Das Tool hat nur die Aufgabe Dateien bzw. ganze Verzeichnisse von einem Rechner zum anderen im LAN zu transferieren. Ideal wenn man nur alle paar Monate mal etwas spontan kopieren will.
+Der Bequemlichkeit halber bin ich bei [LAN Share](https://github.com/abdularis/LAN-Share) gelandet. Das Tool hat nur die Aufgabe Dateien bzw. ganze Verzeichnisse von einem Rechner zum anderen im LAN zu transferieren. Ideal wenn man nur alle paar Monate mal etwas spontan kopieren will.
 
 ![LAN Share](/files/LANShare.png)
 
