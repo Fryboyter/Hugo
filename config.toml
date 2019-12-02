@@ -7,6 +7,12 @@ rssLimit = 20
 [params]
   mainSections = ["posts"]
   ghrepo = "https://github.com/Fryboyter/Hugo/"
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+
 [languages]
     [languages.de]
         languageName = "Deutsche Version"
