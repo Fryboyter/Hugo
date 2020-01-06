@@ -5,8 +5,8 @@ theme="fryboyter"
 rssLimit = 20
 
 [params]
-  mainSections = ["posts"]
-  ghrepo = "https://github.com/Fryboyter/Hugo/"
+    mainSections = ["posts"]
+    ghrepo = "https://github.com/Fryboyter/Hugo/"
 
 [markup]
     [markup.goldmark]
@@ -24,4 +24,4 @@ rssLimit = 20
         weight = 2
 
 [permalinks]
-  posts = ":slug"
+    posts = ":slug"
