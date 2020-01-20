@@ -3,6 +3,8 @@
 #AuthType Basic
 #Require valid-user
 
+AddCharset UTF-8 .xml
+
 # Prevent directory listing
 Options -Indexes
 
