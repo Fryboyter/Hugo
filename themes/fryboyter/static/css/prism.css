@@ -1,5 +1,5 @@
-/* PrismJS 1.17.1
-https://prismjs.com/download.html?#themes=prism-okaidia&languages=markup+css+clike+javascript+bash+markup-templating+git+php+json+php-extras+sql+python+twig+yaml&plugins=line-numbers */
+/* PrismJS 1.19.0
+https://prismjs.com/download.html?#themes=prism-okaidia&languages=markup+css+clike+javascript+bash+git+json+markup-templating+php+php-extras+python+sql+twig+yaml&plugins=line-numbers */
 /**
  * okaidia theme for JavaScript, CSS and HTML
  * Loosely based on Monokai textmate theme by http://www.monokai.nl/
@@ -61,7 +61,7 @@ pre[class*="language-"] {
 	color: #f8f8f2;
 }
 
-.namespace {
+.token.namespace {
 	opacity: .7;
 }
 
