@@ -32,4 +32,4 @@ Als nächstes habe ich das verwendete Theme (single.html und list.html) von fryb
 
 Hiermit wird das in der Datei conifg.toml hinterlegte Verweis auf das Respository genutzt. Dieser wird dann einfachum edit/master/content/ erweitert, da sich dieser Teil nicht ändert. Ganz am Schluss wird mit {{.File.Path}} auf die betreffende Datei verlinkt.
 
-Im Grunde ist das mal wieder ziemlich simpel. Huge gefällt mir immer mehr.
+Im Grunde ist das mal wieder ziemlich simpel. Hugo gefällt mir immer mehr.
