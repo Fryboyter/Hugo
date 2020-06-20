@@ -41,6 +41,6 @@ Nun nutzt die verschlüsselte Partition luks 2. Allerdings wird für das Passwor
 
 Hierbei wird man aufgefordert sein bisheriges und ein neues Passwort einzugeben. Es ist aber auch möglich als neues Passwort erneut sein altes Passwort einzugeben.
 
-Ein abschließender Test mittels "cryptsetup luksDump /dev/sda2" sollte nun zum einen Version: 2 als auch die Verwendung von Argon2id anzeigen. Nutzt man mehrere Schlüssel, muss man den Befehl mit luksChangeKey für jeden Schlüssel wiederholen. 
+Ein abschließender Test mittels <mark>cryptsetup luksDump /dev/sda2</mark> sollte nun zum einen Version: 2 als auch die Verwendung von Argon2id anzeigen. Nutzt man mehrere Schlüssel, muss man den Befehl mit luksChangeKey für jeden Schlüssel wiederholen. 
 
 Funktioniert nach einem Neustart des Rechners alles wie gewohnt, sollte man vorsichtshalber noch die Header-Sicherung löschen.

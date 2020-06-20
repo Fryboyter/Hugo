@@ -12,7 +12,7 @@ Achtung dieser Artikel löst ein Luxusproblem! An meinem Hauptrechner sind zwei 
 
 SDDM sieht es selbst aktuell nicht vor, dass die Eingabemaske nur auf einem Monitor erscheint. Also ist wieder Handarbeit nötig. Hierfür benötigt man das Tool xrandr. Unter Arch hat das Paket die Bezeichnung xorg-xrandr.
 
-Mittels "xrandr | grep ' connected'" lässt man sich als erstes die angeschlossenen Monitore anzeigen und sucht sich denjenigen heraus, den man unter SDDM **nicht** nutzen will. Bei mir ist das relativ leicht, da dieser die geringere Auflösung hat. Nehmen wir einmal folgendes Beispiel
+Mittels <mark>xrandr | grep ' connected'</mark> lässt man sich als erstes die angeschlossenen Monitore anzeigen und sucht sich denjenigen heraus, den man unter SDDM **nicht** nutzen will. Bei mir ist das relativ leicht, da dieser die geringere Auflösung hat. Nehmen wir einmal folgendes Beispiel
 
 <pre class="line-numbers language-bash" style="white-space:pre-wrap;">
 <code class="language-bash">(Standardeingabe):20:DP-4 connected 1920x1200+0+0 (normal left inverted right x axis y axis) 518mm x 324mm
