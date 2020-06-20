@@ -175,6 +175,13 @@ h5 {
     color: #999;
 }
 
+mark { 
+  border: 1px solid black;
+  border-radius: 5px;
+  background: #d9d9d9;
+  padding: 2px;
+}
+
 .pagination {
 }
 
