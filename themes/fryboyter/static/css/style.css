@@ -52,6 +52,7 @@ body {
 }
 
 .header {
+    font-family: 'Rubik';
     clear: left;    
     width: 100%;
     text-align: right;
