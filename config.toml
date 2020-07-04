@@ -13,6 +13,19 @@ rssLimit = 20
         [markup.goldmark.renderer]
             unsafe = true
 
+[module]
+    [[module.mounts]]
+        source = "themes/fryboyter/static/css/style.css"
+        target = "assets/css/style.css"
+
+    [[module.mounts]]
+        source = "themes/fryboyter/static/css/prism.css"
+        target = "assets/css/prism.css"
+
+    [[module.mounts]]
+        source = "themes/fryboyter/static/js/prism.js"
+        target = "assets/js/prism.js"
+
 [languages]
     [languages.de]
         languageName = "Deutsche Version"
