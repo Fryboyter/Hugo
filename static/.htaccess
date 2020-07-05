@@ -28,6 +28,7 @@ RewriteRule cache/ - [F]
 # set the correct mime type for woff2 font type and rss
 
 <IfModule mod_mime.c>
+AddType application/font-woff    woff
 AddType application/font-woff2    woff2
 AddType application/rss+xml rss
 </IfModule>
@@ -88,6 +89,40 @@ ExpiresByType text/css "access plus  1 month”
 # Javascript
 ExpiresByType  application/javascript "access plus 1 year"
 
+# Fonts
+ExpiresByType  application/font-woff "access plus 1 year"
+ExpiresByType  application/font-woff2 "access plus 1 year"
+
+</IfModule>
+
+<IfModule mod_headers.c>
+<FilesMatch "\.(ico)$">
+Header set Cache-Control "max-age=31536000, public"
+</FilesMatch>
+</IfModule>
+
+<IfModule mod_headers.c>
+<FilesMatch "\.(gif|jpeg|jpg|png)$">
+Header set Cache-Control "max-age=2592000, public"
+</FilesMatch>
+</IfModule>
+
+<IfModule mod_headers.c>
+<FilesMatch "\.(css)$">
+Header set Cache-Control "max-age=2592000, public"
+</FilesMatch>
+</IfModule>
+
+<IfModule mod_headers.c>
+<FilesMatch "\.(js)$">
+Header set Cache-Control "max-age=31536000, public"
+</FilesMatch>
+</IfModule>
+
+<IfModule mod_headers.c>
+<FilesMatch "\.(woff|woff2)$">
+Header set Cache-Control "max-age=31536000, public"
+</FilesMatch>
 </IfModule>
 
 #Diverse Redirects
