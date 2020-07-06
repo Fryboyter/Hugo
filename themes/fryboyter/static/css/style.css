@@ -198,9 +198,6 @@ mark {
   padding: 2px;
 }
 
-.pagination {
-}
-
 .pagination ul {
     float: left;
     clear: both;
@@ -223,11 +220,13 @@ mark {
 
 .pagination ul li.active {
     font-weight: bold;
-    background-color: #CCF;
+    background-color: #d9d9d9;
 }
 
 .pagination ul li a {
+    display: block;
     text-decoration: none;
+    padding: 4px 6px;
 }
 
 blockquote {
