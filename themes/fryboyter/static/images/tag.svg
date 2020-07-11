@@ -1,6 +1,6 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-external-link"
+  class="icon icon-tabler icon-tabler-tag"
   width="20"
   height="20"
   viewBox="0 0 24 24"
@@ -11,7 +11,8 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" />
-  <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
-  <line x1="10" y1="14" x2="20" y2="4" />
-  <polyline points="15 4 20 4 20 9" />
+  <path
+    d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4"
+  />
+  <circle cx="9" cy="9" r="2" />
 </svg>
