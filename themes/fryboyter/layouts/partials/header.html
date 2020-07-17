@@ -43,13 +43,13 @@
     <link rel="stylesheet" href="{{ $cssprismprint.Permalink | relURL }}" />
     {{ $jsprism := resources.Get "js/prism.js" -}}
     {{ $jsprismprint := $jsprism | resources.Fingerprint "sha256" -}}
-    <script src="{{ $jsprismprint.Permalink  | relURL }}" integrity="{{ $jsprismprint.Data.Integrity }}"></script>
+    <script defer src="{{ $jsprismprint.Permalink  | relURL }}" integrity="{{ $jsprismprint.Data.Integrity }}"></script>
     {{- if eq .Site.Language.Lang "de" }}
-    <script data-isso="https://isso.fryboyter.de/" data-isso-feed="true" data-isso-css="false" data-isso-lang="de"
+    <script defer data-isso="https://isso.fryboyter.de/" data-isso-feed="true" data-isso-css="false" data-isso-lang="de"
         data-isso-max-comments-top="inf" data-isso-max-comments-nested="inf" data-isso-vote="false"
         data-isso-reply-notifications="true" src="https://isso.fryboyter.de/js/embed.min.js"></script>
     {{- else }}
-    <script data-isso="https://isso.fryboyter.de/" data-isso-feed="true" data-isso-css="false" data-isso-lang="en"
+    <script defer data-isso="https://isso.fryboyter.de/" data-isso-feed="true" data-isso-css="false" data-isso-lang="en"
         data-isso-max-comments-top="inf" data-isso-max-comments-nested="inf" data-isso-vote="false"
         data-isso-reply-notifications="true" src="https://isso.fryboyter.de/js/embed.min.js"></script>
     {{ end -}}
