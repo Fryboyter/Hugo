@@ -228,6 +228,7 @@ mark {
 .pagination ul li.active {
   font-weight: bold;
   background-color: #d9d9d9;
+  border-radius: 5px;
 }
 
 .pagination ul li a {
