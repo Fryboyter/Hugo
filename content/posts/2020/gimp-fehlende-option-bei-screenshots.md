@@ -10,7 +10,7 @@ tags:
 - DBus
 slug: gimp-fehlende-option-bei-screenshots
 ---
-Wie vielleicht dem einen oder anderen bekannt ist, kann man mit dem Programm [Gimp](https://www.gimp.org/) auch direkt Screenshots erstellen. Hierzu wählt man im Menü "Datei" -> "Erstellen" -> "Bildschirmphoto..." aus. Dort sollte man eigentlich auch die Auswahlmöglichkeit habe einen bestimmten Bereich des Bildschirms auzuwählen.
+Wie vielleicht dem einen oder anderen bekannt ist, kann man mit dem Programm [Gimp](https://www.gimp.org/) auch direkt Screenshots erstellen. Hierzu wählt man im Menü "Datei" -> "Erstellen" -> "Bildschirmfoto..." aus. Dort sollte man eigentlich auch die Auswahlmöglichkeit habe einen bestimmten Bereich des Bildschirms auzuwählen.
 
 <img alt="Gimp" src="/files/gimp_dbus.png">
 
