@@ -20,7 +20,7 @@ Bei Verschlüsselungen mit luks / dm-crypt kann man mittels <mark>cryptsetup luk
 
 Das ist aber nur die halbe Miete. Auch eine HDD bzw. SSD kann defekt werden. Wenn es blöd läuft über Nacht. Daher sollte man auch zumindest seine wichtigen Daten regelmäßig sichern. Hierfür gibt es unzählige Programme. Ich nutze für Backups zum Beispiel [Borg](https://www.borgbackup.org), da die Daten damit von Haus aus verschlüsselt werden und dank der Deduplikation der Speicherbedarf bei neuen Backups sehr überschaubar ist. Lokal speichere ich die Datensicherungen auf bis zu zwei unterschiedliche Datenträger. Je nachdem wie wichtig sie sind.
 
-Das ist aber noch nicht die ganze Miete. Denn solche Datensicherungen nützen wenig wenn das Haus abbrennt oder eingebrochen wird. Daher sollte man immer auch noch ein sogenanntes "offside backup" seiner äußerst wichtigen Daten haben, das überall nur nicht im betreffenden Gebäude liegt. Ich nutze hierfür den Dienst [rsync.net](https://www.rsync.net) aus drei Gründen.
+Das ist aber noch nicht die ganze Miete. Denn solche Datensicherungen nützen wenig wenn das Haus abbrennt oder eingebrochen wird. Daher sollte man immer auch noch ein sogenanntes "off-side backup" seiner äußerst wichtigen Daten haben, das überall nur nicht im betreffenden Gebäude liegt. Ich nutze hierfür den Dienst [rsync.net](https://www.rsync.net) aus drei Gründen.
 
 Zum einen weil es das Unternehmen schon länger gibt. Zum anderen weil der Speicherplatz für Nutzer von Borg [günstiger](https://www.rsync.net/products/borg.html) ist. Und weil offiziell empfohlen wird seine Daten vor dem Hochladen bitte selbst zu verschlüsseln.
 
