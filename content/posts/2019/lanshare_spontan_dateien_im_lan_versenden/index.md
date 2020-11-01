@@ -14,6 +14,6 @@ Vor ein paar Tagen habe ich mir auf mein Notebook etwas heruntergeladen, dass ic
 
 Der Bequemlichkeit halber bin ich bei [LAN Share](https://github.com/abdularis/LAN-Share) gelandet. Das Tool hat nur die Aufgabe Dateien bzw. ganze Verzeichnisse von einem Rechner zum anderen im LAN zu transferieren. Ideal wenn man nur alle paar Monate mal etwas spontan kopieren will.
 
-![LAN Share](/files/LANShare.png)
+{{< image src="LANShare.png" alt="LANSHare" >}}
 
 Die grafische Oberfläche ist im Grunde idiotensicher. Man klickt links oben auf "Send" und wählt dann aus ob man Dateien oder Verzeichnisse versenden will. Dann wählt man die gewünschte Datei oder Verzeichnis aus und anschließend den Rechner der die Datei empfangen soll. Dort sollte logischerweise LAN Share auch gestartet sein. Abschließend klickt man auf "Send" und das war es schon.
