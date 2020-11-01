@@ -12,7 +12,7 @@ slug: gimp-fehlende-option-bei-screenshots
 ---
 Wie vielleicht dem einen oder anderen bekannt ist, kann man mit dem Programm [Gimp](https://www.gimp.org/) auch direkt Screenshots erstellen. Hierzu wählt man im Menü "Datei" -> "Erstellen" -> "Bildschirmfoto..." aus. Dort sollte man eigentlich auch die Auswahlmöglichkeit habe einen bestimmten Bereich des Bildschirms auzuwählen.
 
-<img alt="Gimp" src="/files/gimp_dbus.png">
+{{< image src="gimp_dbus.png" alt="Gimp Dbus" >}}
 
 Unter KDE Plasma erscheint aber diese Option nicht. Die Lösung ist allerdings ziemlich einfach. Wenn man Gimp mittels dbus-lauch startet (z. B. <mark>dbus-launch gimp %U</mark>) startet, dann erscheint die gewünschte Option.
 
