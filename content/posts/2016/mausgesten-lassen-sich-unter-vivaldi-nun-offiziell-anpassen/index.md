@@ -13,6 +13,6 @@ Seit Jahren bin ich ein großer Fan von Mausgesten um den Browser zu steuern. Bi
 
 Über das Menü Werkzeuge -&gt; Einstellungen (alternativ ALT+P) ruft man einfach die Einstellungen von Vivaldi aus und wählt den Punkt Maus aus (wer hätte das gedacht...). Hier kann man nun vorhandene Mausgesten anpassen indem man die gewünschte Gestenzuordnung auswählt und dann auf das Stiftsymbol klickt. Neue Funktionen kann man hinzufügen indem man auf das Pluszeichen klickt. Nicht benötigte Mausgesten lassen sich um das Minuszeichen entfernen.
 
-<a href="/files/Vivaldi_Mausgesten.png"><img alt="Vivaldi_Mausgesten" src="/files/Vivaldi_Mausgesten.png" style="width: 300px; height: 239px;"></a>
+{{< image src="Vivaldi_Mausgesten.png" alt="Vivaldi Mausgesten" >}}
 
 Was soll ich sagen. Vivaldi wir von Snapshot zu Snapshot besser. Und die Entwickler hören auch auf das was die Nutzer wollen. Mir selbst fehlt jetzt eigentlich nur noch eine Funktion. Und zwar, dass man die Bestandteile der grafischen Oberfläche mit der Maus dorthin verschieben kann wo man sie haben will. Seit Opera habe ich mich nämlich daran gewöhnt, dass die Symbole für "Seite neu laden" usw. rechts neben der Adresszeile sind und nicht wie es aktuell der Fall ist rechts.

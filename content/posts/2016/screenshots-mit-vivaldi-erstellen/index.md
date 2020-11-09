@@ -16,4 +16,4 @@ In der unteren Leiste findet man nun ein Kamerasymbol. Viele Tools / Plugins zum
 
 Die erstellten Bilder landen bei mir (KDE Plasma) unter ~/Bilder/Vivaldi Caputures/. Was ich hier nicht so gut finde ist, dass die Dateien in Form wie dd4d8c5f-ac25-4ca6-ac83-b954fdb93cb2.png abgespeichert werden, ohne dass man hier einen Einfluss darauf hat. Ich vermute aber, dass sich hier zukünftig noch etwas ändern wird. Auch würde ich es begrüßen, wenn es einen einfacheren Editor wie bei Greenshot geben würde.
 
-<a href="/files/vivaldiscreen.png"><img alt="" src="/files/vivaldiscreen.png" style="width: 226px; height: 300px;"></a>
+{{< image src="vivaldiscreen.png" alt="Vivaldi Screenshotfunktion" >}}

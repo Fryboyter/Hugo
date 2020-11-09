@@ -14,7 +14,7 @@ Ab und zu fragen bei mir Leute nach, wo denn ihre kürzlich geschriebenen Kommen
 
 Gestern habe ich mal wieder eine Nachfrage wegen eines nicht angezeigten Kommentars erhalten. Da ich gerade Urlaub habe, habe ich mich mal ein paar Minuten damit beschäftigt und die functions.php meines Wordpress-Themes erweitert. Wenn nun ein Kommentar abgeschickt wird, wird dieser für den Ersteller mit einem Hinweis angezeigt.
 
-<a href="/files/freischalten.png"><img alt="" src="/files/freischalten.png" style="width: 830px; height: 328px;"></a>
+{{< image src="freischalten.png" alt="Kommentare freischalten" >}}
 
 Unterm Strich ist diese Änderung kein Hexenwerk (hier nur der betreffende Codeteil der erstellen Funktion):
 
