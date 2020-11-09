@@ -13,6 +13,6 @@ Will man bei Github darüber informiert werden, sobald ein Projekt eine neue Ver
 
 Wer allerdings eine Benachrichtigung per E-Mail bevorzugt (wie ich) der musste noch kreativer werden und beispielsweise gut abgehangene Tools wie [rss2email](https://github.com/wking/rss2email) oder vergleichbare Dienste wie [IFTTT](https://ifttt.com/applets/147561p-rss-feed-to-email) nutzen. [Feature Requests](https://github.com/isaacs/github/issues/410), die teilweise schon ein paar Jahre alt sind, zeigen aber, dass viele Nutzer es lieber hätten, wenn Github eine solche Benachrichtigung "out of the box" anbieten würde. Viele werden die Hoffnung schon aufgegeben haben. Aber manchmal dauert es "nur" etwas länger. Als ich mich eben bei Github angemeldet hatte, bekam ich einen Hinweis angezeigt, dass man sich nun auch über neue Veröffentlichungen informieren lassen kann. Zu finden ist das ganze unter der Schaltfläche "Watch".
 
-<img alt="" src="/files/github-watch.png" style="width: 297px; height: 291px;">
+{{< image src="github-watch.png" alt="Github Watch" >}}
 
 Ich habe bei einigen Projekten die mich interessieren mal "Release only" ausgewählt. Mal schauen was passiert.

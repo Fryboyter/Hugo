@@ -20,7 +20,7 @@ source /usr/share/fzf/completion.zsh</code>
 
 Wenn man nun mittels Strg + R in der Historie suchen will erhält man erst einmal eine etwas ungewohnte Anzeige, die aus den letzten Einträgen besteht. Erst einmal nichts besonderes. Sucht man aber beispielsweise nach "pac" für pacman, bekommt man schon deutlich besser aufbereitet Ergebnisse angezeigt.
 
-<img alt="" src="/files/fzf1.png" style="width: 266px; height: 213px;">
+{{< image src="fzf1.png" alt="fzf zsh" >}}
 
 Mit den Cursor-Tasten lässt sich dann der gewünschte Eintrag auswählen. Angezeigt werden wohl standardmäßig immer 8 Einträge. Wenn mehr Einträge vorhanden sind, kann man allerdings auch weiter nach oben scrollen.
 

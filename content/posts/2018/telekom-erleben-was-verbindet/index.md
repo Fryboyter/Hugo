@@ -18,6 +18,6 @@ Der Tag der Umstellung kam. Und es ist nichts passiert. Kein "wir haben umgestel
 
 Da mich die Dame im Telekom-Laden wohl vorgemerkt hat, habe ich nun inzwischen vier mal folgende E-Mail erhalten. Die letzte gerade eben.
 
-<a href="/files/2018-01/telekom.png"><img alt="" src="/files/2018-01/telekom.png" style="width: 305px; height: 256px;"></a>
+{{< image src="telekom.png" alt="Erleben was verbindet" >}}
 
 Spaßeshalber hatte ich gestern einmal unter https://www.telekom.de/breitbandausbau-deutschland den Ausbaustatuts anzeigen lassen. Mein Dorf und das Nachbardorf werden auf der Karte nun nicht mehr für 50 bzw. 100 Mbit eingefärbt sondern nur für 16 Mbit, obwohl hier meines Wissens der Ausbau für mindestens 30 Mbit stattfinden soll. Der Ausbau für das 500 Meter entfernte Nachbardorf soll angeblich Ende Januar 2018 abgeschlossen sein. Da ich gerade diesen Artikel schreiben habe ich den Test gerade noch einmal gemacht. Inzwischen sind wir beim Nachbardorf über Nacht bei Anfang Februar 2018 angekommen. Mal schauen, ob ich noch 2018 in den Genuss einer höheren Bandbreite komme oder nicht. Wetten würde ich aktuell nicht wollen. Naja immerhin bekomme ich 10 Mbit, wovon viele andere Kunden ja nur träumen können. Mich kotzt es aber trotzdem an, dass z. B. ein neues Computerspiel 12 Stunden oder länger dauert bis ich es heruntergeladen habe. Ja ich habe ein Luxusproblem.
