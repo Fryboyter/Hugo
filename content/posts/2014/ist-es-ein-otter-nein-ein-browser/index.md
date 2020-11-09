@@ -15,8 +15,8 @@ Wie schon in [diesem](https://fryboyter.de/maxthon-browser-betaversion-fuer-linu
 Unter [http://otter-browser.org](http://otter-browser.org) wird derzeit ein neuer Browser entwickelt der vom Look and Feel vergleichbar mit Opera 12.16 sein soll und auf QT5 basiert. Auch einige nette Funktionen wie Mausgesten und Mailclient stehen auf der [TODO-Liste](https://github.com/Emdek/otter/blob/master/TODO "Otter Browser Todo-Liste"). Das derzeitige Ein-Mann-Projekt hat vor einigen Tagen auch eine erste Alpha-Version veröffentlicht. Bisher gibt es unter anderem ein Session-Management, Bookmarks, eine History sowie den von Opera bekannten Mülleimer für geschlossene Tabs. Das Changelog mit den genaueren Details kann man unter [https://github.com/Emdek/otter/blob/master/CHANGELOG](https://github.com/Emdek/otter/blob/master/CHANGELOG "Otter Browser Changelog") einsehen. Der Entwickler bittet aber darum sich frühestens ab dem Beta-Stadium eine feste Meinung zu bilden. Bisher ist das Spass wirklich noch recht im Alpha-Stadium. So funktionieren zwar Cookies, aber die Verwaltung selbiger funktioniert noch nicht. Dafür dass an Otter erst ca. 2 Monate gearbeitet wird, kann sich das Ergebnis meiner Meinung aber schon sehen lassen. Zumindest wenn man sich eben im Klaren ist, dass es eine Alpha-Version ist.
 
 Für die, die sich schon mal ein Bild machen wollen, ohne Otter zu installieren, habe ich mal zwei Screenshots gemacht.
-
-<a href="/files/otter1.png\"><img alt="otter1" src="/files/otter1.png" style="width: 300px; height: 200px;"></a><a href="/files/otter2.png"><img alt="otter2" src="/files/otter2.png" style="width: 300px; height: 274px;"></a>
+{{< image src="otter1.png" alt="otter1" >}}
+{{< image src="otter2.png" alt="otter2" >}}
 
 Otter steht derzeit für Linux und Windows zur Verfügung.
 

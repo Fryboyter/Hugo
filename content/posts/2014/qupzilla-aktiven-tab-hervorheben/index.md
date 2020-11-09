@@ -13,7 +13,7 @@ Wie inzwischen hinlänglich bekannt sein sollte, suche ich einen für mich adäq
 
 Was mich bisher unter QupZilla aber noch recht stört ist die Tatsache, dass bei jedem mitgeliefertem Theme der derzeit aktuelle Tab einfach nur weiß ist. Das sieht bei einer Seite die den gleiche Hintergrundfarbe nutzt, nicht gerade gut aus.
 
-<a href="/files/QupZilla4.png"><img alt="QupZilla1" src="/files/QupZilla4.png" style="width: 300px; height: 70px;"></a>
+{{< image src="QupZilla4.png" alt="QupZilla4.png" >}}
 
 Da der Browser viel mit CSS macht, habe ich mir mal die Datei main.css angesehen. Dort wird leider nichts definiert, was mit dem aktiven Tab zu tun hat. Wäre ja auch zu einfach gewesen. Nachdem ich Google mal wieder etwas gequält habe, bin ich darauf gestoßen, dass es unter Qt die Klasse QTabBar gibt und den "Zustand" tab:selected. Keine Ahnung wie man den Zustand korrekt nennt. Ist an der Stelle eigentlich auch egal. Nach ein paar Versuchen habe ich mir dann folgendes in der main.css zusammengebaut.
 
@@ -26,7 +26,7 @@ border-bottom-style: none;
 
 Und siehe da, es funktioniert und der aktive Tab erstrahlt nun in einem satten Grün.
 
-<a href="/files/QupZilla5.png"><img alt="QupZilla2" src="/files/QupZilla5.png" style="width: 300px; height: 70px;"></a>
+{{< image src="QupZilla5.png" alt="QupZilla5.png" >}}
 
 Das Ganze ist jetzt zwar noch verbesserungsfähig, aber immerhin ein Anfang. Wer sich an der ursprünglichen Farbe des aktiven Tabs gestört hat, hat nun einen Punkt an der er/sie ansetzen kann.
 

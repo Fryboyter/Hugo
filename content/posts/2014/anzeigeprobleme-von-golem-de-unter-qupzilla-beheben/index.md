@@ -12,11 +12,11 @@ slug: anzeigeprobleme-von-golem-de-unter-qupzilla-beheben
 ---
 Wer hier regelmäßig liest, hat bestimmt schon mitbekommen, dass ich aktuell den Browser QupZilla nutze. Dieser hat allerdings mit golem.de ein Problem. Ab einer gewissen Länge der Artikelüberschriften werden diese auf zwei Zeilen umgebrochen. Leider hat dies zur Folge dass sich die zweite Zeile mit dem Artikeltext überlappt. Was ziemlich unschön aussieht.
 
-<a href="/files/qupzilla_golem.png"><img alt="qupzilla_golem" src="/files/qupzilla_golem.png" style="width: 300px; height: 98px;"></a>
+{{< image src="qupzilla_golem.png" alt="qupzilla_golem" >}}
 
 Das Problem habe ich schon dem Entwickler gemeldet, aber bis es eine Reaktion oder Lösung gibt, muss erst mal ein Workaround her. Unter Opera hätte ich einfach eine, nur für golem.de gültige, CSS-Datei erstellt. Leider bietet [QupZilla](http://www.qupzilla.com "QupZilla") das aktuell nicht an. Nur eine globale CSS-Datei wäre möglich. Das ist mir zu unsicher. Also sind größere Geschütze nötig. Unter QupZilla gibt es das Plugin [Greasemonkey](http://de.wikipedia.org/wiki/Greasemonkey "Greasemonkey"). Für solche Kleinigkeiten ist es eigentlich nicht gedacht, aber was soll's. Erst einmal muss das Plugin in den Einstellungen aktiviert werden.
 
-<a href="/files/qupzilla_golem2.png"><img alt="qupzilla_golem2" src="/files/qupzilla_golem2.png" style="width: 300px; height: 207px;"></a>
+{{< image src="qupzilla_golem2.png" alt="qupzilla_golem2" >}}
 
 Wenn das Plugin aktiviert ist, klickt man am besten auf die Schaltfläche "Einstellungen" und dort dann auf "Script-Verzeichnis öffnen". In dem nun angezeigten Verzeichnis werden die Greasemonkey-Scripte abgelegt. Von daher erstellen wir dort die Datei golem.user.js. Anstelle von golem kann man nehmen, was man will. An user.js darf man allerdings nichts ändern, da es sonst nicht funktioniert. Die erstellte Datei öffnen wir nun mit einem Editor nach Wahl und tragen dort folgendes ein.
 
@@ -34,8 +34,8 @@ Bei @name kann man eintragen, was man will. Dies wird dann im Browser angezeigt.
 
 Die Datei speichert man dann einfach ab und startet den Browser einmal neu. Ruft man nun die Einstellungen des Plugins auf, sollte man folgende Anzeige erhalten.
 
-<a href="/files/qupzilla_golem3.png"><img alt="qupzilla_golem3" src="/files/qupzilla_golem3.png" style="width: 300px; height: 258px;"></a>
+{{< image src="qupzilla_golem3.png" alt="qupzilla_golem3" >}}
 
 Eventuell, falls es nicht schon der Fall ist, muss man hier noch den Haken setzen um das ganze zu aktivieren. Danach sollte die Anzeige der Überschriften bei golem.de unter QupZilla wieder passen.
 
-<a href="/files/qupzilla_golem4.png"><img alt="qupzilla_golem4" src="/files/qupzilla_golem4.png" style="width: 300px; height: 89px;"></a>
+{{< image src="qupzilla_golem4.png" alt="qupzilla_golem4" >}}

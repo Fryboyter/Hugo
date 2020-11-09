@@ -21,7 +21,7 @@ Was brauche ich jetzt noch an zusätzlichen Funktionen, die mir der Browser nich
 
 Als nächstes ist die grafische Oberfläche des Browsers an der Reihe. Hier passen mir so einige Dinge auch nicht. Von Haus aus sieht Seamonkey wie auf folgendem Bild aus.
 
-<a href="/files/SeaMonkey.png"><img alt="SeaMonkey" src="/files/SeaMonkey.png" style="width: 584px; height: 356px;"></a>
+{{< image src="SeaMonkey.png" alt="SeaMonkey.png" >}}
 
 Was mich hier stört sind links oben diese schraffierten Bereiche am Anfang der Menü- URL- und Lesezeichenzeile. Mit diesen kann man die jeweilige Zeile minimieren. Ich möchte so etwas entweder komplett anzeigen lassen oder eben komplett ausblenden. Manche Elemente in den Leisten lassen sich per wie zum Beispiel bei Opera per Drag and Drop entfernen. Diese nicht. Hätte mich auch gewundert... Also tricksen wir mal etwas mit CSS. Also habe ich mal eben im Profilverzeichnis von Seamonkey das Verzeichnis chrome erstellt und in diesem die Datei userChrome.css. Um die schraffierten Flächen auszublenden sind hier folgende Einträge nötig.
 
@@ -50,8 +50,7 @@ Abschließend habe ich noch ein paar Elemente der grafischen Oberfläche per Dra
 
 Davon abgesehen, dass die Zeile für die Tabs nicht über der Adresszeile ist und die Schaltfläche für einen neuen Tab noch immer nicht rechts neben dem letzten Tab, ist Seamonkey für mich jetzt nutzbar und sieht nun bei mir so aus (als Theme habe das bereits im Lieferumfang enthaltene \"modern\" gewählt). Das verpixelte ist die Leiste mit den Lesezeichen.
 
-<a href="/files/Seamonkey3.png"><img alt="Seamonkey3" src="/files/Seamonkey3.png" style="width: 584px; height: 356px;"></a>
-
+{{< image src="Seamonkey3.png" alt="Seamonkey3.png" >}}
 
 Der durchschnittliche Nutzer dürfte, vor allem bei den Änderungen in der userChrome.css, aber wohl scheitern. Vor allem bei .toolbar-grippy und .toolbar-primary-grippy. Die Bezeichnungen habe ich nämlich mit nur dem DOM und dem Element Inspector (letzten musste ich ebenfalls noch als Plugin installieren) herausgefunden.
 

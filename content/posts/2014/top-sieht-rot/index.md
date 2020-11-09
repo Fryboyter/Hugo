@@ -12,11 +12,11 @@ slug: top-sieht-rot
 ---
 Den Befehl top mit dem man sich die laufenden Prozesse anzeigen lassen kann, kennt vermutlich jeder Linux-Nutzer. Das die Ausgabe von top nun allerdings in rot/orange erfolgt ist neu. Und meiner Meinung nach schlecht zu ertragen. Wie gut, dass ich eigentlich immer nur htop nutze.
 
-![Top1](/files/top1.png)
+{{< image src="top1.png" alt="top rot" >}}
 
 Um wie gewohnt die alte Ausgabe zu erzeugen muss man wie folgt vorgehen. Als erstes startet man top. Nun drückt folgende Tasten z V 1 y m m t t t W Nun sollte top wieder wie gewohnt aussehen.
 
-![Top2](/files/top2.png)
+{{< image src="top2.png" alt="top normal" >}}
 
 Bei obiger Tastenkombination wird in ~ die Datei .toprc erzeugt. Sowei ja kein Problem. Ich habe mir die Datei dann allerdings mal in einem Editor angesehen. Und was soll ich sagen? An der Datei ändere ich von Hand bestimmt nichts...
 

@@ -13,7 +13,7 @@ Angefixt von [diesem](https://ngb.to/threads/5969-3D-Terragen-Geocrafting-mit-de
 
 Bisher sehen meine Ergebnisse allerdings noch recht dürftig aus...
 
-<a href="/files/terragen.jpeg"><img alt="terragen" src="/files/terragen.jpeg" style="width: 300px; height: 169px;"></a>
+{{< image src="terragen.jpeg" alt="Terragen" >}}
 
 Das liegt aktuell einfach daran, dass man unter Terragen dermaßen viele Parameter einstellen kann, von denen ich oft nicht mal kapiere, was sie bewirken. Die im Bild zu sehenden Wolken waren z. B. schon eine Wissenschaft für sich.
 

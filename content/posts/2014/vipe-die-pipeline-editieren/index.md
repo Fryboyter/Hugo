@@ -14,18 +14,18 @@ Ab und an kann es vorkommen, dass man die Daten, die man per Pipe an einen ander
 
 Nehmen wir mal folgendes, billiges Beispiel. In einem Verzeichnis befinden sich diverse Bilddateien.
 
-![Vipe1](/files/vipe1.png)
+{{< image src="vipe1.png" alt="vipe1.png" >}}
 
 Diese Dateien wollen wir nun mittels ls | xargs echo ausgeben lassen (sagte ich bereits, dass das Beispiel billig ist? :D). Dabei kommt dann folgendes heraus.
 
-![Vipe2](/files/vipe2.png)
+{{< image src="vipe2.png" alt="vipe2.png" >}}
 
 Bei den Dateinamen fällt nun auf, dass eine der Dateien (bild_3.jpg) vom Dateinamen anders aufgebaut ist als die anderen Dateien. An der Stelle kommt nun vipe ins Spiel. Ändert man den Befehl nun in ls | vipe | xargs echo ab, kann man die Informationen, die man durch ls erhält erst noch mit einem Editor verändern bevor sie an xargs übergeben werden.
 
-![Vipe3](/files/vipe3.png)
+{{< image src="vipe3.png" alt="vipe3.png" >}}
 
 Bei diesem Beispiel habe ich nun den Unterstrich entfernt um die Ausgabe zu vereinheitlichen.
 
-![Vipe4](/files/vipe4.png)
+{{< image src="vipe4.png" alt="vipe4.png" >}}
 
 Zu finden ist vipe, zumindest unter Arch Linux, im Paket moreutils. In diesem Paket sind auch noch einige andere, interessante Befehle zu finden. Ansehen lohnt sich also meiner Meinung nach.

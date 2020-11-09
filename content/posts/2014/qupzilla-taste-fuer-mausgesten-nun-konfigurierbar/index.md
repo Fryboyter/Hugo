@@ -13,6 +13,6 @@ Wie [hier](https://fryboyter.de/qupzilla-noch-eine-alternative-zu-opera-12-16 "Q
 
 Scheinbar war ich mit dieser Ansicht nicht alleine.So hat nun der Nutzer [kdave](https://github.com/kdave "kdave github") einen Patch eingereicht, der es ermöglicht, die gewünschte Maustaste auszuwählen.
 
-<a href="/files/qup_mouse.png"><img alt="qup_mouse" src="/files/qup_mouse.png" style="width: 300px; height: 271px;" /></a>
+{{< image src="qup_mouse.png" alt="qup_mouse.png" >}}
 
 Jetzt fehlt eigentlich nur noch, dass man die Gesten an sich an die eigenen wünsche anpassen und erweitern kann. Aber das ist zumindest für mich, nebensächlich. Die meisten vorhandenen Gesten funktionieren wie sie sollen.

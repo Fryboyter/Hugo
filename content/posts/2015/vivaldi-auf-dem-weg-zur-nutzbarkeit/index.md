@@ -14,7 +14,7 @@ Ich habe hier schon den einen oder anderen Artikel zum Browser Vivaldi geschrieb
 
 Manche Erweiterungen lassen im Browser Icons anzeigen über die man die man diese einstellen kann. Mit der Anzeige dieser Icons hatte Vivaldi bisher seine Probleme, so dass nichts angezeigt wurde. Diese Funktion haben die Entwickler von Vivaldi nun nachgerüstet. Ab sofort bekommt man diese rechts neben der Adressleiste angezeigt (der gelbe Bereich auf den Screenshot wurde von mir zur Hervorhebung gemacht).
 
-<a href="/files/Vivaldi_Icons.png"><img alt="Vivaldi_Icons" src="/files/Vivaldi_Icons.png" style="width: 300px; height: 60px;"></a>
+{{< image src="Vivaldi_Icons.png" alt="Vivaldi Icons" >}}
 
 So langsam hat der Browser alle Funktionen die ich brauche. Selbst nicht anklickbare Textlinks kann man inzwischen bequem markieren und über das Kontextmenü der Maus öffnen. Das schaffen ja schon einige andere Browser von Haus aus nicht. Wenn jetzt noch die Mausgesten durch den Nutzer anpassbar und erweiterbar gemacht werden, bin ich happy.
 
