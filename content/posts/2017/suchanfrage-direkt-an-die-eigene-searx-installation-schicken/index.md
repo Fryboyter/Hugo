@@ -13,7 +13,7 @@ Ich habe mir angewöhnt im Browser Suchanfragen über Kürzel zu stellen. Somit 
 
 Das habe ich jetzt einmal geändert und mir für meine eigene Searx-Instanz ebenfalls einen Suchmaschineneintrag erstellt. Im Grunde genommen ist es kein Hexenwerk und in unter einer Minute erledigt.
 
-<img alt="searxsuche.png" src="/files/searxsuche.png" style="width: 397px; height: 222px; border-width: 2px; border-style: solid;">
+{{< image src="searxsuche.png" alt="Searx Suche" >}}
 
 Dieses Beispiel zeigt das Hinzufügen einer Suchmaschine unter Vivaldi (ALT+P -&gt; Suche). Unter Chrome/Chromium sollte es vermutlich gleich bzw. ähnlich aussehen. Zu anderen Browsern kann ich keine Aussage treffen.
 

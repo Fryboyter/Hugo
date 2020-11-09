@@ -10,6 +10,6 @@ tags:
 - Wege
 slug: alle-wege-fuehren-zu-arch-linux
 ---
-<a href="/files/wegearch.jpg"><img alt="" src="https://fryboyter.de/files/wegearch.jpg" style="width: 600px; height: 424px;"></a>
+{{< image src="wegearch.jpg" alt="Alle Wege führen zu Arch" >}}
 
 Ein Bischen Spass muss sein. :D

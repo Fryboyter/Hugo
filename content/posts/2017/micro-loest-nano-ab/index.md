@@ -21,6 +21,6 @@ Im Terminal nutze ich nämlich schon seit gefühlten Ewigkeiten den Editor nano.
 - Macros
 - Usw.
 
-<a href="/files/micro.png"><img alt="" class="size-medium wp-image-4286" src="/files/micro.png" style="width: 300px; height: 226px;"></a>
+{{< image src="micro.png" alt="Micro Editor" >}}
 
 Unterm Strich ist micro für mich ein lohnenswerte Alternative zu nano. Laut dem Bugtracker soll micro aber noch nicht ganz so fix sein, wenn es um größere Daten (z. B. 20 MB groß) geht. Da ich aber in der Regel nicht so große Dateien bearbeite, kann ich dazu nichts sagen.
