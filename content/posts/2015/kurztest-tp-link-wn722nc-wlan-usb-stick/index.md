@@ -16,7 +16,7 @@ Urplötzlich hatte ich nach einem Update alle paar Minuten einen kompletten Abst
 
 Wie es der Zufall so will, habe ich für einen Bekannten zwei WLAN-Sticks (TP-Link WN722NC) bestellt welche er noch nicht abgeholt hat. Die Sticks laufen mit Atheros-Chipsätzen. Die hatte ich bisher am Netbook noch nicht... Also mal eben meinen Bekannten angerufen und grünen Licht erhalten und somit einen der Sticks ausgepackt. An Hardware wird der Stick an sich, eine Antenne (welche man an den Stick schrauben kann um die Leistung zu verstärken) sowie eine Docking-Station mitgeliefert.
 
-<a href="/files/k-IMG_20150103_191826.jpg"><img alt="k-IMG_20150103_191826" src="/files/k-IMG_20150103_191826.jpg" style="width: 150px; height: 200px;"></a><a href="/files/k-IMG_20150103_191746.jpg"><img alt="k-IMG_20150103_191746" src="/files/k-IMG_20150103_191746.jpg" style="width: 150px; height: 200px;"></a>
+{{< image src="k-IMG_20150103_191826.jpg" alt="k-IMG_20150103_191826.jpg" >}} {{< image src="k-IMG_20150103_191746.jpg" alt="k-IMG_20150103_191746.jpg" >}}
 
 Für ein Netbook ist der Stick ein ziemlicher Brocken (93,5mm*26mm*11mm). Vor allem wenn auch noch die Antenne angeschraubt ist. Beim Transport würde ich den Stick definitv entfernen.
 

@@ -32,7 +32,7 @@ Für eine eine Vorabversion bin ich bisher sehr zufrieden und kann ein gewisses 
 
 Genutzt wird Blink als Rendering-Engine. Im Grunde ein logischer Schritt, da Presto ja nicht mehr weiterentwickelt wird und zudem auch nicht frei erhältlich ist. Einen Nachteil hat Vivaldi aber leider schon. So wie es aussieht ist der Browser, wie auch schon Opera, nicht Open Source Software.
 
-<a href="/files/Vivaldi.png"><img alt="Vivaldi" src="/files/Vivaldi.png" style="width: 300px; height: 162px;"></a>
+{{< image src="Vivaldi.png" alt="Vivaldi" >}}
 
 Die derzeitige Optik ist ebenfalls ziemlich gewöhnungsbedürftig. Hier sollte es aber schnell Abhilfe geben, da das aktuelle Theme über eine CSS-Datei definiert wird, was weitere Themes wohl nur unterstützten wird.
 
