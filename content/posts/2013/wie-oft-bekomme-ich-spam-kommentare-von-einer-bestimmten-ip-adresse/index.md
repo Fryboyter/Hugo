@@ -24,7 +24,7 @@ ORDER BY haeufigkeit DESC
 
 Hiermit wird angezeigt welche IP wie oft einen als Spam gekennzeichneten Kommentar abgelassen hat. Das ganze wird dann nach der Häufigkeit absteigend sortiert.
 
-<a href="/files/Spam_IP_Statistik.png"><img alt="Spam_IP_Statistik" src="/files/Spam_IP_Statistik.png" style="width: 334px; height: 400px;"></a>
+{{< image src="Spam_IP_Statistik.png" alt="Statistik Spam IP" >}}
 
 <p>Wie man sieht, geben manche IP-Adressen (ich habe diese mal wegen Datenschutz verpixelt. Nur soviel, die Top 2 gehören zu OVH) einfach keine Ruhe.
 

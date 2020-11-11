@@ -12,6 +12,6 @@ slug: laut-piwik-liegt-frankreich-neben-suriname
 ---
 Gerade hat mich eine Installation von Piwik etwas verwirrt. Wenn man mit dem Mauszeiger auf die Besucherkarte geht, werden die jeweiligen Länder angezeigt. Dabei ist mir aufgefallen, dass laut dieser Karte Frankreich auch in Südamerika liegt.
 
-<img alt="" src="/files/PiwikFrankreich.png" style="width: 284px; height: 200px;">
+{{< image src="PiwikFrankreich.png" alt="Piwik Frankreich" >}}
 
 Erst nach ein paar Minuten ist es mir in den Sinn gekommen, dass damit vermutlich Französisch-Guayana gemeint ist.

@@ -14,7 +14,7 @@ In letzter Zeit nutze ich immer öfter mein Netbook (Lenovo X130e) für alles m�
 
 Mittels "xinput list" erhält man eine Liste aller erkannten Eingabegeräte. Bei mir sieht das wie folgt aus:
 
-<img alt="xinput_touchpad" src="/files/xinput_touchpad.gif" style="width: 646px; height: 299px;">
+{{< image src="xinput_touchpad.gif" alt="xinput_touchpad" >}}
 
 Das Touchpad wird hier als "SynPS/2 Synaptics Touchpad" aufgeführt. Wichtig ist hier die ID des Gerätes. In diesem Fall 13.
 

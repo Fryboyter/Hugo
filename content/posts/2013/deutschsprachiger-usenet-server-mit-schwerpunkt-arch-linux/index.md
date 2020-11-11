@@ -26,6 +26,6 @@ Unter der IP 84.200.213.109 steht seit einigen Tagen ein Usenet-Server zum disku
 
 Das ganze ist nicht auf meinem Mist gewachsen sondern auf dem von Malte Bublitz. Ich rühre hier nur etwas die Werbetrommel, da ich es interessant finde abseits von Foren diskutieren zu können. Oldschool sozusagen. Bisher ist es noch etwas leer, wie man sieht, aber vielleicht ändert es sich ja.
 
-<a href="/files/Auswahl_016.png"><img alt="" src="/files/Auswahl_016.png" style="width: 300px; height: 111px;"></a>
+{{< image src="Auswahl_016.png" alt="Usenet Server" >}}
 
 **Der Server ist nun unter nntp.flying-sheep.de erreichbar.**

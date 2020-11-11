@@ -14,7 +14,7 @@ Nein ich stehe nicht kurz davor Amok zu laufen. Über meine "neue" Entdeckung bi
 
 Ich hatte mir schon mal vor einiger Zeit Alternativen zur [Konsole](http://de.wikipedia.org/wiki/Konsole_(KDE) "Konsole KDE") von KDE angesehen. Bin dann aber irgendwie doch bei selbiger geblieben. Jetzt habe ich den Wechsel geschafft. Die Entscheidung ist auf [Terminator](http://gnometerminator.blogspot.de/p/introduction.html "Terminator") gefallen. Deswegen auch der dämliche Titel. :D Terminator ist ein Terminal Emulator, der, zumindest für mich, ein paar nette Möglichkeiten bietet. So bietet der Terminator z. B. die Funktion dass man innerhalb des Fensters diverse Terminals neben- bzw. untereinander anordnen kann. So hat man mehrere Sachen im Blick und sieht z. B. wann das Update oder der Download fertig ist, kann aber nebenher noch andere Sachen machen.
 
-<a href="/files/terminator.png"><img alt="terminator" src="/files/terminator.png" style="width: 300px; height: 164px;"></a>
+{{< image src="terminator.png" alt="Terminator" >}}
 
 Bei diesem Beispiel ist links die Datei /etc/pacman.d/mirrorlist mit nano geöffnet. Rechts oben wird das System aktualisiert und rechts unten wurde eine SSH-Verbindung zu meinem Webspace aufgebaut.
 
