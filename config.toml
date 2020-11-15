@@ -4,6 +4,9 @@ title = "fryboyter.de"
 theme="fryboyter"
 rssLimit = 20
 
+[outputs]
+   home = [ "HTML", "JSON" ]
+
 [params]
     mainSections = ["posts"]
     ghrepo = "https://github.com/Fryboyter/Hugo/"
