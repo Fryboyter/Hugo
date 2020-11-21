@@ -5,7 +5,7 @@ theme="fryboyter"
 rssLimit = 20
 
 [outputs]
-   home = [ "HTML", "JSON" ]
+   home = [ "HTML", "JSON", "RSS" ]
 
 [params]
     mainSections = ["posts"]
