@@ -1,4 +1,4 @@
-/* PrismJS 1.20.0
+/* PrismJS 1.22.0
 https://prismjs.com/download.html?#themes=prism-okaidia&languages=markup+css+clike+javascript+bash+git+json+markup-templating+php+php-extras+python+sql+twig+yaml&plugins=line-numbers */
 /**
  * okaidia theme for JavaScript, CSS and HTML
@@ -54,7 +54,7 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-	color: slategray;
+	color: #8292a2;
 }
 
 .token.punctuation {
@@ -153,7 +153,6 @@ pre[class*="language-"].line-numbers > code {
 }
 
 	.line-numbers-rows > span {
-		pointer-events: none;
 		display: block;
 		counter-increment: linenumber;
 	}
