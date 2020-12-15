@@ -9,7 +9,7 @@ tags:
 - Mariadb
 slug: wallabag-zeilenformat-zu-lang
 ---
-Bei [Wallabag handelt](https://wallabag.org/en) es ich um ein Tool zum selbst hosten mit dem man interessante Internetseiten abspeichern kann um sie später zu lesen. Vor ein paar Tagen wurde Version 2.4.0 veröffentlicht auf die ich meine Instanz eben aktualisieren wollte.
+Bei [Wallabag](https://wallabag.org/de) handelt es ich um ein Tool zum selbst hosten mit dem man interessante Internetseiten abspeichern kann um sie später zu lesen. Vor ein paar Tagen wurde Version 2.4.0 veröffentlicht auf die ich meine Instanz eben aktualisieren wollte.
 
 Das Update ist leider mit der (gekürzten) Fehlermeldung "Syntax error or access violation: 1118 [Row size too large](https://mariadb.com/kb/en/innodb-row-formats-overview/#maximum-row-size)." abgebrochen und die Installation war nicht mehr nutzbar.
 
