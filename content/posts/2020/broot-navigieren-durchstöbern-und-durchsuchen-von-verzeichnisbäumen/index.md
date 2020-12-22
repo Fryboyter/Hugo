@@ -9,7 +9,7 @@ tags:
 - Dateimananger  
 slug: broot-navigieren-durchstöbern-und-durchsuchen-von-verzeichnisbäumen
 ---
-Wie kann man broot am besten beschreiben? Vielleicht als Kombination aus tree und fzf auf Steroide. Oder vielleicht als eine Art Dateimanager. 
+Wie kann man [broot](https://dystroy.org/broot/) am besten beschreiben? Vielleicht als Kombination aus tree und fzf auf Steroide. Oder vielleicht als eine Art Dateimanager. 
 
 {{< image src="broot.png" alt="Broot" >}}
 
