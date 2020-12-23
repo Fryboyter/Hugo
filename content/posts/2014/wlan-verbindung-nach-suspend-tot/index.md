@@ -9,7 +9,7 @@ tags:
 - Suspend
 slug: wlan-verbindung-nach-suspend-tot
 ---
-Mein Netbook ist, wie [hier](https://fryboyter.de/mein-netbook-ist-endlich-broadcom-frei "Netbook broadcom-frei") schon geschrieben, mit einem WLAN-USB-Stick von Edimax ausgerüstet. An sich läuft dieser auch sehr zufriedenstellend. Wäre da nur nicht ein Problem wenn ich den Rechner per Suspend schlafen schicke.
+Mein Netbook ist, wie [hier](/mein-netbook-ist-endlich-broadcom-frei/ "Netbook broadcom-frei") schon geschrieben, mit einem WLAN-USB-Stick von Edimax ausgerüstet. An sich läuft dieser auch sehr zufriedenstellend. Wäre da nur nicht ein Problem wenn ich den Rechner per Suspend schlafen schicke.
 
 In der Datei /etc/systemd/logind.conf habe ich eingestellt, dass sobald der Deckel des Netbooks geschlossen wird der Rechner per Suspend to Ram schlafen geschickt wird. Das funktioniert auch soweit. Wecke ich den Rechner wieder auf funktioniert alles nur die WLAN-Verbindung mag nicht mehr. Hierbei ist mir aufgefallen, dass jedes mal wenn ich den Rechner ins Bett schicke die Anzeige am Stick ausgeht aber nach dem Aufwecken nicht wieder an.
 

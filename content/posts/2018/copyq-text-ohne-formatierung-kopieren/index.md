@@ -9,7 +9,7 @@ tags:
 - Kopieren
 slug: copyq-text-ohne-formatierung-kopieren
 ---
-Wie vor kurzem schon [angemerkt](https://fryboyter.de/ausnahmen-fuer-copyq-erstellen), nutze ich für die Zwischenablage nun CopyQ. Im Grunde bin ich damit zufrieden, aber es stört mich, dass der Text immer inkl. eventuell vorhandener Formatierungen kopiert wird. Leider gibt es in den Einstellungen keine Möglichkeit dies abzustellen.
+Wie vor kurzem schon [angemerkt](/ausnahmen-fuer-copyq-erstellen/), nutze ich für die Zwischenablage nun CopyQ. Im Grunde bin ich damit zufrieden, aber es stört mich, dass der Text immer inkl. eventuell vorhandener Formatierungen kopiert wird. Leider gibt es in den Einstellungen keine Möglichkeit dies abzustellen.
 
 CopyQ bietet allerdings die durchaus mächtige Funktion an, neue Befehle zu erstellen. Mit diesem lassen sich auch vorhandene Befehle überschreiben. Wie eben das Kopieren von Text. Hierfür ist folgender Code nötig.
 

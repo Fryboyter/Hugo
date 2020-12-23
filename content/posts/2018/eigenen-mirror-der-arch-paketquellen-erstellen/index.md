@@ -16,7 +16,7 @@ Da das ganze nur intern für Tests gedacht ist, habe ich es relativ einfach geha
 
 Als erstes habe ich mir auf einem Raspberry ein Verzeichnis erstellt in dem die ganzen Pakete landen sollen. Nennen wir es "archpakete".
 
-Als Webserver nehme ich [Caddy](https://fryboyter.de/caddy-webserver) mit folgender Konfigurationsdatei.
+Als Webserver nehme ich [Caddy](/caddy-webserver/) mit folgender Konfigurationsdatei.
 
 <pre class="line-numbers language-bash" style="white-space:pre-wrap;">
 <code class="language-bash">$IP_DES_RASPBERRY:$PORT_VON_CADDY

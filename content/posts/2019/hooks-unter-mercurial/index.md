@@ -9,7 +9,7 @@ tags:
 - Hooks
 slug: hooks-unter-mercurial
 ---
-Gestern hatte ich ja bereits einen [Artikel](https://fryboyter.de/git-zu-mercurial-konvertieren/) veröffentlicht, der die Versionsverwaltung Mercurial betrifft. Das betreffende Projekt wurde bisher mit Git verwaltet. Hierbei gab es auch einige Hooks. Hiermit lassen sich zum Beispiel automatisch Befehle ausführen wenn ein neuer Commit hochgeladen wurde. Hierfür verwendet man den Hook "post-receive" wie ich es vor kurzem in einem [Beitrag](https://fryboyter.de/fryboyter-wird-nun-mit-hugo-erzeugt/) beschrieben habe. Zu diesem hat Tux auch einen Kommentar abgegeben, dass dies zum Beispiel auch mit Mercurial möglich ist.
+Gestern hatte ich ja bereits einen [Artikel](/git-zu-mercurial-konvertieren/) veröffentlicht, der die Versionsverwaltung Mercurial betrifft. Das betreffende Projekt wurde bisher mit Git verwaltet. Hierbei gab es auch einige Hooks. Hiermit lassen sich zum Beispiel automatisch Befehle ausführen wenn ein neuer Commit hochgeladen wurde. Hierfür verwendet man den Hook "post-receive" wie ich es vor kurzem in einem [Beitrag](/fryboyter-wird-nun-mit-hugo-erzeugt/) beschrieben habe. Zu diesem hat Tux auch einen Kommentar abgegeben, dass dies zum Beispiel auch mit Mercurial möglich ist.
 
 An sich absolut korrekt, aber entweder ist die Dokumentation verbesserungswürdig oder ich stand auf der Leitung. Ich gehe an der Stelle mal von letzterem aus.
 

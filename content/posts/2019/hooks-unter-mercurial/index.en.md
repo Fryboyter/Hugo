@@ -9,7 +9,7 @@ tags:
 - Hooks
 slug: hooks-under-mercurial
 ---
-Yesterday I had published an [article](https://fryboyter.de/git-zu-mercurial-konvertieren/) about the version control Mercurial. The project in question was managed with Git. There were also some hooks present. For example, you can use them to execute commands automatically when a new commit is uploaded. For this you use the hook "post-receive" as I recently described it in an [article](https://fryboyter.de/fryboyter-wird-nun-mit-hugo-erzeugt/). Tux also commented that this is also possible with Mercurial.
+Yesterday I had published an [article](/git-zu-mercurial-konvertieren/) about the version control Mercurial. The project in question was managed with Git. There were also some hooks present. For example, you can use them to execute commands automatically when a new commit is uploaded. For this you use the hook "post-receive" as I recently described it in an [article](/fryboyter-wird-nun-mit-hugo-erzeugt/). Tux also commented that this is also possible with Mercurial.
 
 Absolutely correct in itself, but either the documentation is in need of improvement or I didn't get it. I assume the latter at this point. 
 

@@ -11,7 +11,7 @@ slug: dauerhafte-loesung-wenn-ein-dienst-die-ip-des-vpn-dienstes-sperrt
 ---
 Heute hat es mich mal wieder erwischt. Privat nutze ich aus diversen Gründen den Dienst eines VPN-Anbieters. Über die gleiche IP haben jetzt wohl Vollidioten Mist gebaut und einer meiner E-Mail-Anbieter hat diese für das Versenden gesperrt. Laut dem Support ist das Entsperren aktuell keine Option.
 
-Vor längerem habe ich bereits einen [Artikel](https://fryboyter.de/ausnahme-fuer-openvpn-verbindung-erstellen) veröffentlich und beschrieben wie man eine Ausnahme bei OpenVPN erstellt. Da ich aber über die betreffende E-Mail-Adresse sehr selten etwas versende, werde ich mich vermutlich jedes mal wundern und erst einmal ein technisches Problem vermuten. Aber wie so oft, kann man das Problem auch dauerhaft lösen.
+Vor längerem habe ich bereits einen [Artikel](/ausnahme-fuer-openvpn-verbindung-erstellen/) veröffentlich und beschrieben wie man eine Ausnahme bei OpenVPN erstellt. Da ich aber über die betreffende E-Mail-Adresse sehr selten etwas versende, werde ich mich vermutlich jedes mal wundern und erst einmal ein technisches Problem vermuten. Aber wie so oft, kann man das Problem auch dauerhaft lösen.
 
 Hierzu editiert man einfach unter /etc/openvpn/client/ die betreffende Konfigurationsdatei und fügt folgenden Einträge hinzu.
 

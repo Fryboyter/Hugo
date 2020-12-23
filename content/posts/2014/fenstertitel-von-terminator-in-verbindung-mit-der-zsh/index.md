@@ -11,7 +11,7 @@ tags:
 - Shell
 slug: fenstertitel-von-terminator-in-verbindung-mit-der-zsh
 ---
-Als Terminal-Emulator setze ich, wie in [einem anderen Artikel](https://fryboyter.de/ich-muss-terminieren "Terminator Terminal Emulator") bereits geschrieben, Terminator ein. In Verbindung mit der ZSH gibt es hier allerding etwas, dass mich stört. Und zwar wird als Fenstertitel immer /bin/zsh angezeigt.
+Als Terminal-Emulator setze ich, wie in [einem anderen Artikel](/ich-muss-terminieren/ "Terminator Terminal Emulator") bereits geschrieben, Terminator ein. In Verbindung mit der ZSH gibt es hier allerding etwas, dass mich stört. Und zwar wird als Fenstertitel immer /bin/zsh angezeigt.
 
 {{< image src="bin-zsh_001.png" alt="ZSH Fenstertitel" >}}
 

@@ -10,7 +10,7 @@ tags:
 - Chance
 slug: ich-gebe-den-linuxpaten-eine-chance
 ---
-Vor einiger Zeit habe ich mir [überlegt](https://fryboyter.de/linuxpaten-reloaded "Linuxpaten reloadet"), ob ich das Projekt Linuxpaten wiederauferstehen lasse.
+Vor einiger Zeit habe ich mir [überlegt](/linuxpaten-reloaded/ "Linuxpaten reloadet"), ob ich das Projekt Linuxpaten wiederauferstehen lasse.
 
 Ich bin nun zu dem Ergebnis gekommen, dass ich es zumindest versuchen werde. Allerdings schaffe ich es definitiv nicht alleine. Von daher möchte ich hiermit um Hilfe bitten. Willkommen ist jeder, der etwas beitragen will.
 

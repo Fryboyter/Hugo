@@ -8,7 +8,7 @@ tags:
 - Bolt CMS
 slug: record-twig-des-fryboyter-themes
 ---
-In meinem letzten [Artikel](https://fryboyter.de/index-twig-des-fryboyter-themes) habe ich die Datei index.twig meines Twig-Themes erklärt. Jetzt ist die Datei record.twig an der Reihe. Diese ist teilweise identisch mit der index.twig.
+In meinem letzten [Artikel](/index-twig-des-fryboyter-themes/) habe ich die Datei index.twig meines Twig-Themes erklärt. Jetzt ist die Datei record.twig an der Reihe. Diese ist teilweise identisch mit der index.twig.
 
 <pre class="line-numbers" style="white-space:pre-wrap;">
 <code class="language-twig">{% include '_header.twig' %}

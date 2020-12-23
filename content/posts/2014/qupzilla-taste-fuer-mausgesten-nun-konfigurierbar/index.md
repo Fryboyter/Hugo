@@ -9,7 +9,7 @@ tags:
 - Mausgesten
 slug: qupzilla-taste-fuer-mausgesten-nun-konfigurierbar
 ---
-Wie [hier](https://fryboyter.de/qupzilla-noch-eine-alternative-zu-opera-12-16 "QupZilla Alternative zu Opera") schon geschrieben, fand ich es nicht besonders sinnvoll, dass die Mausgesten unter QupZilla über die mittlere Maustaste gesteuert werden.
+Wie [hier](/qupzilla-noch-eine-alternative-zu-opera-12-16/ "QupZilla Alternative zu Opera") schon geschrieben, fand ich es nicht besonders sinnvoll, dass die Mausgesten unter QupZilla über die mittlere Maustaste gesteuert werden.
 
 Scheinbar war ich mit dieser Ansicht nicht alleine.So hat nun der Nutzer [kdave](https://github.com/kdave "kdave github") einen Patch eingereicht, der es ermöglicht, die gewünschte Maustaste auszuwählen.
 

@@ -10,7 +10,7 @@ tags:
 - JSON
 slug: aenderung-an-der-suchfunktion
 ---
-Letztes Jahr hatte ich in https://fryboyter.de eine Suchfunktion [eingebaut](https://fryboyter.de/fryboyter-um-suchfunktion-erweitert/), die DuckDuckGo nutzt. So wirklich glücklich war ich damit nie, da ich somit auf Dritte angewiesen bin.
+Letztes Jahr hatte ich in https://fryboyter.de eine Suchfunktion [eingebaut](/fryboyter-um-suchfunktion-erweitert/), die DuckDuckGo nutzt. So wirklich glücklich war ich damit nie, da ich somit auf Dritte angewiesen bin.
 
 Daher habe ich vor ein paar Tagen die Suchfunktion umgebaut. Über https://fryboyter.de/search/ bzw. über das Lupen-Symbol im Footer der Seite ist nun die neue Suchfunktion erreichbar die unabhängig von Dritten ist. Intern wird hierfür eine JSON-Datei erzeugt, die als Datenquelle dient. Mittels eines kleinen Java-Scripts lässt sich diese Datei durchsuchen. Wer also die Suchfunktion nutzen will, muss Javascript aktivieren. Zumindest bei genannten Link.
 

@@ -10,7 +10,7 @@ tags:
 - Zwischenbilanz
 slug: btrfs-eine-erste-zwischenbilanz
 ---
-Vor etwas mehr als einen Monat habe ich meine Root-Partition nun auf Btrfs [umgestellt](https://fryboyter.de/btrfs-no-risk-no-fun). In dieser Zeit hatte ich mehrere größere Updates meiner Distribution eingespielt und auch zwei mal das System zu Absturz gebracht. Einmal durch ein Programm eines Bekannten, dass ich testen sollte und einmal dadurch, dass ich in der Steckdosenleiste leider den falschen Stecker gezogen habe.
+Vor etwas mehr als einen Monat habe ich meine Root-Partition nun auf Btrfs [umgestellt](/btrfs-no-risk-no-fun/). In dieser Zeit hatte ich mehrere größere Updates meiner Distribution eingespielt und auch zwei mal das System zu Absturz gebracht. Einmal durch ein Programm eines Bekannten, dass ich testen sollte und einmal dadurch, dass ich in der Steckdosenleiste leider den falschen Stecker gezogen habe.
 
 Wirklich interessiert hat es aber mein System nicht. Es funktioniert alles wie es soll. Da es auch keine anderen Probleme gibt und ich z. B. die Snapshot-Funktion immer mehr mag, habe ich nun mittels folgender Befehle das Image der ext4-Partition, dass beim Umwandeln auf btrfs automatisch angelegt wurde, nun endgültig entfernt.
 

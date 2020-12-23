@@ -10,7 +10,7 @@ tags:
 - Abgleichen
 slug: alte-und-neue-konfigurationsdateien-unter-arch-mit-pacmarge-abgleichen
 ---
-Bei einem Update von Arch Linux kann es passieren, dass es auch Änderungen an den Konfigurationsdateien gibt. Anstelle dass bereits vorhandene Konfigurationsdateien automatisch angepasst oder sogar komplett überschrieben werden, werden die neuen Konfigurationsdateien mit der Endung .pacnew angelegt. Somit ist es dann die Aufgabe des Administrators die vorhandenen Konfigurationsdateien mit den Pacnew-Dateien abzugleichen. Für diesen Job nutze ich ein [Script](https://fryboyter.de/pacnew-dateien-verwalten), welches sowohl vorhandene als auch Pacnew-Dateien aufspürt und beide mit meld öffnet, so dass ich diese händisch abgleichen kann.
+Bei einem Update von Arch Linux kann es passieren, dass es auch Änderungen an den Konfigurationsdateien gibt. Anstelle dass bereits vorhandene Konfigurationsdateien automatisch angepasst oder sogar komplett überschrieben werden, werden die neuen Konfigurationsdateien mit der Endung .pacnew angelegt. Somit ist es dann die Aufgabe des Administrators die vorhandenen Konfigurationsdateien mit den Pacnew-Dateien abzugleichen. Für diesen Job nutze ich ein [Script](/pacnew-dateien-verwalten/), welches sowohl vorhandene als auch Pacnew-Dateien aufspürt und beide mit meld öffnet, so dass ich diese händisch abgleichen kann.
 
 Der Arch-Entwickler foutrelis hat hierfür nun das Tool [pacmarge](https://github.com/foutrelis/pacmarge "pacmarge") gebaut, welches diese Aufgabe automatisiert. Man findet es im AUR. Führt man pacmarge nach einem Update aus, welches auch die Konfigurationsdateien betrifft, erhält man beispielsweise folgende Ausgabe.
 

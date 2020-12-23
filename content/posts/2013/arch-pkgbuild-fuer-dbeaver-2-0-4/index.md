@@ -9,7 +9,7 @@ tags:
 - PKGBUILD
 slug: arch-pkgbuild-fuer-dbeaver-2-0-4
 ---
-Wie schon [hier](https://fryboyter.de/alternative-zu-mysql-workbench "Alternative zu MySQL-Workbench") geschrieben, bin ich von Dbeaver recht angetan. Inzwischen nutze ich es eigentlich ausschließlich und auch einige meiner Kollegen konnte ich anfixen. Die aktuelle Version 2.0.4 steht unter Arch im AUR allerdings derzeit nicht zur Verfügung. Eventuell ist der Betreuer des Paketes ja noch im Urlaub. Da ich allerdings bei manchen Paketen etwas ungeduldig bin, habe ich mir das Ganze mal zur Brust genommen und die Datei PkGBUILD angepasst. Herausgekommen ist folgendes:
+Wie schon [hier](/alternative-zu-mysql-workbench/ "Alternative zu MySQL-Workbench") geschrieben, bin ich von Dbeaver recht angetan. Inzwischen nutze ich es eigentlich ausschließlich und auch einige meiner Kollegen konnte ich anfixen. Die aktuelle Version 2.0.4 steht unter Arch im AUR allerdings derzeit nicht zur Verfügung. Eventuell ist der Betreuer des Paketes ja noch im Urlaub. Da ich allerdings bei manchen Paketen etwas ungeduldig bin, habe ich mir das Ganze mal zur Brust genommen und die Datei PkGBUILD angepasst. Herausgekommen ist folgendes:
 
 <pre class="line-numbers" style="white-space:pre-wrap;">
 <code class="language-bash"># Maintainer: Arne Hoch
