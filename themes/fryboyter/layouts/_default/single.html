@@ -16,16 +16,7 @@
             {{ range $index, $tag := .Params.tags }}{{ if gt $index 0 }} | {{ end }}<a href="{{ "tags/" | relLangURL }}{{ . | urlize | lower }}" rel="tag">{{ . }}</a>{{ end }}</div>
 		    {{ end }}  
 	{{ end }}
-	{{ $related := .Site.RegularPages.Related . | first 5 }}
-{{ with $related }}
-<hr />
-{{ i18n "related" }}
-<ul>
-	{{ range . }}
-	<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-	{{ end }}
-</ul>
-{{ end }}
+	{{ partial "related.html" . }}
 	<hr />
 	{{ if ne .Params.nocomments true }}
 	<section id="isso-thread" data-title="{{ .Title }}"></section>
