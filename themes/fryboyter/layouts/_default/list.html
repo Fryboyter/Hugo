@@ -1,4 +1,4 @@
-	{{- partial "header.html" . -}}
+	{{- partialCached "header.html" . -}}
 	<header>
 	<div class="header"><h1><a href="{{ .Site.BaseURL }}">Fryboyter</a></h1></div>
 	</header>
@@ -30,4 +30,4 @@
 	</main>
 	<!-- End loop -->
 	<!-- Footer -->
-	{{- partial "footer.html" . -}}	  
+	{{- partialCached "footer.html" . -}}	  
