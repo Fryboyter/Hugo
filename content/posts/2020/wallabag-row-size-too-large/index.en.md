@@ -3,7 +3,7 @@ title: Update to Wallabag 2.4.0 - Row size to large
 date: 2020-12-15T20:47:05+0100
 categories:
 - OSBN
-- Allgemein
+- General
 tags:
 - Wallabag
 - Mariadb
