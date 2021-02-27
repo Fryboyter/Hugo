@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ i18n "description" }}" />
+    <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ i18n "description" }}{{ end }}">
     <link rel="canonical" href="{{ .Permalink }}">
     <meta name="referrer" content="no-referrer">
     {{ if and (eq .Kind "taxonomy") (eq .Type "categories" "tags") -}}
