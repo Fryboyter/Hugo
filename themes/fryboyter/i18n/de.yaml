@@ -12,3 +12,5 @@
   translation: "Datenschutzbestimmungen"
 - id: license
   translation: 'Die Beiträge sind unter der <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> lizenziert.'
+- id: description
+  translation: "Mehr oder weniger sinnvolle Beiträge zu Linux, OSS, Handbike und anderem Zeug."
