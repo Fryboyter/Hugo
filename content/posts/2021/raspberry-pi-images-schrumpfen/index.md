@@ -1,7 +1,8 @@
 ---
 title: Raspberry Pi Images schrumpfen
-date: 2021-03-07T00:00:18+0100
+date: 2021-03-07T16:57:13+0100
 categories:
+- OSBN
 - Linux
 tags:
 - Raspberry Pi
