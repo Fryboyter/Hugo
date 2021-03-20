@@ -2,9 +2,9 @@
 
 {{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
 
-{{- $tinyw := default "750x Lanczos jpg q100" -}}
-{{- $smallw := default "970x Lanczos jpg q100" -}}
-{{- $mediumw := default "1170x Lanczos jpg q100" -}}
+{{- $tinyw := default "750x" -}}
+{{- $smallw := default "970x" -}}
+{{- $mediumw := default "1170x" -}}
 
 {{- .Scratch.Set "tiny" ($src.Resize $tinyw) -}}
 {{- .Scratch.Set "small" ($src.Resize $smallw) -}}
