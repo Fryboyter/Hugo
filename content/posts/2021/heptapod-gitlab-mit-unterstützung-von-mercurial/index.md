@@ -2,7 +2,7 @@
 title: Heptapod - Gitlab mit Unterstützung von Mercurial
 date: 2021-03-22T13:42:50+0100
 categories:
-- OBSN 
+- OSBN 
 - Allgemein
 tags:
 - Mercurial
