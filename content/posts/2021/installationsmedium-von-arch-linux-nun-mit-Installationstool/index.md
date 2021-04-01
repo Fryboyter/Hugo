@@ -15,4 +15,4 @@ Dies hatte zur Folge, dass der Installationsvorgang umgebaut wurde. Seit dem wir
 
 Für diese Leute gibt es nun eine gute Nachricht. Bereits seit einigen Monaten ist [archinstall](https://github.com/Torxed/archinstall) in den offiziellen Paketquellen vorhanden und ist nun auch Teil des offiziellen Installationsmedium (aktuell Version 2021.04.01) von Arch. Von nun an muss man nur noch die Iso-Datei booten, archinstall ausführen und einige Fragen beantworten. Danach sollte man eine funktionierende Installation von Arch auf dem Rechner haben.
 
-Eine Installation, wie Sie in der [offiziellen Anleitung](https://wiki.archlinux.org/index.php/Installation_guide) beschrieben wird, ist aber weiterhin möglich.
+Eine Installation, wie sie in der [offiziellen Anleitung](https://wiki.archlinux.org/index.php/Installation_guide) beschrieben wird, ist aber weiterhin möglich.
