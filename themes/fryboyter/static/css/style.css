@@ -85,7 +85,6 @@ div.header a {
 .article-info {
   font-size: 0.8em;
   letter-spacing: -0.5px;
-  padding: 5px 0 0 0;
 }
 
 .article-cat {
@@ -132,7 +131,6 @@ h2 {
   /* letter-spacing: -1px; 
     font-weight: bold;*/
   font-weight: 700;  
-  padding: 0 0 5px;
   margin: 0;
 }
 
