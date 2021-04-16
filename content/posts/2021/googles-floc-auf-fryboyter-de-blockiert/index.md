@@ -1,7 +1,7 @@
 ---
 title: Googles FLoC auf fryboyter.de blockiert
 date: 2021-04-16T17:02:28+0200
-description: Anleitung wie man mittels des Plugins hg-git ein Git-Repository mit der Versionsverwaltung Mercurial nutzen kann
+description: Anleitung wie man FloC bei Uberspace.de blockiert
 categories:
 - Allgemein
 tags:
