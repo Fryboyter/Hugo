@@ -11,7 +11,7 @@ slug: wlan-usb-stick-cudy-wu1300S-unter-linux
 ---
 Kürzlich habe ich einen günstigen und kompakten WLAN-USB-Stick benötigt. Spontan habe ich mir den WU1300S der Firma Cudy gekauft.
 
-Laut den technischen Daten erreicht der Stick bis zu 400 Mbit in einem 2,4 GHz WLAN und 867 Mbit in einem 5 Ghz WLAN. Die Abmessungen betragen 37,5 x 17 x 8,5 Milimeter. Neben Windows und MacOS wird offiziell auch Linux unterstützt.
+Laut den technischen Daten erreicht der Stick bis zu 400 Mbit in einem 2,4 GHz WLAN und 867 Mbit in einem 5 Ghz WLAN. Die Abmessungen betragen 37,5 x 17 x 8,5 Milimeter. Verbaut ist der rtl88x2bu Chipsatz von Realtek. Neben Windows und MacOS wird offiziell auch Linux unterstützt.
 
 Nach dem Einstecken des Sticks in einen USB-Port wurde der Stick allerdings unter Arch Linux nicht gefunden. Es ist somit kein WLAN-USB-Stick der "out of the box" funktioniert.
 
