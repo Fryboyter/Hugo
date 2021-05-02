@@ -1,0 +1,26 @@
+{{ define "head" }}
+{{ partial "head.html" . }}
+{{ end }}	
+
+{{ define "main" }}
+<main>
+	<div class="container">
+	    <div class="row">
+	        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+	        	<h2>{{ .Title }}</h2>
+				{{ partial "metadata.html" . }}
+	        	{{- .Content }}
+				{{- partial "taxonomy" . }}
+        		{{- partial "related.html" . }}
+				<hr />
+				{{ if ne .Params.nocomments true -}}
+					<section id="isso-thread" data-title="{{ .Title }}"></section>
+						<noscript><p>Die Kommentarfunktion kann nur mit aktiviertem Javascript genutzt werden</p></noscript>
+				{{ else }}
+					<p>Die Kommentarfunktion ist für diesen Artikel deaktiviert</p>
+				{{ end }}					
+	        </div>
+	    </div>
+	</div>
+</main> 
+{{ end }}

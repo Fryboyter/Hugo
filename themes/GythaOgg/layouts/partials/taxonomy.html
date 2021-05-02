@@ -1,0 +1,6 @@
+<div class="article-cat">{{- if .Params.categories -}}
+		{{- range $index, $category := .Params.categories -}}{{- if gt $index 0 }} | {{ end -}}<a href="{{ "categories/" | relLangURL }}{{ . | urlize | lower }}" rel="category">{{ . }}</a>{{- end -}}</div>
+	    {{- end -}}
+            <div class="article-tag">{{- if .Params.tags -}}
+        {{- range $index, $tag := .Params.tags -}}{{- if gt $index 0 }} | {{ end -}}<a href="{{ "tags/" | relLangURL }}{{ . | urlize | lower }}" rel="tag">{{ . }}</a>{{- end -}}</div>
+        {{- end -}}

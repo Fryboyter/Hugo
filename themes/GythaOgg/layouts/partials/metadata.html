@@ -1,0 +1,1 @@
+<div class="article-info">{{ i18n "postedOnDate" }} {{ .Date.Format "02.01.2006" }} | <a href="{{ .Permalink }}#isso-thread">Comments</a> {{- if .IsTranslated -}} {{- range .Translations }} | <a href="{{ .Permalink }}">{{ .Language.LanguageName -}}</a> {{- end -}}{{- end }} | <a href="{{.Site.Params.ghrepo}}edit/main/content/{{.File.Path}}">{{ i18n "github" }}</a></div>

@@ -1,0 +1,16 @@
+- id: postedOnDate
+  translation: "Published on"
+- id: github
+  translation: "Edit on Github"
+- id: related
+  translation: "These articles could also be interesting:"
+- id: hugoCreated
+  translation: "Created with Hugo"
+- id: imprint
+  translation: "Imprint"
+- id: privacypol
+  translation: "Privacy Policy"
+- id: license
+  translation: 'The articles are licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>.'
+- id: description
+  translation: "More or less useful articles on Linux, OSS, Handbike and other stuff."
