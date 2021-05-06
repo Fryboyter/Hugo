@@ -1,7 +1,7 @@
 baseURL = "https://fryboyter.de/"
 DefaultContentLanguage = "de"
 title = "fryboyter.de"
-theme="fryboyter"
+theme="GythaOgg"
 rssLimit = 20
 
 [outputs]
