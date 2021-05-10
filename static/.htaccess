@@ -130,8 +130,6 @@ Redirect 301 /category/osbn/feed https://fryboyter.de/categories/osbn/index.xml
 Redirect 301 /files/feed.xml https://fryboyter.de/categories/osbn/index.xml
 Redirect 301 /feed https://fryboyter.de/index.xml
 Redirect 301 /rss/feed.xml https://fryboyter.de/index.xml
-Redirect 301 /favicon.ico  https://fryboyter.de/theme/fryboyter/favicon.ico
-Redirect 301 /apple-touch-icon.png https://fryboyter.de/theme/fryboyter/apple-touch-icon.png 
 Redirect 301 /kriss-feed-meine-alternative-tiny-tiny-rss https://fryboyter.de/kriss-feed-meine-alternative-zu-tiny-tiny-rss
 Redirect 301 kriss-feed-m-eine-alternative-zu-tiny-tiny-rss https://fryboyter.de/kriss-feed-meine-alternative-zu-tiny-tiny-rss
 Redirect 301 /keepass-autotype-lxde https://fryboyter.de//keepass-autotype-unter-lxde
