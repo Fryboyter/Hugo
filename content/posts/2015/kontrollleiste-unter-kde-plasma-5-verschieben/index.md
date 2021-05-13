@@ -12,7 +12,7 @@ slug: kontrollleiste-unter-kde-plasma-5-verschieben
 ---
 Wie viele andere Nutzer auch, setze ich zwei Monitore ein. Einmal den direkt vor mir als Hauptmonitor und einen links daneben auf dem Sachen laufen die ich nicht immer im direkten Blick haben muss wie z. B. längere Updates oder Downloads. Oder das E-Mail-Programm. Auf dem Monitor direkt vor mir wir dann auch die Kontrollleiste von KDE Plasma 5 angezeigt. Vor ein paar Tagen als ich den Rechner gestartet hatte war die Leiste aber auf den linken Monitor. Keinen Schimmer wie das passiert ist. Genauso wie ich keinen Schimmer hatte, wie zur Hölle ich die Leiste jetzt wieder auf den richtigen Monitor bekomme.
 
-Nachdem ich Google einige Zeit erfolglos gequält habe, habe ich die Lösung dann durch Versuch und Irrtum gefunden. Als erstes entsperrt man die Miniprogramme. Hierzu macht man einfach einen Rechtsklick auf den Desktop und wählt "Miniprogramme entsperren" aus. Danach sollten in der Kontrollleiste ganz rechts drei übereinander liegende Striche erscheinen. Wenn diese schon angezeigt werden, kann man sich diesen Schritt auch sparen. Als nächstes klickt man auf die drei Striche. Hier sollte man dann folgende Anzeige bekommen.
+Nachdem ich Google einige Zeit erfolglos gequält habe, habe ich die Lösung dann durch Versuch und Irrtum gefunden. Als erstes startet man den Bearbeitungsmodus. Hierzu macht man einfach einen Rechtsklick auf den Desktop und wählt "Bearbeitungsmodus starten" aus. Danach sollten in der Kontrollleiste ganz rechts ein Zahnrad erscheinen. Wenn dieses schon angezeigt werden, kann man sich diesen Schritt auch sparen. Als nächstes klickt man auf das Zahnrad. Hier sollte man dann folgende Anzeige bekommen.
 
 {{< image src="Plasma_verschieben.png" alt="Plasma Kontrolleiste" >}}
 
