@@ -18,15 +18,15 @@ rssLimit = 20
 
 [module]
     [[module.mounts]]
-        source = "themes/fryboyter/static/css/style.css"
+        source = "themes/GythaOgg/static/css/style.css"
         target = "assets/css/style.css"
 
     [[module.mounts]]
-        source = "themes/fryboyter/static/css/prism.css"
+        source = "themes/GythaOgg/static/css/prism.css"
         target = "assets/css/prism.css"
 
     [[module.mounts]]
-        source = "themes/fryboyter/static/js/prism.js"
+        source = "themes/GythaOgg/static/js/prism.js"
         target = "assets/js/prism.js"
 
 [languages]
