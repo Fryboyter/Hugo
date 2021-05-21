@@ -20,11 +20,9 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     {{ $cssstyle := resources.Get "css/style.css" -}}
-    {{ $cssstyleprint := $cssstyle | resources.Fingerprint "sha256" -}}
-    <link rel="stylesheet" href="{{ $cssstyleprint.Permalink | relURL }}" />
     {{ $cssprism := resources.Get "css/prism.css" -}}
-    {{ $cssprismprint := $cssprism | resources.Fingerprint "sha256" -}}
-    <link rel="stylesheet" href="{{ $cssprismprint.Permalink | relURL }}" />
+    {{ $styleBundle := slice $cssstyle $cssprism | resources.Concat "css/bundle.css" | fingerprint "sha256" -}}
+    <link rel="stylesheet" href="{{ $styleBundle.RelPermalink }}">
     {{ $jsprism := resources.Get "js/prism.js" -}}
     {{ $jsprismprint := $jsprism | resources.Fingerprint "sha256" -}}
     <script src="{{ $jsprismprint.Permalink  | relURL }}" integrity="{{ $jsprismprint.Data.Integrity }}"></script>
